@@ -2,7 +2,7 @@
 
 **Project credit: Anderson Tagata — ATTecnologies, 2026.**
 
-Technical reference (Portuguese): [Technical documentation](docs/TECHNICAL.md). Attribution: [NOTICE](NOTICE). License: [Apache 2.0](LICENSE).
+Technical documentation: [Português (PT)](docs/TECHNICAL.md) · [English (EN)](docs/TECHNICAL.en.md). Both versions are maintained together for improvements and fixes; see [documentation policy](docs/TECHNICAL.en.md#15-bilingual-documentation-maintenance). Attribution: [NOTICE](NOTICE). License: [Apache 2.0](LICENSE).
 
 A public, read-only command center for **DESO / Death Soldiers**, server 2052, in *Last War: Survival*. Built for phones and desktop browsers. All production interface text is English; player names remain exactly as supplied.
 
@@ -136,7 +136,7 @@ Interval and historical power changes show absolute and percentage differences. 
 
 Recovery tracks the pre-decline baseline and lowest observed power until an observed increase reaches or exceeds that baseline. The module shows regained power and the percentage of the recorded loss recovered; this percentage can exceed 100%. Recovery does not imply troop replacement, battle participation, hospital treatment, hero upgrades or research: all such causes remain **Unknown** without evidence.
 
-See the detailed [performance specification](docs/TECHNICAL.md#14-player-performance-analysis) for formulas, classification precedence and test coverage.
+See the detailed performance specification in [English](docs/TECHNICAL.en.md#14-player-performance-analysis) or [Português](docs/TECHNICAL.md#14-player-performance-analysis) for formulas, classification precedence and test coverage.
 
 ### Dashboard statistics
 

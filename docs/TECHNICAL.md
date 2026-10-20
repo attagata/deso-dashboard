@@ -4,6 +4,10 @@
 
 Versão do projeto: 1.0.0 · Schema diário: 2 · Referência: implementação publicada em outubro de 2026.
 
+Idioma: Português (PT) · [English (EN)](TECHNICAL.en.md) · Revisão documental: 2026-10-20.
+
+As versões PT e EN são mantidas em conjunto para melhorias e correções, conforme a [política de manutenção](#15-manutenção-da-documentação-bilíngue).
+
 - Repositório: <https://github.com/attagata/deso-dashboard>
 - Aplicação: <https://attagata.github.io/deso-dashboard/>
 - Guia de instalação e operação: [README](../README.md)
@@ -260,7 +264,7 @@ npm run build
 
 `validateTimeline` verifica ordem cronológica, datas duplicadas, identidade referenciada por eventos, saída repetida, retorno sem saída anterior e observação após saída sem retorno explícito. A ferramenta de linha de comando também verifica sintaxe JSON e nomes de arquivo. Em falha, retorna código diferente de zero e não regenera o manifesto. No navegador, dados inválidos geram mensagem de erro em vez de estatísticas parcialmente aceitas.
 
-Os 11 testes existentes cobrem:
+Os 11 testes originais de estatísticas e integridade cobrem os itens abaixo; os 15 testes adicionais de análise de desempenho estão descritos na seção 14, totalizando 26:
 
 1. Diferenças de poder positivas, negativas, percentual e valores desconhecidos.
 2. Contagens e distribuição de ranks das capturas reais.
@@ -399,3 +403,30 @@ O texto do módulo explica que perdas de tropas, feridos ou alterações de for�
 ### Verificação
 
 `tests/performance.test.ts` acrescenta 15 testes aos 11 originais, totalizando 26. Cobrem o limite inclusivo de 5%, flutuações pequenas, crescimento, tendência cumulativa/duração, recuperação parcial/completa/superior à referência, novo menor valor, recuperação com saldo histórico negativo, intervalos de vários dias, lacunas e identidade incerta, atividade independente, corte temporal sem dados futuros, HQ/rank junto de queda, poder zero/nulo, não observados/saídas, interrupção por retorno e configurações inválidas.
+
+## 15. Manutenção da documentação bilíngue
+
+A exigência do proprietário é manter as versões em português e inglês atualizadas em conjunto sempre que houver melhorias ou correções.
+
+| Idioma | Arquivo | Finalidade |
+| --- | --- | --- |
+| Português (PT) | [TECHNICAL.md](TECHNICAL.md) | Referência técnica completa em português; caminho existente preservado |
+| English (EN) | [TECHNICAL.en.md](TECHNICAL.en.md) | Referência técnica completa paralela em inglês |
+
+Para cada melhoria ou correção:
+
+1. Atualizar as seções afetadas nos dois idiomas na mesma alteração/commit, inclusive correções apenas documentais.
+2. Preservar significado técnico equivalente, numeração das seções, fórmulas, exemplos, limites, comportamento, limitações e créditos. Comandos, identificadores, chaves JSON e rótulos da interface de produção permanecem inalterados.
+3. Atualizar a data de revisão documental nos dois cabeçalhos e adicionar entradas equivalentes ao registro de manutenção abaixo. Várias alterações podem compartilhar uma data.
+4. Conferir os links recíprocos de idioma, os links do README e os links relativos alterados.
+5. Revisar as duas versões contra o comportamento implementado. Tradução e equivalência semântica são revisadas manualmente; não há tradução automática nem validador automático de equivalência semântica.
+
+Atualizações rotineiras dos JSONs diários do roster não exigem edição da documentação, exceto quando alterarem schema, fluxo, regras, linha de base documentada ou comportamento da aplicação.
+
+A mesma instrução está registrada em [AGENTS.md](../AGENTS.md) para trabalhos futuros no repositório. O idioma da interface de produção continua sendo inglês. Os dois documentos mantêm os créditos de **Anderson Tagata — ATTecnologies, 2026**.
+
+### Registro de manutenção
+
+| Data | Melhoria ou correção | Situação PT/EN |
+| --- | --- | --- |
+| 2026-10-20 | Adicionada a referência paralela completa em inglês, a navegação recíproca de idiomas e a política persistente de manutenção bilíngue; esclarecida a contagem de testes originais e de desempenho | Duas versões atualizadas |
