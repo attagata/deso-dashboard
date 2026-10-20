@@ -1,0 +1,3848 @@
+{
+  "schema_version": "1.1",
+  "alliance": {
+    "tag": "DeSo",
+    "name": "Death Soldiers",
+    "leader": "Dogs R Big x2",
+    "server": "2052",
+    "language": "Português"
+  },
+  "snapshot_dates": [
+    "2026-10-14",
+    "2026-10-19",
+    "2026-10-20"
+  ],
+  "snapshots_summary": {
+    "2026-10-14": {
+      "reported_members": 91,
+      "reported_ranks": {
+        "R5": 1,
+        "R4": 8,
+        "R3": 23,
+        "R2": 11,
+        "R1": 48
+      }
+    },
+    "2026-10-19": {
+      "reported_members": 97,
+      "reported_ranks": {
+        "R5": 1,
+        "R4": 8,
+        "R3": 36,
+        "R2": 7,
+        "R1": 45
+      },
+      "alliance_power": 5611412930,
+      "source": "alliance overview",
+      "confirmed_departures_since_prior_snapshot": 4
+    },
+    "2026-10-20": {
+      "reported_members": 98,
+      "reported_ranks": {
+        "R5": 1,
+        "R4": 8,
+        "R3": 36,
+        "R2": 7,
+        "R1": 46
+      },
+      "observed_named_players": 98,
+      "not_observed_players": 1,
+      "confirmed_departures_retained": 4,
+      "source": "member list and R5 profile screenshots",
+      "capture_date_as_requested": "2026-10-20"
+    }
+  },
+  "data_policy": {
+    "missing_snapshot": "By default, not observed is unknown. The four user-confirmed departures are explicitly marked departed as of the 2026-10-19 roster; departure dates are not known.",
+    "power_m": "Million power, as displayed, may vary during troop/event changes",
+    "last_seen": "Relative time displayed at screenshot moment",
+    "reported_counts": "Counts from game headings, not completeness of name capture",
+    "ranks": "Actual shown rank, not suggested rank",
+    "membership_status": "Departures are retained for historical comparisons and excluded from current active membership counts.",
+    "last_seen_minutes": "Approximate elapsed time since last access based on game display (online = null); not cumulative online duration. 1d means 1440 min nominally, not exact.",
+    "2026-10-20_partial_capture": "Heading reports 98 members; missing individual rows are null, not interpreted as departures."
+  },
+  "players": [
+    {
+      "player_id": "p001",
+      "name": "ATT75",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 104.1,
+          "base_level": 30,
+          "last_seen": "online",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 93.8,
+          "base_level": 30,
+          "last_seen": "online",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 93.9,
+          "base_level": 30,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "profile_2026-10-19": {
+        "flag": "BR",
+        "likes": 2996,
+        "secondary_metric_k": 518.3,
+        "role_level": 61,
+        "gift_level": 2,
+        "vip_level": 12
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p002",
+      "name": "MaquinaMortiferaX",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 108.9,
+          "base_level": 30,
+          "last_seen": "online",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 102.4,
+          "base_level": 30,
+          "last_seen": "14m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 14,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 97.9,
+          "base_level": 30,
+          "last_seen": "27m",
+          "last_seen_minutes": 27,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "profile_2026-10-19": {
+        "flag": "BR",
+        "likes": 2436,
+        "secondary_metric_k": 33.5,
+        "role_level": 61,
+        "gift_level": 1
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p003",
+      "name": "LDX trop",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 105.0,
+          "base_level": 30,
+          "last_seen": "1h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 122.5,
+          "base_level": 30,
+          "last_seen": "35m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 35,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 121.0,
+          "base_level": 30,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p004",
+      "name": "baiano moraes",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 76.5,
+          "base_level": 28,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 79.1,
+          "base_level": 28,
+          "last_seen": "2h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 80.7,
+          "base_level": 28,
+          "last_seen": "40m",
+          "last_seen_minutes": 40,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "profile_2026-10-19": {
+        "flag": "BR",
+        "likes": 1049,
+        "secondary_metric_k": 49.9,
+        "role_level": 49,
+        "gift_level": 0
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p005",
+      "name": "Monte Verde1",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 90.3,
+          "base_level": 30,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 92.5,
+          "base_level": 30,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 93.0,
+          "base_level": 30,
+          "last_seen": "9h",
+          "last_seen_minutes": 540,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "profile_2026-10-19": {
+        "flag": "BR",
+        "likes": 1835,
+        "secondary_metric_k": 85.8,
+        "role_level": 52,
+        "gift_level": 2
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p006",
+      "name": "Amilton123",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 102.5,
+          "base_level": 30,
+          "last_seen": "4h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 240,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 88.0,
+          "base_level": 30,
+          "last_seen": "1m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 88.0,
+          "base_level": 30,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p007",
+      "name": "garouone",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 91.1,
+          "base_level": 30,
+          "last_seen": "17h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1020,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 89.5,
+          "base_level": 30,
+          "last_seen": "23h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1380,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 88.7,
+          "base_level": 30,
+          "last_seen": "12h",
+          "last_seen_minutes": 720,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p008",
+      "name": "Miotelo",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R4",
+          "power_m": 24.6,
+          "base_level": 27,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R4",
+          "power_m": 24.2,
+          "base_level": 27,
+          "last_seen": "23h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1380,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R4",
+          "power_m": 29.3,
+          "base_level": 27,
+          "last_seen": "4m",
+          "last_seen_minutes": 4,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p009",
+      "name": "JessicaBR",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 96.3,
+          "base_level": 29,
+          "last_seen": "online",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 97.4,
+          "base_level": 29,
+          "last_seen": "18m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 18,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 99.0,
+          "base_level": 29,
+          "last_seen": "10m",
+          "last_seen_minutes": 10,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p010",
+      "name": "mr llama08",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 74.4,
+          "base_level": 29,
+          "last_seen": "16m",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 16,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 77.5,
+          "base_level": 29,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 79.7,
+          "base_level": 29,
+          "last_seen": "14m",
+          "last_seen_minutes": 14,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p011",
+      "name": "Rf 1",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 98.3,
+          "base_level": 30,
+          "last_seen": "52m",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 52,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 102.5,
+          "base_level": 30,
+          "last_seen": "59m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 59,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 99.4,
+          "base_level": 30,
+          "last_seen": "46m",
+          "last_seen_minutes": 46,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p012",
+      "name": "Albert Phish",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 79.7,
+          "base_level": 30,
+          "last_seen": "1h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 77.2,
+          "base_level": 30,
+          "last_seen": "5h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 300,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 77.2,
+          "base_level": 30,
+          "last_seen": "7h",
+          "last_seen_minutes": 420,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p013",
+      "name": "TnTzinhoO",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 86.0,
+          "base_level": 29,
+          "last_seen": "1h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 79.2,
+          "base_level": 30,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 82.9,
+          "base_level": 30,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p014",
+      "name": "rancharias",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 81.8,
+          "base_level": 30,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 82.6,
+          "base_level": 30,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 83.7,
+          "base_level": 30,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p015",
+      "name": "Hooks Mustang",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 55.2,
+          "base_level": 28,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 47.5,
+          "base_level": 28,
+          "last_seen": "8h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 480,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 47.5,
+          "base_level": 28,
+          "last_seen": "17h",
+          "last_seen_minutes": 1020,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p016",
+      "name": "MarechalRondon",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 110.6,
+          "base_level": 30,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 102.7,
+          "base_level": 30,
+          "last_seen": "39m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 39,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 100.2,
+          "base_level": 30,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p017",
+      "name": "Sub ZeRo 007",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 110.5,
+          "base_level": 30,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 112.8,
+          "base_level": 30,
+          "last_seen": "online",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 116.1,
+          "base_level": 30,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p018",
+      "name": "Padilha Boladona",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 89.9,
+          "base_level": 30,
+          "last_seen": "3h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 88.6,
+          "base_level": 30,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 93.4,
+          "base_level": 30,
+          "last_seen": "4h",
+          "last_seen_minutes": 240,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p019",
+      "name": "Portela Aldo",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 101.3,
+          "base_level": 30,
+          "last_seen": "4h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 240,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 102.3,
+          "base_level": 30,
+          "last_seen": "42m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 42,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 102.4,
+          "base_level": 30,
+          "last_seen": "22m",
+          "last_seen_minutes": 22,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p020",
+      "name": "Renatobrittes",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 90.0,
+          "base_level": 29,
+          "last_seen": "4h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 240,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 70.2,
+          "base_level": 29,
+          "last_seen": "29m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 29,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 73.3,
+          "base_level": 29,
+          "last_seen": "36m",
+          "last_seen_minutes": 36,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p021",
+      "name": "Jim Robert",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 101.1,
+          "base_level": 29,
+          "last_seen": "6h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 101.8,
+          "base_level": 29,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 101.8,
+          "base_level": 29,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p022",
+      "name": "Meliodas Evil",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 87.8,
+          "base_level": 30,
+          "last_seen": "10h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 600,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 68.2,
+          "base_level": 30,
+          "last_seen": "online",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 83.0,
+          "base_level": 30,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p023",
+      "name": "Nathi0987",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 65.3,
+          "base_level": 28,
+          "last_seen": "10h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 600,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 54.2,
+          "base_level": 28,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 53.8,
+          "base_level": 28,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p024",
+      "name": "DanTagata",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 86.6,
+          "base_level": 29,
+          "last_seen": "10h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 600,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 81.6,
+          "base_level": 29,
+          "last_seen": "12m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 12,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 79.5,
+          "base_level": 29,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p025",
+      "name": "Zaca base",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 79.9,
+          "base_level": 30,
+          "last_seen": "11h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 660,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 83.1,
+          "base_level": 30,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 83.1,
+          "base_level": 30,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p026",
+      "name": "LoreninhaLost",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 56.0,
+          "base_level": 30,
+          "last_seen": "11h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 660,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 60.0,
+          "base_level": 30,
+          "last_seen": "21h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1260,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 62.0,
+          "base_level": 30,
+          "last_seen": "55m",
+          "last_seen_minutes": 55,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p027",
+      "name": "brunoxp01",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 87.3,
+          "base_level": 29,
+          "last_seen": "13h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 780,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 81.0,
+          "base_level": 29,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 84.5,
+          "base_level": 29,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p028",
+      "name": "Rafael kisseco",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 61.6,
+          "base_level": 24,
+          "last_seen": "13h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 780,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 72.4,
+          "base_level": 24,
+          "last_seen": "18m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 18,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 70.5,
+          "base_level": 24,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p029",
+      "name": "tixca",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 57.5,
+          "base_level": 29,
+          "last_seen": "14h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 840,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 45.9,
+          "base_level": 29,
+          "last_seen": "9h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 540,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 48.0,
+          "base_level": 29,
+          "last_seen": "16h",
+          "last_seen_minutes": 960,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p030",
+      "name": "LOGAN25",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 86.0,
+          "base_level": 30,
+          "last_seen": "15h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 900,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 86.3,
+          "base_level": 30,
+          "last_seen": "3h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 86.3,
+          "base_level": 30,
+          "last_seen": "10h",
+          "last_seen_minutes": 600,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p031",
+      "name": "Cardalu",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R3",
+          "power_m": 56.0,
+          "base_level": 27,
+          "last_seen": "17h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1020,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 53.9,
+          "base_level": 27,
+          "last_seen": "online",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 56.5,
+          "base_level": 27,
+          "last_seen": "4h",
+          "last_seen_minutes": 240,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p032",
+      "name": "comando estermar",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 40.7,
+          "base_level": 28,
+          "last_seen": "online",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-19": {
+          "rank": "R2",
+          "power_m": 39.5,
+          "base_level": 28,
+          "last_seen": "10m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 10,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R2",
+          "power_m": 36.7,
+          "base_level": 28,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p033",
+      "name": "Ralph75",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 86.2,
+          "base_level": 28,
+          "last_seen": "31m",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 31,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R2",
+          "power_m": 87.5,
+          "base_level": 28,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R2",
+          "power_m": 82.3,
+          "base_level": 28,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p034",
+      "name": "Dourado 666",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 103.3,
+          "base_level": 29,
+          "last_seen": "1h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 119.6,
+          "base_level": 29,
+          "last_seen": "33m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 33,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 121.9,
+          "base_level": 29,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p035",
+      "name": "EASYE0831",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 41.1,
+          "base_level": 26,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R2",
+          "power_m": 41.5,
+          "base_level": 26,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R2",
+          "power_m": 41.9,
+          "base_level": 26,
+          "last_seen": "9h",
+          "last_seen_minutes": 540,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p036",
+      "name": "Bate pesadão",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 29.7,
+          "base_level": 22,
+          "last_seen": "13h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 780,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R2",
+          "power_m": 17.4,
+          "base_level": 23,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R2",
+          "power_m": 22.4,
+          "base_level": 23,
+          "last_seen": "9h",
+          "last_seen_minutes": 540,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p037",
+      "name": "WP konn joj",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 23.9,
+          "base_level": 24,
+          "last_seen": "21h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1260,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R2",
+          "power_m": 21.4,
+          "base_level": 24,
+          "last_seen": "14h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 840,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R2",
+          "power_m": 22.0,
+          "base_level": 24,
+          "last_seen": "13h",
+          "last_seen_minutes": 780,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p038",
+      "name": "Pecansandies02560",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 69.0,
+          "base_level": 30,
+          "last_seen": "22h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1320,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 68.2,
+          "base_level": 30,
+          "last_seen": "2h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 67.3,
+          "base_level": 30,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p039",
+      "name": "Matiassilva",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 43.2,
+          "base_level": 29,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 47.0,
+          "base_level": 29,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 39.6,
+          "base_level": 29,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p040",
+      "name": "Carlota26",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 33.6,
+          "base_level": 20,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R2",
+          "power_m": 34.0,
+          "base_level": 20,
+          "last_seen": "23h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1380,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R2",
+          "power_m": 34.2,
+          "base_level": 20,
+          "last_seen": "14h",
+          "last_seen_minutes": 840,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p041",
+      "name": "Comandante Alex586",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 70.7,
+          "base_level": 28,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R2",
+          "power_m": 71.2,
+          "base_level": 28,
+          "last_seen": "3h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R2",
+          "power_m": 71.2,
+          "base_level": 28,
+          "last_seen": "1d",
+          "last_seen_minutes": 1440,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p042",
+      "name": "diegonesBR",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R2",
+          "power_m": 61.1,
+          "base_level": 28,
+          "last_seen": "11d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 15840,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "membership_status": "departed",
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "source": "user confirmation",
+          "visible": false,
+          "last_seen_minutes": null,
+          "online_at_capture": null
+        },
+        "2026-10-20": {
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "last_seen_minutes": null,
+          "online_at_capture": null,
+          "source": "not_visible_in_supplied_screenshots",
+          "visible": false
+        }
+      },
+      "membership_status": "departed",
+      "departure": {
+        "recorded_on": "2026-10-19",
+        "effective_date": null,
+        "reason": "User-confirmed departure; absent from 2026-10-19 roster",
+        "previous_rank": "R2"
+      }
+    },
+    {
+      "player_id": "p043",
+      "name": "Lair74",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 40.1,
+          "base_level": 23,
+          "last_seen": "11m",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 11,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 39.2,
+          "base_level": 23,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 38.9,
+          "base_level": 23,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p044",
+      "name": "mandaloriano",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 54.3,
+          "base_level": 29,
+          "last_seen": "26m",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 26,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 49.9,
+          "base_level": 29,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 57.1,
+          "base_level": 29,
+          "last_seen": "10h",
+          "last_seen_minutes": 600,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p045",
+      "name": "Comandante203292052",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 22.1,
+          "base_level": 19,
+          "last_seen": "47m",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 47,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 19.3,
+          "base_level": 19,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 20.5,
+          "base_level": 19,
+          "last_seen": "12h",
+          "last_seen_minutes": 720,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p046",
+      "name": "Natalina94",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 94.9,
+          "base_level": 29,
+          "last_seen": "1h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 81.4,
+          "base_level": 29,
+          "last_seen": "23h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1380,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 84.7,
+          "base_level": 29,
+          "last_seen": "38m",
+          "last_seen_minutes": 38,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p047",
+      "name": "ClaudioJuniorMed",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 43.1,
+          "base_level": 28,
+          "last_seen": "1h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 53.4,
+          "base_level": 28,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 54.3,
+          "base_level": 28,
+          "last_seen": "8h",
+          "last_seen_minutes": 480,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p048",
+      "name": "JJ10QT",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 53.4,
+          "base_level": 28,
+          "last_seen": "1h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 68.3,
+          "base_level": 28,
+          "last_seen": "3m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 3,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 68.6,
+          "base_level": 28,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p049",
+      "name": "Aitana Lu",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 41.5,
+          "base_level": 28,
+          "last_seen": "2h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 52.5,
+          "base_level": 28,
+          "last_seen": "4h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 240,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 55.5,
+          "base_level": 28,
+          "last_seen": "44m",
+          "last_seen_minutes": 44,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p050",
+      "name": "Pedrinho Taru",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 26.8,
+          "base_level": 24,
+          "last_seen": "3h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 22.9,
+          "base_level": 24,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 26.8,
+          "base_level": 24,
+          "last_seen": "53m",
+          "last_seen_minutes": 53,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p051",
+      "name": "Tbbbbbbbb",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 66.6,
+          "base_level": 26,
+          "last_seen": "3h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 63.7,
+          "base_level": 26,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 66.6,
+          "base_level": 26,
+          "last_seen": "23h",
+          "last_seen_minutes": 1380,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p052",
+      "name": "zicors",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 52.3,
+          "base_level": 25,
+          "last_seen": "3h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 42.8,
+          "base_level": 25,
+          "last_seen": "3h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 47.3,
+          "base_level": 25,
+          "last_seen": "10m",
+          "last_seen_minutes": 10,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p053",
+      "name": "Henriquec Dias",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 70.4,
+          "base_level": 28,
+          "last_seen": "3h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 53.2,
+          "base_level": 28,
+          "last_seen": "online",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": true
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 69.2,
+          "base_level": 28,
+          "last_seen": "22h",
+          "last_seen_minutes": 1320,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p054",
+      "name": "Commander 33b092052",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 54.8,
+          "base_level": 26,
+          "last_seen": "4h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 240,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 63.4,
+          "base_level": 26,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 64.8,
+          "base_level": 26,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p055",
+      "name": "General Birão",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 56.5,
+          "base_level": 27,
+          "last_seen": "4h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 240,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 57.7,
+          "base_level": 27,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 57.9,
+          "base_level": 27,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p056",
+      "name": "AndretTiba",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 36.7,
+          "base_level": 23,
+          "last_seen": "5h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 300,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 28.3,
+          "base_level": 23,
+          "last_seen": "9h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 540,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 33.0,
+          "base_level": 23,
+          "last_seen": "12h",
+          "last_seen_minutes": 720,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p057",
+      "name": "Hernan David 34",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 50.0,
+          "base_level": 28,
+          "last_seen": "5h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 300,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 63.6,
+          "base_level": 28,
+          "last_seen": "2h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 63.5,
+          "base_level": 28,
+          "last_seen": "6h",
+          "last_seen_minutes": 360,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p058",
+      "name": "3학년반장",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 87.6,
+          "base_level": 30,
+          "last_seen": "6h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 92.3,
+          "base_level": 30,
+          "last_seen": "23h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1380,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 92.5,
+          "base_level": 30,
+          "last_seen": "49m",
+          "last_seen_minutes": 49,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p059",
+      "name": "edivar",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 21.4,
+          "base_level": 23,
+          "last_seen": "8h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 480,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 22.9,
+          "base_level": 23,
+          "last_seen": "13h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 780,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 24.3,
+          "base_level": 23,
+          "last_seen": "20h",
+          "last_seen_minutes": 1200,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p060",
+      "name": "LennartBoy",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 48.9,
+          "base_level": 26,
+          "last_seen": "9h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 540,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 46.7,
+          "base_level": 26,
+          "last_seen": "2m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 2,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 50.0,
+          "base_level": 26,
+          "last_seen": "46m",
+          "last_seen_minutes": 46,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p061",
+      "name": "Tagnos",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 48.6,
+          "base_level": 25,
+          "last_seen": "10h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 600,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 44.7,
+          "base_level": 25,
+          "last_seen": "22h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1320,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 47.5,
+          "base_level": 25,
+          "last_seen": "21h",
+          "last_seen_minutes": 1260,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p062",
+      "name": "Augusto gois",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 48.1,
+          "base_level": 28,
+          "last_seen": "10h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 600,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 39.1,
+          "base_level": 28,
+          "last_seen": "20h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1200,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 39.1,
+          "base_level": 28,
+          "last_seen": "1d",
+          "last_seen_minutes": 1440,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p063",
+      "name": "Lituânia",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 65.4,
+          "base_level": 29,
+          "last_seen": "11h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 660,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 66.0,
+          "base_level": 30,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 67.4,
+          "base_level": 30,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p064",
+      "name": "burey",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 58.8,
+          "base_level": 28,
+          "last_seen": "11h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 660,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 60.2,
+          "base_level": 28,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 62.5,
+          "base_level": 28,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p065",
+      "name": "qpato",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 93.8,
+          "base_level": 30,
+          "last_seen": "11h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 660,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 76.9,
+          "base_level": 30,
+          "last_seen": "3h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 77.1,
+          "base_level": 30,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p066",
+      "name": "ColonelStuffy",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 30.9,
+          "base_level": 24,
+          "last_seen": "11h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 660,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 28.8,
+          "base_level": 24,
+          "last_seen": "5h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 300,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 30.4,
+          "base_level": 24,
+          "last_seen": "6h",
+          "last_seen_minutes": 360,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p067",
+      "name": "Rena2222",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 19.5,
+          "base_level": 23,
+          "last_seen": "12h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 720,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 15.4,
+          "base_level": 24,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 19.4,
+          "base_level": 24,
+          "last_seen": "11h",
+          "last_seen_minutes": 660,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p068",
+      "name": "Commander 26d4b2052",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 15.9,
+          "base_level": 24,
+          "last_seen": "12h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 720,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 18.3,
+          "base_level": 24,
+          "last_seen": "44m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 44,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 18.3,
+          "base_level": 24,
+          "last_seen": "3h",
+          "last_seen_minutes": 180,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p069",
+      "name": "Rick Grimeess",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 64.2,
+          "base_level": 25,
+          "last_seen": "13h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 780,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 65.4,
+          "base_level": 25,
+          "last_seen": "3h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 66.8,
+          "base_level": 25,
+          "last_seen": "3h",
+          "last_seen_minutes": 180,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p070",
+      "name": "Snoopy lover",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 54.4,
+          "base_level": 28,
+          "last_seen": "13h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 780,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 49.8,
+          "base_level": 28,
+          "last_seen": "3h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 180,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 51.6,
+          "base_level": 28,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p071",
+      "name": "Commander 36cae2052",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 27.0,
+          "base_level": 27,
+          "last_seen": "14h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 840,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "membership_status": "departed",
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "source": "user confirmation",
+          "visible": false,
+          "last_seen_minutes": null,
+          "online_at_capture": null
+        },
+        "2026-10-20": {
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "last_seen_minutes": null,
+          "online_at_capture": null,
+          "source": "not_visible_in_supplied_screenshots",
+          "visible": false
+        }
+      },
+      "membership_status": "departed",
+      "departure": {
+        "recorded_on": "2026-10-19",
+        "effective_date": null,
+        "reason": "User-confirmed departure; absent from 2026-10-19 roster",
+        "previous_rank": "R1"
+      }
+    },
+    {
+      "player_id": "p072",
+      "name": "Agus R",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 66.0,
+          "base_level": 24,
+          "last_seen": "15h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 900,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 67.3,
+          "base_level": 24,
+          "last_seen": "1h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 60,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 67.4,
+          "base_level": 24,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p073",
+      "name": "Geni Bahia",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 36.3,
+          "base_level": 25,
+          "last_seen": "17h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1020,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 35.5,
+          "base_level": 25,
+          "last_seen": "11h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 660,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 39.3,
+          "base_level": 25,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p074",
+      "name": "LDR Queen Royalty",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 56.0,
+          "base_level": 29,
+          "last_seen": "19h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1140,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 56.0,
+          "base_level": 29,
+          "last_seen": "5d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 7200,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 56.0,
+          "base_level": 29,
+          "last_seen": "6d",
+          "last_seen_minutes": 8640,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p075",
+      "name": "Catatau o Homem mal",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 27.5,
+          "base_level": 22,
+          "last_seen": "19h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1140,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 26.2,
+          "base_level": 22,
+          "last_seen": "43m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 43,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 27.8,
+          "base_level": 22,
+          "last_seen": "3h",
+          "last_seen_minutes": 180,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p076",
+      "name": "Marquiqui5",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 61.9,
+          "base_level": 23,
+          "last_seen": "19h",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1140,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 47.3,
+          "base_level": 23,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 47.3,
+          "base_level": 23,
+          "last_seen": "2d",
+          "last_seen_minutes": 2880,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p077",
+      "name": "Adriannihow",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 53.1,
+          "base_level": 27,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 37.8,
+          "base_level": 27,
+          "last_seen": "22h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1320,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 37.8,
+          "base_level": 27,
+          "last_seen": "1d",
+          "last_seen_minutes": 1440,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p078",
+      "name": "BECK",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 32.4,
+          "base_level": 26,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 38.8,
+          "base_level": 26,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 38.8,
+          "base_level": 26,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p079",
+      "name": "VINGADOR Brito",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 54.6,
+          "base_level": 28,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 54.6,
+          "base_level": 28,
+          "last_seen": "6d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 8640,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 54.6,
+          "base_level": 28,
+          "last_seen": "7d",
+          "last_seen_minutes": 10080,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p080",
+      "name": "Deeeez73",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 61.1,
+          "base_level": 29,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 38.1,
+          "base_level": 29,
+          "last_seen": "6h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 360,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 38.1,
+          "base_level": 29,
+          "last_seen": "1d",
+          "last_seen_minutes": 1440,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p081",
+      "name": "Pat linda",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 11.5,
+          "base_level": 22,
+          "last_seen": "1d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 11.5,
+          "base_level": 22,
+          "last_seen": "6d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 8640,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 11.5,
+          "base_level": 22,
+          "last_seen": "7d",
+          "last_seen_minutes": 10080,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p082",
+      "name": "Comandante 255aa2028",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 10.4,
+          "base_level": 21,
+          "last_seen": "2d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 2880,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 10.1,
+          "base_level": 21,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 10.1,
+          "base_level": 21,
+          "last_seen": "2d",
+          "last_seen_minutes": 2880,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p083",
+      "name": "M15A3L",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 13.4,
+          "base_level": 23,
+          "last_seen": "2d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 2880,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 13.4,
+          "base_level": 23,
+          "last_seen": "6d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 8640,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 13.4,
+          "base_level": 23,
+          "last_seen": "7d",
+          "last_seen_minutes": 10080,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p084",
+      "name": "JJ Matos",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 62.0,
+          "base_level": 29,
+          "last_seen": "3d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 4320,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 67.2,
+          "base_level": 29,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 58.9,
+          "base_level": 29,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p085",
+      "name": "MDOliveira",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 35.3,
+          "base_level": 25,
+          "last_seen": "3d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 4320,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 38.8,
+          "base_level": 25,
+          "last_seen": "2h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 40.3,
+          "base_level": 25,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p086",
+      "name": "I am a MaryJane",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 18.8,
+          "base_level": 23,
+          "last_seen": "3d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 4320,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 18.4,
+          "base_level": 23,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 18.4,
+          "base_level": 23,
+          "last_seen": "3d",
+          "last_seen_minutes": 4320,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p087",
+      "name": "dourado martins",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 43.1,
+          "base_level": 28,
+          "last_seen": "4d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 5760,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 52.7,
+          "base_level": 28,
+          "last_seen": "2d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 2880,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 52.7,
+          "base_level": 28,
+          "last_seen": "3d",
+          "last_seen_minutes": 4320,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p088",
+      "name": "Hewhoshallnotbenamed",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 33.4,
+          "base_level": 24,
+          "last_seen": "9d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 12960,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 33.6,
+          "base_level": 24,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 33.6,
+          "base_level": 24,
+          "last_seen": "2d",
+          "last_seen_minutes": 2880,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p089",
+      "name": "calangs",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 43.3,
+          "base_level": 26,
+          "last_seen": "11d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 15840,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "membership_status": "departed",
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "source": "user confirmation",
+          "visible": false,
+          "last_seen_minutes": null,
+          "online_at_capture": null
+        },
+        "2026-10-20": {
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "last_seen_minutes": null,
+          "online_at_capture": null,
+          "source": "not_visible_in_supplied_screenshots",
+          "visible": false
+        }
+      },
+      "membership_status": "departed",
+      "departure": {
+        "recorded_on": "2026-10-19",
+        "effective_date": null,
+        "reason": "User-confirmed departure; absent from 2026-10-19 roster",
+        "previous_rank": "R1"
+      }
+    },
+    {
+      "player_id": "p090",
+      "name": "24JC24",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R1",
+          "power_m": 56.9,
+          "base_level": 24,
+          "last_seen": "16d",
+          "source": "screenshots",
+          "visible": true,
+          "last_seen_minutes": 23040,
+          "online_at_capture": false
+        },
+        "2026-10-19": {
+          "membership_status": "departed",
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "source": "user confirmation",
+          "visible": false,
+          "last_seen_minutes": null,
+          "online_at_capture": null
+        },
+        "2026-10-20": {
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "last_seen_minutes": null,
+          "online_at_capture": null,
+          "source": "not_visible_in_supplied_screenshots",
+          "visible": false
+        }
+      },
+      "membership_status": "departed",
+      "departure": {
+        "recorded_on": "2026-10-19",
+        "effective_date": null,
+        "reason": "User-confirmed departure; absent from 2026-10-19 roster",
+        "previous_rank": "R1"
+      }
+    },
+    {
+      "player_id": "p091",
+      "name": "Dogs R Big x2",
+      "snapshots": {
+        "2026-10-14": {
+          "rank": "R5",
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "source": "alliance header",
+          "visible": true,
+          "last_seen_minutes": null,
+          "online_at_capture": null
+        },
+        "2026-10-19": {
+          "rank": "R5",
+          "power_m": 96.8,
+          "base_level": 29,
+          "last_seen": "44m",
+          "source": "profile",
+          "visible": true,
+          "last_seen_minutes": 44,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R5",
+          "power_m": 101.8,
+          "base_level": 29,
+          "last_seen": "online",
+          "last_seen_minutes": null,
+          "online_at_capture": true,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "profile_2026-10-19": {
+        "flag": "US",
+        "likes": 3086,
+        "secondary_metric_k": 66.9,
+        "role_level": 66,
+        "gift_level": 2
+      },
+      "membership_status": "active_as_of_2026-10-20",
+      "profile_2026-10-20": {
+        "flag": "US",
+        "likes": 3086,
+        "secondary_metric_k": 66.9,
+        "role_level": 66,
+        "gift_level": 2,
+        "power_m": 101.8
+      }
+    },
+    {
+      "player_id": "p092",
+      "name": "Naelton vejeve",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 67.6,
+          "base_level": 30,
+          "last_seen": "2h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 120,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 71.8,
+          "base_level": 30,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p093",
+      "name": "patito84",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R3",
+          "power_m": 24.4,
+          "base_level": 23,
+          "last_seen": "2d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 2880,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R3",
+          "power_m": 24.4,
+          "base_level": 23,
+          "last_seen": "3d",
+          "last_seen_minutes": 4320,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p094",
+      "name": "베짱이히",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 107.7,
+          "base_level": 30,
+          "last_seen": "29m",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 29,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": null,
+          "power_m": null,
+          "base_level": null,
+          "last_seen": null,
+          "last_seen_minutes": null,
+          "online_at_capture": null,
+          "source": "not_visible_in_supplied_screenshots",
+          "visible": false
+        }
+      },
+      "membership_status": "not_observed_2026-10-20"
+    },
+    {
+      "player_id": "p095",
+      "name": "MISHU0101",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 51.2,
+          "base_level": 29,
+          "last_seen": "4h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 240,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 52.0,
+          "base_level": 29,
+          "last_seen": "7h",
+          "last_seen_minutes": 420,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p096",
+      "name": "Bull Money",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 14.9,
+          "base_level": 25,
+          "last_seen": "9h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 540,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 14.9,
+          "base_level": 25,
+          "last_seen": "1d",
+          "last_seen_minutes": 1440,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p097",
+      "name": "Apolo Berlim",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 65.4,
+          "base_level": 30,
+          "last_seen": "13h",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 780,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 69.6,
+          "base_level": 30,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p098",
+      "name": "CampJude",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 9.9,
+          "base_level": 25,
+          "last_seen": "1d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 1440,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 9.9,
+          "base_level": 25,
+          "last_seen": "2d",
+          "last_seen_minutes": 2880,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p099",
+      "name": "HP Tex",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 27.7,
+          "base_level": 24,
+          "last_seen": "2d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 2880,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 33.0,
+          "base_level": 24,
+          "last_seen": "43m",
+          "last_seen_minutes": 43,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p100",
+      "name": "Commander 21c462052",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 15.5,
+          "base_level": 25,
+          "last_seen": "2d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 2880,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 15.4,
+          "base_level": 25,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p101",
+      "name": "AllurbaseRbelong2us",
+      "snapshots": {
+        "2026-10-19": {
+          "rank": "R1",
+          "power_m": 33.1,
+          "base_level": 27,
+          "last_seen": "2d",
+          "source": "member list",
+          "visible": true,
+          "last_seen_minutes": 2880,
+          "online_at_capture": false
+        },
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 30.5,
+          "base_level": 27,
+          "last_seen": "1h",
+          "last_seen_minutes": 60,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p102",
+      "name": "baldo83",
+      "snapshots": {
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 10.0,
+          "base_level": 20,
+          "last_seen": "2h",
+          "last_seen_minutes": 120,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    },
+    {
+      "player_id": "p103",
+      "name": "Zorrzi",
+      "snapshots": {
+        "2026-10-20": {
+          "rank": "R1",
+          "power_m": 59.5,
+          "base_level": 24,
+          "last_seen": "13h",
+          "last_seen_minutes": 780,
+          "online_at_capture": false,
+          "source": "screenshots_2026-10-20",
+          "visible": true
+        }
+      },
+      "membership_status": "active_as_of_2026-10-20"
+    }
+  ],
+  "membership_events": [
+    {
+      "event_type": "departure",
+      "player_id": "p042",
+      "name": "diegonesBR",
+      "recorded_on": "2026-10-19",
+      "effective_date": null,
+      "previous_rank": "R2",
+      "source": "user confirmation"
+    },
+    {
+      "event_type": "departure",
+      "player_id": "p071",
+      "name": "Commander 36cae2052",
+      "recorded_on": "2026-10-19",
+      "effective_date": null,
+      "previous_rank": "R1",
+      "source": "user confirmation"
+    },
+    {
+      "event_type": "departure",
+      "player_id": "p089",
+      "name": "calangs",
+      "recorded_on": "2026-10-19",
+      "effective_date": null,
+      "previous_rank": "R1",
+      "source": "user confirmation"
+    },
+    {
+      "event_type": "departure",
+      "player_id": "p090",
+      "name": "24JC24",
+      "recorded_on": "2026-10-19",
+      "effective_date": null,
+      "previous_rank": "R1",
+      "source": "user confirmation"
+    }
+  ]
+}
