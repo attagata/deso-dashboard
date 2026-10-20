@@ -124,6 +124,22 @@ Corrections to a capture should amend that date's file through a new Git commit,
 
 ## Calculation rules
 
+### Player performance analysis
+
+Every player profile includes **Player performance analysis**, combining dated power changes, HQ progression, rank changes, last observed login and recovery evidence through the selected date. Labels are descriptive: Growing, Stable, Power Decline, Recovering and Inactivity Review. Insufficient data is shown when evidence does not support a comparison. Power loss never independently generates demotion recommendations or establishes inactivity, commitment or the cause of a reduction.
+
+Defaults live in [`src/config/performance.ts`](src/config/performance.ts): significant decline **5%**, minor positive fluctuation **1%**, sustained decline **two consecutive declining intervals over at least two days**, and inactivity review **five days**. A sustained decline also requires a cumulative loss at least as large as the significant-decline threshold. Smaller reductions remain Stable unless the sustained rule is met. A single capture is not sufficient to classify the power pattern.
+
+Expand **Analysis thresholds** inside a profile to apply temporary analysis thresholds. These settings remain in React memory while that profile view stays mounted; returning to the overview or reloading restores defaults. They do not change source JSON, alliance policy or the existing Activity Monitor's five-day rule.
+
+Interval and historical power changes show absolute and percentage differences. A daily change is displayed only for comparable captures exactly one calendar day apart; multi-day differences are explicitly interval changes. Unknown values, missing capture rows, uncertain identities and departure/rejoin boundaries interrupt trend and recovery tracking.
+
+Recovery tracks the pre-decline baseline and lowest observed power until an observed increase reaches or exceeds that baseline. The module shows regained power and the percentage of the recorded loss recovered; this percentage can exceed 100%. Recovery does not imply troop replacement, battle participation, hospital treatment, hero upgrades or research: all such causes remain **Unknown** without evidence.
+
+See the detailed [performance specification](docs/TECHNICAL.md#14-player-performance-analysis) for formulas, classification precedence and test coverage.
+
+### Dashboard statistics
+
 - The date selector updates the statistics, ranking, activity and top ten together. A missing selected-date observation never inherits older power, rank, HQ or activity for that day's statistics.
 - Active means visible in that capture and not confirmed departed. Unobserved players remain separate from confirmed departures. The full historical roster is available through the status filter. Official heading count is shown beside the observed count.
 - Newly observed means the first visible capture for an identity, excluding the baseline date. It does not establish an exact join date.

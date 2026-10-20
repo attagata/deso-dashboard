@@ -335,3 +335,67 @@ Para manutenção: preservar os contratos TypeScript, atualizar dependências de
 **Anderson Tagata — ATTecnologies, 2026.**
 
 O crédito está registrado nesta documentação, no README, no arquivo NOTICE e no rodapé público da aplicação. A licença Apache 2.0 já existente no repositório é mantida. Os créditos do projeto não transferem a titularidade de marcas, nomes ou assets de Last War: Survival nem das dependências utilizadas.
+
+## 14. Player performance analysis
+
+### Módulos e escopo temporal
+
+A análise individual fica em `src/components/PerformanceAnalysis.tsx`, integrada ao perfil de cada jogador. `src/utils/performance.ts` contém `analyzePerformance`, uma função determinística que recebe o membro, as datas de captura, a data de corte e a configuração. `src/config/performance.ts` centraliza os valores padrão e sua validação. Não há dependência adicional, serviço externo, alteração nos JSONs ou persistência no navegador.
+
+Ao contrário das seções do perfil explicitamente identificadas como histórico completo, esta análise considera apenas observações até a data selecionada. Poder inicial e último poder conhecido têm suas próprias datas visíveis. Se a captura selecionada estiver ausente, não se copia o poder anterior para classificá-la. A mesma separação vale para HQ e último login conhecido: são informações datadas, não prova de estado atual.
+
+### Limites configuráveis
+
+| Configuração | Padrão | Uso |
+| --- | ---: | --- |
+| `significantDeclinePercent` | 5 | Magnitude percentual mínima para destacar queda e iniciar acompanhamento de recuperação |
+| `stableChangePercent` | 1 | Crescimento positivo até esse limite permanece Stable |
+| `sustainedDeclineIntervals` | 2 | Quantidade mínima de intervalos consecutivos com redução |
+| `sustainedDeclineDays` | 2 | Duração mínima observada da sequência de reduções |
+| `inactivityReviewDays` | 5 | Limite nominal de ausência para Inactivity Review |
+
+A tendência descendente também exige perda acumulada de pelo menos `significantDeclinePercent`. Portanto, pequenas quedas sucessivas podem satisfazer a regra cumulativa mesmo que cada queda isolada seja inferior a 5%. Configurações inválidas são rejeitadas: números não finitos, queda percentual fora de (0,100], limite de crescimento menor que zero ou maior/igual ao de queda, menos de dois intervalos para tendência e durações inferiores a um dia.
+
+O formulário **Analysis thresholds** aplica configurações temporárias à análise do perfil. Elas ficam em memória enquanto o componente permanece montado; voltar ao overview ou recarregar restaura os padrões. Alterações não mudam os dados, a política da aliança nem a regra fixa de cinco dias do Activity Monitor. Configurações permanentes do módulo são feitas no arquivo de configuração e passam por novo build.
+
+### Comparações e classificação
+
+Cada ponto corresponde a uma data de captura conhecida. Uma comparação de poder exige dois pontos adjacentes com observações visíveis, poder não nulo, identidade certa e sem evento de saída/retorno entre eles. Uma observação ausente, poder nulo ou identidade incerta interrompe sequências descendentes e ciclos de recuperação. As mudanças de rank no módulo também exigem observações adjacentes visíveis e identidade certa, sem atravessar eventos de participação.
+
+A diferença histórica de poder compara o primeiro e o último poder conhecidos até a data de corte, com datas explícitas. Ela pode abranger lacunas e não estabelece uma trajetória contínua. As variações por intervalo usam `atual − anterior`, e o percentual usa `diferença / anterior × 100` somente quando o anterior é positivo. A variação diária só é preenchida quando as duas capturas comparáveis estão separadas por exatamente um dia de calendário UTC. Um intervalo de cinco dias não vira cinco medições diárias nem uma estimativa apresentada como observação.
+
+A classificação de poder segue esta precedência:
+
+1. **Insufficient data:** não existe comparação válida com o ponto adjacente anterior.
+2. **Recovering:** há aumento observado durante um ciclo de perda significativo ainda acompanhado.
+3. **Power Decline:** queda do intervalo atinge o limite configurado, ou a sequência satisfaz a regra de tendência descendente.
+4. **Growing:** aumento positivo acima do limite de pequena flutuação, ou aumento a partir de zero, com percentual indefinido.
+5. **Stable:** demais comparações válidas, incluindo zero, pequenos aumentos e reduções abaixo da regra de perda significativa/tendência.
+
+**Inactivity Review** substitui apenas o rótulo principal quando o tempo de ausência observado atinge o limite, o jogador não está online e não há saída confirmada vigente. O padrão de poder continua visível separadamente, por exemplo Growing junto de Inactivity Review. Uma única captura pode justificar revisão de atividade, mas não uma conclusão de evolução de poder. Ausência de captura não gera revisão por extrapolação do tempo.
+
+HQ, ranks e login não são combinados em nota, pontuação de compromisso ou ordem de promoção. O resumo apresenta sua evidência independentemente: uma progressão de HQ pode coexistir com queda de poder. Ranks indicam diferenças observadas, não a causa das mudanças ou um novo direito administrativo.
+
+### Ciclos de recuperação
+
+A primeira queda significativa inicia um ciclo cuja referência é o poder imediatamente anterior à queda. Se o ciclo começa por uma sequência de quedas cumulativas, usa-se o poder anterior ao início dessa sequência. Quedas subsequentes atualizam o menor poder observado, mantendo a referência do ciclo.
+
+Quando o poder aumenta durante esse ciclo:
+
+```text
+Poder recuperado = poder atual − menor poder observado no ciclo
+Perda acompanhada = poder de referência anterior à queda − menor poder observado
+Percentual da perda recuperada = poder recuperado / perda acompanhada × 100
+```
+
+O resumo informa referência, menor valor, datas, recuperação absoluta e percentual. A recuperação é parcial até atingir a referência. Ao atingir ou exceder esse valor, registra-se recuperação completa e encerra-se o ciclo; um aumento na captura seguinte pode ser Growing. Percentuais acima de 100% são mantidos para mostrar superação da referência. Nenhum valor intermediário é inventado.
+
+### Significado e limites da evidência
+
+Uma redução isolada é chamada de flutuação de intervalo; isso não prova que ela foi temporária. Uma tendência descendente descreve uma sequência observada que atende aos limites, sem afirmar sua causa, o que ocorreu nos dias sem captura ou o comprometimento do jogador.
+
+O texto do módulo explica que perdas de tropas, feridos ou alterações de força militar podem afetar poder em Last War: Survival, mas screenshots do roster não identificam a causa. Perdas de tropas, participação em batalhas, hospital, upgrades de heróis e pesquisas são mostrados como **Unknown**, pois não constam nos dados. Perda de poder, isoladamente, nunca gera recomendação de rebaixamento. Os pontos sugeridos são ações de acompanhamento de evidências, sem promoção, rebaixamento ou expulsão automáticos.
+
+### Verificação
+
+`tests/performance.test.ts` acrescenta 15 testes aos 11 originais, totalizando 26. Cobrem o limite inclusivo de 5%, flutuações pequenas, crescimento, tendência cumulativa/duração, recuperação parcial/completa/superior à referência, novo menor valor, recuperação com saldo histórico negativo, intervalos de vários dias, lacunas e identidade incerta, atividade independente, corte temporal sem dados futuros, HQ/rank junto de queda, poder zero/nulo, não observados/saídas, interrupção por retorno e configurações inválidas.
