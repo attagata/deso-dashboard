@@ -45,7 +45,7 @@ export default function App() {
           {route.date && !data.dates.includes(route.date) && <p role="status" className="notice">No capture exists for {route.date}. Showing the latest recorded date: {formatDate(date)}.</p>}
           {route.memberId ? member ? <MemberDetails data={data} member={member} date={date} /> : <section className="panel empty-state"><h1>Player not found</h1><a href={`#/?date=${date}`}>Return to overview</a></section> : <Dashboard data={data} date={date} />}
         </>}
-      </main><footer className="footer"><span><strong>DESO</strong> · Built for the alliance.</span><span>Screenshot observations · No automatic administrative actions</span></footer>
+      </main><footer className="footer"><span><strong>DESO</strong> · © 2026 Anderson Tagata — ATTecnologies</span><span>Screenshot observations · No automatic administrative actions</span></footer>
     </div>
   </div>;
 }

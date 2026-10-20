@@ -1,5 +1,9 @@
 # DESO Alliance Dashboard
 
+**Project credit: Anderson Tagata — ATTecnologies, 2026.**
+
+Technical reference (Portuguese): [Technical documentation](docs/TECHNICAL.md). Attribution: [NOTICE](NOTICE). License: [Apache 2.0](LICENSE).
+
 A public, read-only command center for **DESO / Death Soldiers**, server 2052, in *Last War: Survival*. Built for phones and desktop browsers. All production interface text is English; player names remain exactly as supplied.
 
 **Public URL after Pages is enabled:** https://attagata.github.io/deso-dashboard/
