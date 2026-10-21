@@ -18,7 +18,7 @@
       "R1": 46
     },
     "alliance_power": null,
-    "source": "DESO roster screenshots dated 2026-10-21, batches 1 and 2, plus leader profile. Member count 98 is the sum of rank-section totals and the R5 leader, not a separate overview screenshot.",
+    "source": "DESO roster screenshots dated 2026-10-21, batches 1 and 2, leader profile and supplemental Monte Verde1 row. Member count 98 is derived from rank-section totals plus R5, not a separate alliance overview.",
     "reported_members_basis": "R5 leader (1) + R4 denominator (8) + R3 denominator (36) + R2 denominator (7) + R1 denominator (46)",
     "raw_section_indicators": {
       "R4": "2/8",
@@ -27,10 +27,11 @@
       "R1": "1/46"
     },
     "observed_named_players": 98,
-    "power_records": 97,
-    "capture_complete": false,
-    "coverage_note": "All 98 currently identified members appear by name, including Monte Verde1 in the officer header only. Monte formal rank, power, HQ and activity remain null. BECCK is provisionally matched to historical p078 (BECK), with identity_uncertain=true.",
-    "excluded_evidence": "The ntu9 / War God BaRR overview and duel scores are not DESO member or alliance power data and are excluded."
+    "power_records": 98,
+    "capture_complete": true,
+    "coverage_note": "All 98 identified members have power, HQ, rank and activity observations. Monte Verde1 missing fields were completed from a supplemental same-day screenshot. BECCK remains provisionally matched to historical p078 (BECK), with identity_uncertain=true. Official DESO alliance power was not captured.",
+    "excluded_evidence": "The ntu9 / War God BaRR overview and duel scores are not DESO member or alliance power data and are excluded.",
+    "supplement_policy": "The supplemental screenshot fills the previously unknown Monte Verde1 fields only. Different later same-day values visible for other players do not overwrite their existing daily observations."
   },
   "observations": [
     {
@@ -84,17 +85,17 @@
     {
       "player_id": "p005",
       "name": "Monte Verde1",
-      "rank": null,
-      "power_m": null,
-      "base_level": null,
-      "last_seen": null,
-      "last_seen_minutes": null,
-      "online_at_capture": null,
+      "rank": "R4",
+      "power_m": 93.7,
+      "base_level": 30,
+      "last_seen": "10h",
+      "last_seen_minutes": 600,
+      "online_at_capture": false,
       "visible": true,
-      "source": "User screenshots 2026-10-21, officer header: name and Goddess role visible. Individual member row not captured; formal rank, HQ, power and activity unknown.",
+      "source": "User supplemental DESO R4 roster screenshot dated 2026-10-21: Monte Verde1 complete member row. Supplements fields absent from earlier capture.",
       "profile": {
         "displayed_officer_role": "Goddess",
-        "observation_scope": "officer header only"
+        "observation_scope": "Officer header and supplemental complete member row"
       }
     },
     {
