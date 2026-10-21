@@ -17,9 +17,9 @@
       "R2": 7,
       "R1": 46
     },
-    "alliance_power": null,
-    "source": "DESO roster screenshots dated 2026-10-21, batches 1 and 2, leader profile and supplemental Monte Verde1 row. Member count 98 is derived from rank-section totals plus R5, not a separate alliance overview.",
-    "reported_members_basis": "R5 leader (1) + R4 denominator (8) + R3 denominator (36) + R2 denominator (7) + R1 denominator (46)",
+    "alliance_power": 5874736732,
+    "source": "DESO roster screenshots dated 2026-10-21, batches 1 and 2, leader profile, supplemental Monte Verde1 row and DESO alliance overview. Official power and member count are directly observed in the overview.",
+    "reported_members_basis": "Direct DESO alliance overview screenshot: 98/100 members",
     "raw_section_indicators": {
       "R4": "2/8",
       "R3": "4/36",
@@ -29,9 +29,11 @@
     "observed_named_players": 98,
     "power_records": 98,
     "capture_complete": true,
-    "coverage_note": "All 98 identified members have power, HQ, rank and activity observations. Monte Verde1 missing fields were completed from a supplemental same-day screenshot. BECCK remains provisionally matched to historical p078 (BECK), with identity_uncertain=true. Official DESO alliance power was not captured.",
+    "coverage_note": "All 98 identified members have power, HQ, rank and activity observations. Monte Verde1 was completed from a supplemental same-day screenshot. Official DESO alliance power is 5,874,736,732, distinct from the individual-record sum of 5,865,100,000. BECCK remains provisionally matched to historical p078 (BECK), with identity_uncertain=true.",
     "excluded_evidence": "The ntu9 / War God BaRR overview and duel scores are not DESO member or alliance power data and are excluded.",
-    "supplement_policy": "The supplemental screenshot fills the previously unknown Monte Verde1 fields only. Different later same-day values visible for other players do not overwrite their existing daily observations."
+    "supplement_policy": "The supplemental screenshot fills the previously unknown Monte Verde1 fields only. Different later same-day values visible for other players do not overwrite their existing daily observations.",
+    "reported_member_capacity": 100,
+    "official_overview_source": "User DESO / Death Soldiers alliance overview screenshot supplied for 2026-10-21: leader Dogs R Big x2, power 5,874,736,732, members 98/100"
   },
   "observations": [
     {
