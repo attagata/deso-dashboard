@@ -12,9 +12,9 @@
   "summary": {
     "reported_members": null,
     "alliance_power": null,
-    "observed_named_players": 100,
+    "observed_named_players": 99,
     "power_records": 99,
-    "source": "Administrator-supplied daily JSON with 99 complete rows, supplemented by administrator confirmation of JJ Matos presence, AndretTiba spelling and M15A3L departure. No independent official alliance overview supplied for this date.",
+    "source": "Administrator-supplied daily JSON with 99 complete rows, supplemented by confirmed spelling/identity matches, three confirmed new members, and confirmed departures of M15A3L and JJ Matos. No independent official alliance overview supplied for this date.",
     "imported_summary": {
       "total_records": 99,
       "ranks": {
@@ -26,10 +26,15 @@
       },
       "flagged_inactive_5plus_days": 4
     },
-    "coverage_note": "99 complete roster measurements plus administrator-confirmed JJ Matos presence (power, HQ, rank and activity null): 100 named current members. One explicit unobserved row records confirmed departed M15A3L. AndretTiba identity is confirmed; five other identity associations remain provisional. Source archive and imported_summary retain the original 99-row payload.",
+    "coverage_note": "99 current members with complete power, HQ, rank and activity observations. All identity matches in this daily file are confirmed. Three first-observed players are administrator-confirmed new members; exact join dates unknown. M15A3L and JJ Matos have confirmed departures with unknown effective dates. Source archive and imported_summary retain the original payload.",
     "source_archive": "source-data/deso_2026-10-22.json",
-    "administrator_confirmed_presence_only": 1,
-    "additional_confirmation_note": "JJ Matos remains a member; no measurement from earlier dates was copied. The named-presence count combines supplied roster rows and administrator confirmation, not an independently captured game heading."
+    "administrator_confirmed_presence_only": 0,
+    "additional_confirmation_note": "Administrator corrected the earlier JJ Matos presence statement to confirmed departure; confirmed JJ110QT / historical JJ10QT and adrianinhow / historical Adriannihow identities; confirmed メANGELメ, Irving XeroTemor and Pauloaugustoferreira as new members.",
+    "confirmed_new_member_ids": [
+      "p104",
+      "p105",
+      "p106"
+    ]
   },
   "observations": [
     {
@@ -1111,9 +1116,10 @@
           "status": "offline",
           "inactivity_flag": false
         },
-        "identity_match_note": "Provisional match to historical p048 based on similar name and compatible rank/HQ; exact identity confirmation pending. No prior names changed."
+        "identity_match_note": "Administrator confirmed JJ110QT is the same historical player p048, previously recorded as JJ10QT. Earlier dated names remain unchanged.",
+        "identity_confirmed_on": "2026-10-22"
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     },
     {
       "player_id": "p049",
@@ -1740,7 +1746,7 @@
     },
     {
       "player_id": "p077",
-      "name": "Adrianinhow",
+      "name": "adrianinhow",
       "rank": "R1",
       "power_m": 44.8,
       "base_level": 27,
@@ -1759,9 +1765,10 @@
           "status": "offline",
           "inactivity_flag": false
         },
-        "identity_match_note": "Provisional match to historical p077 based on similar name and compatible rank/HQ; exact identity confirmation pending. No prior names changed."
+        "identity_match_note": "Administrator confirmed the correct spelling adrianinhow for historical player p077, previously recorded as Adriannihow. Earlier dated names remain unchanged.",
+        "identity_confirmed_on": "2026-10-22"
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     },
     {
       "player_id": "p078",
@@ -1900,12 +1907,14 @@
       "last_seen": null,
       "last_seen_minutes": null,
       "online_at_capture": null,
-      "visible": true,
-      "source": "Administrator confirmed the existing name JJ Matos and current alliance presence on 2026-10-22. No selected-date roster measurements supplied; power, HQ, rank and activity remain unknown.",
+      "visible": false,
+      "source": "Administrator corrected the earlier presence statement and confirmed JJ Matos has left the alliance. Confirmation recorded on 2026-10-22; actual departure date unknown. No selected-date measurements supplied.",
       "profile": {
-        "membership_confirmed_by_administrator": true,
-        "observation_scope": "Confirmed named presence only; not a measured roster row"
-      }
+        "departure_confirmed_by_administrator": true,
+        "observation_scope": "Confirmed departure; no measured selected-date roster row",
+        "correction_note": "Administrator revised the earlier claim that JJ Matos was still present. Historical observations remain preserved."
+      },
+      "membership_status": "departed"
     },
     {
       "player_id": "p085",
@@ -2296,9 +2305,12 @@
           "status": "online",
           "inactivity_flag": false
         },
-        "identity_match_note": "First observed nickname assigned a distinct internal ID. Whether this is a newly joined player or a renamed existing member is unknown; alias confirmation pending."
+        "identity_match_note": "Administrator confirmed メANGELメ is a new member, not a renamed existing member. Exact join date not supplied.",
+        "identity_confirmed_on": "2026-10-22",
+        "membership_classification": "new member confirmed by administrator",
+        "exact_join_date": null
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     },
     {
       "player_id": "p105",
@@ -2321,9 +2333,12 @@
           "status": "offline",
           "inactivity_flag": false
         },
-        "identity_match_note": "First observed nickname assigned a distinct internal ID. Whether this is a newly joined player or a renamed existing member is unknown; alias confirmation pending."
+        "identity_match_note": "Administrator confirmed Irving XeroTemor is a new member, not a renamed existing member. Exact join date not supplied.",
+        "identity_confirmed_on": "2026-10-22",
+        "membership_classification": "new member confirmed by administrator",
+        "exact_join_date": null
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     },
     {
       "player_id": "p106",
@@ -2346,9 +2361,12 @@
           "status": "offline",
           "inactivity_flag": false
         },
-        "identity_match_note": "First observed nickname assigned a distinct internal ID. Whether this is a newly joined player or a renamed existing member is unknown; alias confirmation pending."
+        "identity_match_note": "Administrator confirmed Pauloaugustoferreira is a new member, not a renamed existing member. Exact join date not supplied.",
+        "identity_confirmed_on": "2026-10-22",
+        "membership_classification": "new member confirmed by administrator",
+        "exact_join_date": null
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     }
   ],
   "membership_events": [
@@ -2364,6 +2382,15 @@
         "Misael",
         "M15a3l"
       ]
+    },
+    {
+      "event_type": "departure",
+      "player_id": "p084",
+      "name": "JJ Matos",
+      "recorded_on": "2026-10-22",
+      "effective_date": null,
+      "previous_rank": "R3",
+      "source": "Administrator confirmation: JJ Matos has left the alliance. This corrects the previous presence statement; exact departure date not provided."
     }
   ],
   "import_source": {
@@ -2376,8 +2403,8 @@
   "data_policy": {
     "date": "2026-10-22 as explicitly assigned by the administrator.",
     "normalization": "nickname→name; power_million→power_m; level→base_level. English elapsed phrases mapped to m/h/d and nominal minutes; original rows retained verbatim in profile.imported_record and source archive.",
-    "membership": "Administrator confirmed M15A3L departure, recorded on 2026-10-22 with effective date unknown, and confirmed JJ Matos current presence without current measurements. Other absent players remain unobserved unless departure is explicitly confirmed.",
-    "identity": "Exact historical names reuse stable IDs. Administrator confirmed AndretTiba/p056 spelling. Two remaining spelling variants and three first-observed nicknames retain identity uncertainty pending alias review.",
+    "membership": "Administrator confirmed M15A3L and JJ Matos departures, recorded on 2026-10-22 with effective dates unknown. Three new members are confirmed, without exact join dates. Missing players without confirmed departures remain unobserved.",
+    "identity": "Historical stable IDs are preserved. Administrator confirmed AndretTiba/p056, JJ110QT/p048 and adrianinhow/p077, and confirmed the three new identities p104, p105 and p106. Earlier names and raw imported rows remain unchanged.",
     "official_power": "No official alliance power or independent heading member count supplied for this date. Values from earlier dates are not reused."
   }
 }
