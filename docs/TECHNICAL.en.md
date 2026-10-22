@@ -4,7 +4,7 @@
 
 Project version: 1.0.0 · Daily schema: 2 · Reference: implementation published in October 2026.
 
-Language: English (EN) · [Português (PT)](TECHNICAL.md) · Documentation revision: 2026-10-20.
+Language: English (EN) · [Português (PT)](TECHNICAL.md) · Documentation revision: 2026-10-22.
 
 The PT and EN versions are maintained together for improvements and fixes, following the [maintenance policy](#15-bilingual-documentation-maintenance).
 
@@ -19,7 +19,7 @@ A public, read-only dashboard for members of the DESO / Death Soldiers alliance,
 
 The production interface is in English. Player names and source metadata are preserved. A parallel Portuguese version of this documentation supports maintenance by the administrator.
 
-The website does not modify the game, execute administrative decisions or process screenshots. Screenshot extraction and data review take place externally, with ChatGPT and the administrator. There is no backend, database, authentication, external API, Docker or paid service.
+The website does not modify the game, execute administrative decisions or process screenshots. Screenshot extraction and data review take place externally, with ChatGPT and the administrator. There is no application backend, database, authentication, external processing API for alliance data, Docker or paid infrastructure. The approved exception to local-only requests is the FreeCounterStat counter described in section 16.
 
 ## 2. Architecture
 
@@ -33,6 +33,7 @@ flowchart TD
     F --> G[GitHub Pages: HTML, CSS, JS and JSON]
     G --> H[Browser: validation and normalization]
     H --> I[Calculations, filters, tables and charts]
+    H -.-> J[FreeCounterStat: external visit counter]
 ```
 
 GitHub Actions is used only to build, verify and publish static files. All calculations displayed on the dashboard run in the browser. The local Vite server is a development tool, not a dependency of the published application.
@@ -50,7 +51,8 @@ GitHub Actions is used only to build, verify and publish static files. All calcu
 | Navigation | URL fragment, `location.hash` | Profiles support direct refreshes on GitHub Pages |
 | Tests | `node:test` and `node:assert/strict` | No additional test dependency |
 | Tooling runtime | Node.js 24 and npm | Running tests and the TypeScript validator |
-| Publication | Official GitHub Pages actions | No additional infrastructure |
+| Publication | Official GitHub Pages actions | No additional application infrastructure |
+| Counter | Asynchronous FreeCounterStat embed | Approximate counting as an approved external exception |
 
 Exact installed versions are pinned in [package-lock.json](../package-lock.json). Declared version ranges are in [package.json](../package.json).
 
@@ -58,6 +60,7 @@ Exact installed versions are pinned in [package-lock.json](../package-lock.json)
 
 | File or directory | Responsibility |
 | --- | --- |
+| `index.html` | Static document, React root and external counter at the bottom of the page |
 | `src/main.tsx` | Mounting the application in `StrictMode` and importing CSS |
 | `src/App.tsx` | Loading, minimal shared state, hash routing, date selection, navigation and footer credits |
 | `src/components/Dashboard.tsx` | Metrics, top 10, rank movements and guidelines |
@@ -326,7 +329,7 @@ To undo an incorrect update, prefer a new commit that reverts the change, preser
 
 ## 12. Security, limitations and maintenance
 
-Published data is public by design. JSX renders names as text; no arbitrary HTML is supplied by JSON files. The loader restricts manifest filenames to the date pattern and uses only the website's own static assets and data. Third-party dependencies remain subject to their own licenses and should be reviewed when updating the lockfile.
+Published data is public by design. JSX renders names as text; no arbitrary HTML is supplied by JSON files. The alliance data loader restricts manifest filenames to the date pattern and uses only the website's own static data. Separately, the approved counter loads third-party scripts and images as described in section 16. Third-party dependencies remain subject to their own licenses and should be reviewed when updating the lockfile.
 
 All JSON files are loaded into memory on each opening. Cost grows with the number of captures and players. Current volume is small; for a much larger history, consider build-generated static summaries and on-demand loading, keeping the same architecture without a backend.
 
@@ -430,3 +433,33 @@ The same instruction is persisted in [AGENTS.md](../AGENTS.md) for future reposi
 | Date | Improvement or correction | PT/EN status |
 | --- | --- | --- |
 | 2026-10-20 | Added the complete parallel English reference, reciprocal language navigation and the persistent bilingual maintenance policy; clarified original versus performance test counts | Both versions updated |
+| 2026-10-22 | Added the FreeCounterStat counter at the bottom of the page, with one script load per document, a no-JavaScript fallback and documentation of the external exception, cookies and counting limitations | Both versions updated |
+
+
+## 16. Simple visit counter
+
+### Integration and placement
+
+The owner-supplied FreeCounterStat code is included in `index.html`, in a `<footer class="visit-counter">` after `#root`, below the application's footer credited to **Anderson Tagata — ATTecnologies, 2026**. The visible label is **Visits**, keeping the interface in English. Responsive styling lives in `src/styles.css` and follows the sidebar widths on desktop and mobile.
+
+The container retains ID `sfc13h5wuu6cn83gb5hd9tq3y79lcaht6g9` and the counter uses `13h5wuu6cn83gb5hd9tq3y79lcaht6g9`. The original script remains asynchronous, with `down=async`. The attribution link and fallback image inside `noscript` are preserved. An error handler scoped to the container also reuses that same fallback URL if the vendor-generated main image fails. It does not react to the separate pixel or retry indefinitely. The counter is outside the React-controlled DOM: double mounting in StrictMode, date changes, filtering and hash navigation do not reinsert the script. Each full document load requests the script once; the provider decides how to classify and accumulate visits.
+
+### Requests and storage
+
+| Resource | Address |
+| --- | --- |
+| Owner-supplied script | `https://counter6.optistats.ovh/private/counter.js?c=13h5wuu6cn83gb5hd9tq3y79lcaht6g9&down=async` |
+| Fallback image without JavaScript | `https://counter6.optistats.ovh/private/freecounterstat.php?c=13h5wuu6cn83gb5hd9tq3y79lcaht6g9` |
+| Image created by the current vendor script | `https://counter6.freecounterstat.com/private/counter.php` |
+| Pixel used by the current vendor script | `https://counter6.optistats.ovh:4433/private/pointeur/pointeur.gif` |
+| Attribution and external configuration | `https://www.freecounterstat.com` |
+
+The total and settings belong to the external service. They are not stored in GitHub Pages, JSON files or an application backend. This is an owner-authorized exception to the original local-only request rule; alliance data and calculations remain independent of the counter.
+
+### Behavior and limitations
+
+The vendor script inspected during integration uses cookies and may send the current URL, including a profile hash, referrer and browser/display information, along with normal connection information such as IP address. The application does not deliberately send roster JSONs or add login, but the script executes in the page context. Do not claim that the integration is cookie-free or guarantees anonymity. The provider can change the script, requests and counting criteria.
+
+The count is approximate: reloads may be counted or deduplicated by the service; cookies, caching, blockers and bots may affect it. The image fallback may generate an additional provider request. There is no accuracy guarantee or promise to recover visits before installation. Asynchronous loading does not block dashboard rendering; if the provider is unavailable or blocked, the counter may remain blank while alliance features continue to work.
+
+To remove the integration, remove the `visit-counter` block from `index.html` and its CSS rules. No data or calculation changes are required. To change appearance or identifier, obtain a new embed from the provider and review both documentation versions.

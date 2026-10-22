@@ -10,7 +10,7 @@ A public, read-only command center for **DESO / Death Soldiers**, server 2052, i
 
 ## Architecture
 
-React 19 + TypeScript strict mode + Vite, Recharts, plain CSS. GitHub Pages serves the compiled application and versioned daily JSON files. The browser loads the data and performs all calculations. There is no database, authentication, application server, external API, tracking, browser persistence or paid service. Hash URLs support direct refreshes, for example `/deso-dashboard/#/member/p001?date=2026-10-20`.
+React 19 + TypeScript strict mode + Vite, Recharts, plain CSS. GitHub Pages serves the compiled application and versioned daily JSON files. The browser loads the data and performs all calculations. There is no database, authentication, application server, external processing API for alliance data, authoritative browser persistence or paid infrastructure. The owner-approved exception to local-only requests is a FreeCounterStat visit counter, described below. Hash URLs support direct refreshes, for example `/deso-dashboard/#/member/p001?date=2026-10-20`.
 
 ```text
 public/data/YYYY-MM-DD.json    One capture per day; source of production statistics
@@ -167,6 +167,16 @@ Automated tests cover real capture totals, historical power differences and perc
 
 The initial dataset has only three capture dates. Captures can be incomplete, displayed power is rounded, matching names is not always conclusive, first/last observations do not prove join/exit dates, and snapshot evidence does not establish exact administrative action times. All daily files are loaded into memory; this is suitable for the current small roster, but a long history may eventually benefit from a generated static summary and on-demand historical loading. There is no upload/edit UI or screenshot OCR in the website: ChatGPT and the administrator handle extraction externally.
 
-The layout targets iPhone Safari and Android Chrome with native selects, touch-sized controls, responsive cards and horizontal table scrolling. Device emulation is useful, but final confirmation on a physical iPhone is still recommended. The interface uses system fonts and local assets, so it makes no external font/image/API requests.
+The layout targets iPhone Safari and Android Chrome with native selects, touch-sized controls, responsive cards and horizontal table scrolling. Device emulation is useful, but final confirmation on a physical iPhone is still recommended. The dashboard uses system fonts and local assets for alliance features. The approved FreeCounterStat counter additionally loads external scripts/images; it is not a source of alliance data.
 
 Possible future improvements: additional accessible chart comparisons, a documented offline screenshot-import helper, and a human-reviewed identity alias list. None requires server infrastructure.
+
+## Simple visit counter
+
+The owner-supplied FreeCounterStat embed appears at the very bottom of each page, below the React application and its credited footer. It is declared in `index.html`, outside `#root`, so React StrictMode, filtering, date selection and hash/profile navigation do not reload the script. A full document load requests the asynchronous vendor script once; the provider determines whether a request counts as a new visit. This is an approximate counter, not an exact count of people or alliance members.
+
+The embed uses counter ID `13h5wuu6cn83gb5hd9tq3y79lcaht6g9`, the original attribution link, and the supplied `noscript` image fallback. A scoped image-error handler also reuses that same fallback URL if the vendor-generated main image fails; it does not retry repeatedly or react to the separate tracking pixel. Its CSS lives in `src/styles.css`. The script comes from `counter6.optistats.ovh`; the current vendor code also loads a counter image from `counter6.freecounterstat.com` and a tracking pixel from `counter6.optistats.ovh:4433`. Counter configuration and stored counts belong to the provider, not to GitHub Pages or the roster JSONs.
+
+This is an explicitly approved exception to the original no-external-requests requirement. The vendor script uses cookies and may send the current URL (including a profile hash), referrer and browser/display information, in addition to normal connection information such as IP address. The app does not deliberately send roster JSONs or add user authentication, but the script executes in the page context. Do not describe this integration as cookie-free or as guaranteed anonymous. The provider can change its script and counting behavior. An image fallback may issue an additional provider request; counts remain approximate.
+
+The dashboard renders independently of the asynchronous counter. Blocking or losing access to the service may leave the counter blank without blocking alliance features. Browser caching, cookies, blockers and bots may affect counts; no accuracy guarantee or historical count before installation is assumed. Removing the `visit-counter` footer block from `index.html` and its CSS removes this integration without changing alliance data or calculations.

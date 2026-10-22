@@ -4,7 +4,7 @@
 
 Versão do projeto: 1.0.0 · Schema diário: 2 · Referência: implementação publicada em outubro de 2026.
 
-Idioma: Português (PT) · [English (EN)](TECHNICAL.en.md) · Revisão documental: 2026-10-20.
+Idioma: Português (PT) · [English (EN)](TECHNICAL.en.md) · Revisão documental: 2026-10-22.
 
 As versões PT e EN são mantidas em conjunto para melhorias e correções, conforme a [política de manutenção](#15-manutenção-da-documentação-bilíngue).
 
@@ -19,7 +19,7 @@ Painel público, somente leitura, para acompanhar os membros da aliança DESO / 
 
 A interface de produção é em inglês. Nomes de jogadores e metadados das fontes são preservados. Esta documentação é em português para facilitar a manutenção pelo administrador.
 
-O site não modifica o jogo, não executa decisões administrativas e não processa screenshots. A extração das capturas e a revisão dos dados acontecem externamente, com ChatGPT e o administrador. Não há backend, banco de dados, autenticação, API externa, Docker ou serviço pago.
+O site não modifica o jogo, não executa decisões administrativas e não processa screenshots. A extração das capturas e a revisão dos dados acontecem externamente, com ChatGPT e o administrador. Não há backend próprio, banco de dados, autenticação, API externa de processamento dos dados da aliança, Docker ou infraestrutura paga. A exceção aprovada às requisições somente locais é o contador FreeCounterStat, descrito na seção 16.
 
 ## 2. Arquitetura
 
@@ -33,6 +33,7 @@ flowchart TD
     F --> G[GitHub Pages: HTML, CSS, JS e JSON]
     G --> H[Navegador: validação e normalização]
     H --> I[Cálculos, filtros, tabelas e gráficos]
+    H -.-> J[FreeCounterStat: contador externo de visitas]
 ```
 
 GitHub Actions é usado apenas para construir, verificar e publicar arquivos estáticos. Todos os cálculos exibidos no dashboard são executados no navegador. O servidor local do Vite é uma ferramenta de desenvolvimento, não uma dependência da aplicação publicada.
@@ -50,7 +51,8 @@ GitHub Actions é usado apenas para construir, verificar e publicar arquivos est
 | Navegação | Fragmento da URL, `location.hash` | Perfis podem ser atualizados diretamente no GitHub Pages |
 | Testes | `node:test` e `node:assert/strict` | Sem dependência adicional de testes |
 | Runtime de ferramentas | Node.js 24 e npm | Execução dos testes e do validador TypeScript |
-| Publicação | Actions oficiais do GitHub Pages | Sem infraestrutura adicional |
+| Publicação | Actions oficiais do GitHub Pages | Sem infraestrutura própria adicional |
+| Contador | Embed assíncrono FreeCounterStat | Contagem aproximada, como exceção externa aprovada |
 
 As versões exatas instaladas são fixadas em [package-lock.json](../package-lock.json). As faixas declaradas estão em [package.json](../package.json).
 
@@ -58,6 +60,7 @@ As versões exatas instaladas são fixadas em [package-lock.json](../package-loc
 
 | Arquivo ou diretório | Responsabilidade |
 | --- | --- |
+| `index.html` | Documento estático, raiz React e contador externo no fim da página |
 | `src/main.tsx` | Montagem da aplicação em `StrictMode` e importação do CSS |
 | `src/App.tsx` | Carregamento, estado global mínimo, hash routing, seleção de data, navegação e rodapé com créditos |
 | `src/components/Dashboard.tsx` | Indicadores, top 10, movimentos de rank e diretrizes |
@@ -326,7 +329,7 @@ Para desfazer uma atualização incorreta, preferir um novo commit que reverta a
 
 ## 12. Segurança, limites e manutenção
 
-Os dados publicados são públicos por definição. O JSX renderiza nomes como texto; não há HTML arbitrário fornecido pelos JSONs. O loader restringe arquivos do manifesto ao padrão de data e utiliza apenas assets e dados estáticos do próprio site. Dependências de terceiros continuam sujeitas a suas próprias licenças e devem ser revisadas ao atualizar o lockfile.
+Os dados publicados são públicos por definição. O JSX renderiza nomes como texto; não há HTML arbitrário fornecido pelos JSONs. O loader de dados da aliança restringe arquivos do manifesto ao padrão de data e utiliza somente dados estáticos do próprio site. Separadamente, o contador aprovado carrega script e imagens de terceiros, conforme a seção 16. Dependências de terceiros continuam sujeitas a suas próprias licenças e devem ser revisadas ao atualizar o lockfile.
 
 Todos os JSONs são carregados em memória a cada abertura. O custo cresce com o número de capturas e jogadores. O volume atual é pequeno; para um histórico muito maior, considerar resumos estáticos gerados no build e carregamento sob demanda, mantendo o mesmo modelo sem backend.
 
@@ -430,3 +433,33 @@ A mesma instrução está registrada em [AGENTS.md](../AGENTS.md) para trabalhos
 | Data | Melhoria ou correção | Situação PT/EN |
 | --- | --- | --- |
 | 2026-10-20 | Adicionada a referência paralela completa em inglês, a navegação recíproca de idiomas e a política persistente de manutenção bilíngue; esclarecida a contagem de testes originais e de desempenho | Duas versões atualizadas |
+| 2026-10-22 | Adicionado o contador FreeCounterStat no fim da página, com script único por carregamento, fallback sem JavaScript e documentação da exceção externa, cookies e limites de contagem | Duas versões atualizadas |
+
+
+## 16. Contador simples de visitas
+
+### Integração e posição
+
+O código fornecido pelo proprietário para FreeCounterStat foi inserido em `index.html`, num `<footer class="visit-counter">` depois de `#root`, abaixo do rodapé da aplicação com os créditos **Anderson Tagata — ATTecnologies, 2026**. O rótulo visível é **Visits**, mantendo a interface em inglês. O estilo responsivo fica em `src/styles.css` e acompanha as larguras da barra lateral no desktop e no celular.
+
+O container mantém o ID `sfc13h5wuu6cn83gb5hd9tq3y79lcaht6g9` e o contador usa `13h5wuu6cn83gb5hd9tq3y79lcaht6g9`. O script original permanece assíncrono, com `down=async`. Foram preservados o link de atribuição e a imagem alternativa dentro de `noscript`. Um handler de erro restrito ao container também reutiliza essa mesma URL alternativa se a imagem principal criada pelo fornecedor falhar. Ele não reage ao pixel separado e não repete tentativas indefinidamente. O contador fica fora do DOM controlado pelo React: montar componentes duas vezes em StrictMode, trocar data, filtrar membros ou navegar entre hashes não reinsere o script. Cada carregamento completo do documento solicita o script uma vez; o fornecedor decide como classificar e acumular as visitas.
+
+### Requisições e armazenamento
+
+| Recurso | Endereço |
+| --- | --- |
+| Script fornecido pelo proprietário | `https://counter6.optistats.ovh/private/counter.js?c=13h5wuu6cn83gb5hd9tq3y79lcaht6g9&down=async` |
+| Imagem alternativa sem JavaScript | `https://counter6.optistats.ovh/private/freecounterstat.php?c=13h5wuu6cn83gb5hd9tq3y79lcaht6g9` |
+| Imagem criada pelo script atual do fornecedor | `https://counter6.freecounterstat.com/private/counter.php` |
+| Pixel utilizado pelo script atual do fornecedor | `https://counter6.optistats.ovh:4433/private/pointeur/pointeur.gif` |
+| Atribuição e configuração externa | `https://www.freecounterstat.com` |
+
+O total e as configurações pertencem ao serviço externo. Não são gravados em GitHub Pages, nos JSONs ou em um backend próprio. Esta é uma exceção explicitamente autorizada pelo proprietário à regra original de requisições apenas locais; os dados e cálculos da aliança continuam independentes do contador.
+
+### Comportamento e limites
+
+O script do fornecedor consultado na integração usa cookies e pode enviar a URL atual, inclusive o hash de perfil, o referenciador e informações de navegador/tela, além dos dados normais da conexão, como IP. A aplicação não envia deliberadamente os JSONs do roster nem adiciona login, mas o script executa no contexto da página. Não afirmar que a integração é livre de cookies ou garante anonimato. O fornecedor pode alterar o script, as requisições e os critérios de contagem.
+
+A contagem é aproximada: recarregamentos podem ser contabilizados ou deduplicados pelo serviço; cookies, cache, bloqueadores e robôs podem afetá-la. O fallback de imagem pode gerar uma requisição adicional ao fornecedor. Não há promessa de precisão ou recuperação de acessos anteriores à instalação. O carregamento assíncrono não bloqueia a renderização do dashboard; se o fornecedor estiver indisponível ou bloqueado, o contador pode ficar vazio enquanto as funções da aliança continuam disponíveis.
+
+Para remover a integração, retirar o bloco `visit-counter` de `index.html` e as regras correspondentes do CSS. Não é necessário alterar os dados ou os cálculos. Para mudar a aparência ou o identificador, obter um novo embed no serviço e revisar as duas versões desta documentação.
