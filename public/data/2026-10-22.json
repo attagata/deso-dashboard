@@ -12,9 +12,9 @@
   "summary": {
     "reported_members": null,
     "alliance_power": null,
-    "observed_named_players": 99,
+    "observed_named_players": 100,
     "power_records": 99,
-    "source": "Administrator-supplied daily JSON; summary counts describe extracted rows, not a separately supplied official alliance overview.",
+    "source": "Administrator-supplied daily JSON with 99 complete rows, supplemented by administrator confirmation of JJ Matos presence, AndretTiba spelling and M15A3L departure. No independent official alliance overview supplied for this date.",
     "imported_summary": {
       "total_records": 99,
       "ranks": {
@@ -26,8 +26,10 @@
       },
       "flagged_inactive_5plus_days": 4
     },
-    "coverage_note": "99 supplied complete member records normalized without copying prior-date values. Six identity matches require review: three spelling variants and three first-observed nicknames. No missing player is classified as departed.",
-    "source_archive": "source-data/deso_2026-10-22.json"
+    "coverage_note": "99 complete roster measurements plus administrator-confirmed JJ Matos presence (power, HQ, rank and activity null): 100 named current members. One explicit unobserved row records confirmed departed M15A3L. AndretTiba identity is confirmed; five other identity associations remain provisional. Source archive and imported_summary retain the original 99-row payload.",
+    "source_archive": "source-data/deso_2026-10-22.json",
+    "administrator_confirmed_presence_only": 1,
+    "additional_confirmation_note": "JJ Matos remains a member; no measurement from earlier dates was copied. The named-presence count combines supplied roster rows and administrator confirmation, not an independently captured game heading."
   },
   "observations": [
     {
@@ -1276,7 +1278,7 @@
     },
     {
       "player_id": "p056",
-      "name": "AndreiTiba",
+      "name": "AndretTiba",
       "rank": "R1",
       "power_m": 38.2,
       "base_level": 23,
@@ -1284,7 +1286,7 @@
       "last_seen_minutes": 120,
       "online_at_capture": false,
       "visible": true,
-      "source": "Administrator-supplied JSON assigned to 2026-10-22; referenced screenshots IMG_6896.jpeg–IMG_6914.jpeg were not independently re-read during this import. Original record preserved in profile.imported_record.",
+      "source": "Administrator-supplied JSON assigned to 2026-10-22; referenced screenshots IMG_6896.jpeg–IMG_6914.jpeg were not independently re-read during this import. Original record preserved in profile.imported_record. Administrator corrected the displayed name to AndretTiba.",
       "profile": {
         "imported_record": {
           "nickname": "AndreiTiba",
@@ -1295,9 +1297,9 @@
           "status": "offline",
           "inactivity_flag": false
         },
-        "identity_match_note": "Provisional match to historical p056 based on similar name and compatible rank/HQ; exact identity confirmation pending. No prior names changed."
+        "identity_match_note": "Administrator confirmed the correct name AndretTiba and historical identity p056. Original imported nickname AndreiTiba is retained in imported_record for audit."
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     },
     {
       "player_id": "p057",
@@ -1877,6 +1879,35 @@
       }
     },
     {
+      "player_id": "p083",
+      "name": "M15A3L",
+      "rank": null,
+      "power_m": null,
+      "base_level": null,
+      "last_seen": null,
+      "last_seen_minutes": null,
+      "online_at_capture": null,
+      "visible": false,
+      "membership_status": "departed",
+      "source": "Administrator confirmed this player, also referred to as Misael, is no longer in the alliance. Departure recorded on 2026-10-22; actual departure date unknown."
+    },
+    {
+      "player_id": "p084",
+      "name": "JJ Matos",
+      "rank": null,
+      "power_m": null,
+      "base_level": null,
+      "last_seen": null,
+      "last_seen_minutes": null,
+      "online_at_capture": null,
+      "visible": true,
+      "source": "Administrator confirmed the existing name JJ Matos and current alliance presence on 2026-10-22. No selected-date roster measurements supplied; power, HQ, rank and activity remain unknown.",
+      "profile": {
+        "membership_confirmed_by_administrator": true,
+        "observation_scope": "Confirmed named presence only; not a measured roster row"
+      }
+    },
+    {
       "player_id": "p085",
       "name": "MDOliveira",
       "rank": "R1",
@@ -2320,7 +2351,21 @@
       "identity_uncertain": true
     }
   ],
-  "membership_events": [],
+  "membership_events": [
+    {
+      "event_type": "departure",
+      "player_id": "p083",
+      "name": "M15A3L",
+      "recorded_on": "2026-10-22",
+      "effective_date": null,
+      "previous_rank": "R1",
+      "source": "Administrator confirmation: M15A3L / Misael is no longer in the alliance. Effective departure date not provided.",
+      "aliases_supplied_by_administrator": [
+        "Misael",
+        "M15a3l"
+      ]
+    }
+  ],
   "import_source": {
     "screenshots": 19,
     "files": "IMG_6896.jpeg–IMG_6914.jpeg",
@@ -2331,8 +2376,8 @@
   "data_policy": {
     "date": "2026-10-22 as explicitly assigned by the administrator.",
     "normalization": "nickname→name; power_million→power_m; level→base_level. English elapsed phrases mapped to m/h/d and nominal minutes; original rows retained verbatim in profile.imported_record and source archive.",
-    "membership": "No departure or rejoin events were supplied. Missing observations remain unobserved, not departed. Newly observed nicknames do not establish join dates.",
-    "identity": "Exact historical names reuse their stable IDs. Similar spellings are provisionally matched; first-observed names get new IDs with identity uncertainty pending alias review.",
+    "membership": "Administrator confirmed M15A3L departure, recorded on 2026-10-22 with effective date unknown, and confirmed JJ Matos current presence without current measurements. Other absent players remain unobserved unless departure is explicitly confirmed.",
+    "identity": "Exact historical names reuse stable IDs. Administrator confirmed AndretTiba/p056 spelling. Two remaining spelling variants and three first-observed nicknames retain identity uncertainty pending alias review.",
     "official_power": "No official alliance power or independent heading member count supplied for this date. Values from earlier dates are not reused."
   }
 }
