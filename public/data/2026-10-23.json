@@ -26,7 +26,10 @@
       "flagged_inactive_5plus_days": 4
     },
     "source_archive": "source-data/deso_2026-10-23.json",
-    "coverage_note": "99 supplied observations. Xandao vr has a provisional identity pending new-member/rename confirmation. メANGELメ is unobserved; no departure inferred. No independent official alliance power or member count supplied."
+    "coverage_note": "99 supplied observations. Administrator confirmed Xandao vr as a new member and the departure of メANGELメ; exact join and departure dates are unknown. No independent official alliance power or member count supplied.",
+    "confirmed_new_member_ids": [
+      "p107"
+    ]
   },
   "observations": [
     {
@@ -2090,9 +2093,12 @@
           "status": "offline",
           "inactivity_flag": false
         },
-        "identity_match_note": "First observed under this name; no historical match found. New membership versus rename remains unconfirmed; no inferred join date."
+        "identity_match_note": "Administrator confirmed Xandao vr is a new member, not a renamed existing member. Exact join date not supplied.",
+        "identity_confirmed_on": "2026-10-23",
+        "membership_classification": "new member confirmed by administrator",
+        "exact_join_date": null
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     },
     {
       "player_id": "p088",
@@ -2407,7 +2413,17 @@
       "identity_uncertain": false
     }
   ],
-  "membership_events": [],
+  "membership_events": [
+    {
+      "event_type": "departure",
+      "player_id": "p104",
+      "name": "メANGELメ",
+      "recorded_on": "2026-10-23",
+      "effective_date": null,
+      "previous_rank": "R1",
+      "source": "Administrator confirmed メANGELメ has left the alliance. Exact departure date not provided."
+    }
+  ],
   "import_source": {
     "type": "screenshots",
     "files": [
@@ -2437,8 +2453,8 @@
   },
   "data_policy": {
     "normalization": "Original source archived unchanged. nickname→name, level→base_level, power_million→power_m. Portuguese elapsed activity normalized to m/h/d and nominal minutes; exact source text retained in imported_record. Online status stored separately.",
-    "identity": "Existing stable IDs retained. Adrianinhow matches adrianinhow/p077 by case-insensitive exact name. Xandao vr assigned provisional p107 with identity_uncertain=true; new membership or rename not asserted.",
-    "membership": "Missing observations do not establish departure. Prior confirmed departures remain in historical snapshots.",
+    "identity": "Existing stable IDs retained. Adrianinhow matches adrianinhow/p077 by case-insensitive exact name. Administrator confirmed Xandao vr/p107 is a new member, not a renamed player.",
+    "membership": "Administrator confirmed the departure of メANGELメ/p104, recorded on 2026-10-23 with effective date unknown. Xandao vr is confirmed new; exact join date unknown. Prior confirmed departures remain in historical snapshots. Other missing observations do not establish departure.",
     "official_power": "No official alliance total supplied; no earlier total reused."
   }
 }
