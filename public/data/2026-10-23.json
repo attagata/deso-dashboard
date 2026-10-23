@@ -1,0 +1,2444 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-23",
+  "timezone": "America/Sao_Paulo",
+  "alliance": {
+    "tag": "DeSo",
+    "name": "Death Soldiers",
+    "leader": "Dogs R Big x2",
+    "server": "2052",
+    "language": "Português"
+  },
+  "summary": {
+    "reported_members": null,
+    "alliance_power": null,
+    "observed_named_players": 99,
+    "power_records": 99,
+    "imported_summary": {
+      "total_records": 99,
+      "ranks": {
+        "R5": 1,
+        "R4": 8,
+        "R3": 35,
+        "R2": 7,
+        "R1": 48
+      },
+      "flagged_inactive_5plus_days": 4
+    },
+    "source_archive": "source-data/deso_2026-10-23.json",
+    "coverage_note": "99 supplied observations. Xandao vr has a provisional identity pending new-member/rename confirmation. メANGELメ is unobserved; no departure inferred. No independent official alliance power or member count supplied."
+  },
+  "observations": [
+    {
+      "player_id": "p091",
+      "name": "Dogs R Big x2",
+      "rank": "R5",
+      "power_m": 113.2,
+      "base_level": 29,
+      "last_seen": "3h",
+      "last_seen_minutes": 180,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Dogs R Big x2",
+          "rank": "R5",
+          "level": 29,
+          "power_million": 113.2,
+          "last_seen": "3 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p001",
+      "name": "ATT75",
+      "rank": "R4",
+      "power_m": 99.6,
+      "base_level": 30,
+      "last_seen": "online",
+      "last_seen_minutes": null,
+      "online_at_capture": true,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "ATT75",
+          "rank": "R4",
+          "level": 30,
+          "power_million": 99.6,
+          "last_seen": "online",
+          "status": "online",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p002",
+      "name": "MaquinaMortiferaX",
+      "rank": "R4",
+      "power_m": 102.7,
+      "base_level": 30,
+      "last_seen": "3m",
+      "last_seen_minutes": 3,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "MaquinaMortiferaX",
+          "rank": "R4",
+          "level": 30,
+          "power_million": 102.7,
+          "last_seen": "3 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p006",
+      "name": "Amilton123",
+      "rank": "R4",
+      "power_m": 97.7,
+      "base_level": 30,
+      "last_seen": "27m",
+      "last_seen_minutes": 27,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Amilton123",
+          "rank": "R4",
+          "level": 30,
+          "power_million": 97.7,
+          "last_seen": "27 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p004",
+      "name": "baiano moraes",
+      "rank": "R4",
+      "power_m": 83.1,
+      "base_level": 28,
+      "last_seen": "2h",
+      "last_seen_minutes": 120,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "baiano moraes",
+          "rank": "R4",
+          "level": 28,
+          "power_million": 83.1,
+          "last_seen": "2 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p005",
+      "name": "Monte Verde1",
+      "rank": "R4",
+      "power_m": 93.1,
+      "base_level": 30,
+      "last_seen": "2h",
+      "last_seen_minutes": 120,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Monte Verde1",
+          "rank": "R4",
+          "level": 30,
+          "power_million": 93.1,
+          "last_seen": "2 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p003",
+      "name": "LDX trop",
+      "rank": "R4",
+      "power_m": 122.8,
+      "base_level": 30,
+      "last_seen": "9h",
+      "last_seen_minutes": 540,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "LDX trop",
+          "rank": "R4",
+          "level": 30,
+          "power_million": 122.8,
+          "last_seen": "9 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p007",
+      "name": "garouone",
+      "rank": "R4",
+      "power_m": 91.1,
+      "base_level": 30,
+      "last_seen": "13h",
+      "last_seen_minutes": 780,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "garouone",
+          "rank": "R4",
+          "level": 30,
+          "power_million": 91.1,
+          "last_seen": "13 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p008",
+      "name": "Miotelo",
+      "rank": "R4",
+      "power_m": 29.3,
+      "base_level": 27,
+      "last_seen": "2d",
+      "last_seen_minutes": 2880,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Miotelo",
+          "rank": "R4",
+          "level": 27,
+          "power_million": 29.3,
+          "last_seen": "2 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p024",
+      "name": "DanTagata",
+      "rank": "R3",
+      "power_m": 83.9,
+      "base_level": 29,
+      "last_seen": "online",
+      "last_seen_minutes": null,
+      "online_at_capture": true,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "DanTagata",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 83.9,
+          "last_seen": "online",
+          "status": "online",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p027",
+      "name": "brunoxp01",
+      "rank": "R3",
+      "power_m": 87.2,
+      "base_level": 29,
+      "last_seen": "online",
+      "last_seen_minutes": null,
+      "online_at_capture": true,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "brunoxp01",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 87.2,
+          "last_seen": "online",
+          "status": "online",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p022",
+      "name": "Meliodas Evil",
+      "rank": "R3",
+      "power_m": 85.2,
+      "base_level": 30,
+      "last_seen": "online",
+      "last_seen_minutes": null,
+      "online_at_capture": true,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Meliodas Evil",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 85.2,
+          "last_seen": "online",
+          "status": "online",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p028",
+      "name": "Rafael kisseco",
+      "rank": "R3",
+      "power_m": 71.7,
+      "base_level": 24,
+      "last_seen": "1m",
+      "last_seen_minutes": 1,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Rafael kisseco",
+          "rank": "R3",
+          "level": 24,
+          "power_million": 71.7,
+          "last_seen": "1 minuto",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p009",
+      "name": "JessicaBR",
+      "rank": "R3",
+      "power_m": 97.7,
+      "base_level": 29,
+      "last_seen": "1m",
+      "last_seen_minutes": 1,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "JessicaBR",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 97.7,
+          "last_seen": "1 minuto",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p025",
+      "name": "Zaca base",
+      "rank": "R3",
+      "power_m": 85.0,
+      "base_level": 30,
+      "last_seen": "18m",
+      "last_seen_minutes": 18,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Zaca base",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 85.0,
+          "last_seen": "18 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p016",
+      "name": "MarechalRondon",
+      "rank": "R3",
+      "power_m": 108.3,
+      "base_level": 30,
+      "last_seen": "22m",
+      "last_seen_minutes": 22,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "MarechalRondon",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 108.3,
+          "last_seen": "22 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p030",
+      "name": "LOGAN25",
+      "rank": "R3",
+      "power_m": 86.4,
+      "base_level": 30,
+      "last_seen": "24m",
+      "last_seen_minutes": 24,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "LOGAN25",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 86.4,
+          "last_seen": "24 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p044",
+      "name": "mandaloriano",
+      "rank": "R3",
+      "power_m": 68.7,
+      "base_level": 29,
+      "last_seen": "31m",
+      "last_seen_minutes": 31,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "mandaloriano",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 68.7,
+          "last_seen": "31 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p018",
+      "name": "Padilha Boladona",
+      "rank": "R3",
+      "power_m": 98.0,
+      "base_level": 30,
+      "last_seen": "36m",
+      "last_seen_minutes": 36,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Padilha Boladona",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 98.0,
+          "last_seen": "36 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p017",
+      "name": "Sub ZeRo 007",
+      "rank": "R3",
+      "power_m": 116.9,
+      "base_level": 30,
+      "last_seen": "37m",
+      "last_seen_minutes": 37,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Sub ZeRo 007",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 116.9,
+          "last_seen": "37 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p021",
+      "name": "Jim Robert",
+      "rank": "R3",
+      "power_m": 102.1,
+      "base_level": 29,
+      "last_seen": "37m",
+      "last_seen_minutes": 37,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Jim Robert",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 102.1,
+          "last_seen": "37 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p020",
+      "name": "Renatobrittes",
+      "rank": "R3",
+      "power_m": 81.9,
+      "base_level": 29,
+      "last_seen": "38m",
+      "last_seen_minutes": 38,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Renatobrittes",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 81.9,
+          "last_seen": "38 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p019",
+      "name": "Portela Aldo",
+      "rank": "R3",
+      "power_m": 103.5,
+      "base_level": 30,
+      "last_seen": "38m",
+      "last_seen_minutes": 38,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Portela Aldo",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 103.5,
+          "last_seen": "38 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p039",
+      "name": "Matiassilva",
+      "rank": "R3",
+      "power_m": 42.1,
+      "base_level": 29,
+      "last_seen": "39m",
+      "last_seen_minutes": 39,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Matiassilva",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 42.1,
+          "last_seen": "39 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p029",
+      "name": "tixca",
+      "rank": "R3",
+      "power_m": 54.6,
+      "base_level": 29,
+      "last_seen": "39m",
+      "last_seen_minutes": 39,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "tixca",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 54.6,
+          "last_seen": "39 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p065",
+      "name": "qpato",
+      "rank": "R3",
+      "power_m": 80.8,
+      "base_level": 30,
+      "last_seen": "47m",
+      "last_seen_minutes": 47,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "qpato",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 80.8,
+          "last_seen": "47 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p046",
+      "name": "Natalina94",
+      "rank": "R3",
+      "power_m": 94.5,
+      "base_level": 30,
+      "last_seen": "51m",
+      "last_seen_minutes": 51,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Natalina94",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 94.5,
+          "last_seen": "51 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p031",
+      "name": "Cardalu",
+      "rank": "R3",
+      "power_m": 63.7,
+      "base_level": 27,
+      "last_seen": "1h",
+      "last_seen_minutes": 60,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Cardalu",
+          "rank": "R3",
+          "level": 27,
+          "power_million": 63.7,
+          "last_seen": "1 hora",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p014",
+      "name": "rancharias",
+      "rank": "R3",
+      "power_m": 84.0,
+      "base_level": 30,
+      "last_seen": "2h",
+      "last_seen_minutes": 120,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "rancharias",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 84.0,
+          "last_seen": "2 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p010",
+      "name": "mr llama08",
+      "rank": "R3",
+      "power_m": 88.0,
+      "base_level": 29,
+      "last_seen": "3h",
+      "last_seen_minutes": 180,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "mr llama08",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 88.0,
+          "last_seen": "3 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p092",
+      "name": "Naelton vejeve",
+      "rank": "R3",
+      "power_m": 78.7,
+      "base_level": 30,
+      "last_seen": "3h",
+      "last_seen_minutes": 180,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Naelton vejeve",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 78.7,
+          "last_seen": "3 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p013",
+      "name": "TnTzinhoO",
+      "rank": "R3",
+      "power_m": 87.2,
+      "base_level": 30,
+      "last_seen": "3h",
+      "last_seen_minutes": 180,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "TnTzinhoO",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 87.2,
+          "last_seen": "3 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p023",
+      "name": "Nathi0987",
+      "rank": "R3",
+      "power_m": 66.7,
+      "base_level": 28,
+      "last_seen": "6h",
+      "last_seen_minutes": 360,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Nathi0987",
+          "rank": "R3",
+          "level": 28,
+          "power_million": 66.7,
+          "last_seen": "6 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p038",
+      "name": "Pecansandies02560",
+      "rank": "R3",
+      "power_m": 71.8,
+      "base_level": 30,
+      "last_seen": "7h",
+      "last_seen_minutes": 420,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Pecansandies02560",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 71.8,
+          "last_seen": "7 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p011",
+      "name": "Rf 1",
+      "rank": "R3",
+      "power_m": 103.5,
+      "base_level": 30,
+      "last_seen": "8h",
+      "last_seen_minutes": 480,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Rf 1",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 103.5,
+          "last_seen": "8 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p034",
+      "name": "Dourado 666",
+      "rank": "R3",
+      "power_m": 124.5,
+      "base_level": 29,
+      "last_seen": "9h",
+      "last_seen_minutes": 540,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Dourado 666",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 124.5,
+          "last_seen": "9 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p012",
+      "name": "Albert Phish",
+      "rank": "R3",
+      "power_m": 84.7,
+      "base_level": 30,
+      "last_seen": "10h",
+      "last_seen_minutes": 600,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Albert Phish",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 84.7,
+          "last_seen": "10 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p058",
+      "name": "3학년반장",
+      "rank": "R3",
+      "power_m": 93.6,
+      "base_level": 30,
+      "last_seen": "15h",
+      "last_seen_minutes": 900,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "3학년반장",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 93.6,
+          "last_seen": "15 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p026",
+      "name": "LoreninhaLost",
+      "rank": "R3",
+      "power_m": 63.0,
+      "base_level": 30,
+      "last_seen": "20h",
+      "last_seen_minutes": 1200,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "LoreninhaLost",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 63.0,
+          "last_seen": "20 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p063",
+      "name": "Lituânia",
+      "rank": "R3",
+      "power_m": 69.3,
+      "base_level": 30,
+      "last_seen": "23h",
+      "last_seen_minutes": 1380,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Lituânia",
+          "rank": "R3",
+          "level": 30,
+          "power_million": 69.3,
+          "last_seen": "23 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p015",
+      "name": "Hooks Mustang",
+      "rank": "R3",
+      "power_m": 62.0,
+      "base_level": 28,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Hooks Mustang",
+          "rank": "R3",
+          "level": 28,
+          "power_million": 62.0,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p080",
+      "name": "Deeeez73",
+      "rank": "R3",
+      "power_m": 53.4,
+      "base_level": 29,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Deeeez73",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 53.4,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p093",
+      "name": "patito84",
+      "rank": "R3",
+      "power_m": 24.4,
+      "base_level": 23,
+      "last_seen": "6d",
+      "last_seen_minutes": 8640,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "patito84",
+          "rank": "R3",
+          "level": 23,
+          "power_million": 24.4,
+          "last_seen": "6 dias",
+          "status": "offline",
+          "inactivity_flag": true
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p074",
+      "name": "LDR Queen Royalty",
+      "rank": "R3",
+      "power_m": 56.0,
+      "base_level": 29,
+      "last_seen": "9d",
+      "last_seen_minutes": 12960,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "LDR Queen Royalty",
+          "rank": "R3",
+          "level": 29,
+          "power_million": 56.0,
+          "last_seen": "9 dias",
+          "status": "offline",
+          "inactivity_flag": true
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p032",
+      "name": "comando estermar",
+      "rank": "R2",
+      "power_m": 43.7,
+      "base_level": 28,
+      "last_seen": "26m",
+      "last_seen_minutes": 26,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "comando estermar",
+          "rank": "R2",
+          "level": 28,
+          "power_million": 43.7,
+          "last_seen": "26 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p033",
+      "name": "Ralph75",
+      "rank": "R2",
+      "power_m": 82.7,
+      "base_level": 29,
+      "last_seen": "36m",
+      "last_seen_minutes": 36,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Ralph75",
+          "rank": "R2",
+          "level": 29,
+          "power_million": 82.7,
+          "last_seen": "36 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p035",
+      "name": "EASYE0831",
+      "rank": "R2",
+      "power_m": 44.9,
+      "base_level": 26,
+      "last_seen": "1h",
+      "last_seen_minutes": 60,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "EASYE0831",
+          "rank": "R2",
+          "level": 26,
+          "power_million": 44.9,
+          "last_seen": "1 hora",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p036",
+      "name": "Bate pesadão",
+      "rank": "R2",
+      "power_m": 24.5,
+      "base_level": 23,
+      "last_seen": "9h",
+      "last_seen_minutes": 540,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Bate pesadão",
+          "rank": "R2",
+          "level": 23,
+          "power_million": 24.5,
+          "last_seen": "9 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p037",
+      "name": "WP konn joj",
+      "rank": "R2",
+      "power_m": 26.3,
+      "base_level": 24,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "WP konn joj",
+          "rank": "R2",
+          "level": 24,
+          "power_million": 26.3,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p040",
+      "name": "Carlota26",
+      "rank": "R2",
+      "power_m": 34.3,
+      "base_level": 20,
+      "last_seen": "2d",
+      "last_seen_minutes": 2880,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Carlota26",
+          "rank": "R2",
+          "level": 20,
+          "power_million": 34.3,
+          "last_seen": "2 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p041",
+      "name": "Comandante Alex586",
+      "rank": "R2",
+      "power_m": 71.2,
+      "base_level": 28,
+      "last_seen": "4d",
+      "last_seen_minutes": 5760,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Comandante Alex586",
+          "rank": "R2",
+          "level": 28,
+          "power_million": 71.2,
+          "last_seen": "4 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p052",
+      "name": "zicors",
+      "rank": "R1",
+      "power_m": 46.8,
+      "base_level": 25,
+      "last_seen": "7m",
+      "last_seen_minutes": 7,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "zicors",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 46.8,
+          "last_seen": "7 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p048",
+      "name": "JJ110QT",
+      "rank": "R1",
+      "power_m": 69.2,
+      "base_level": 28,
+      "last_seen": "10m",
+      "last_seen_minutes": 10,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "JJ110QT",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 69.2,
+          "last_seen": "10 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p086",
+      "name": "I am a MaryJane",
+      "rank": "R1",
+      "power_m": 18.8,
+      "base_level": 23,
+      "last_seen": "12m",
+      "last_seen_minutes": 12,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "I am a MaryJane",
+          "rank": "R1",
+          "level": 23,
+          "power_million": 18.8,
+          "last_seen": "12 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p072",
+      "name": "Agus R",
+      "rank": "R1",
+      "power_m": 67.6,
+      "base_level": 24,
+      "last_seen": "25m",
+      "last_seen_minutes": 25,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Agus R",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 67.6,
+          "last_seen": "25 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p099",
+      "name": "HP Tex",
+      "rank": "R1",
+      "power_m": 38.8,
+      "base_level": 24,
+      "last_seen": "34m",
+      "last_seen_minutes": 34,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "HP Tex",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 38.8,
+          "last_seen": "34 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p073",
+      "name": "Geni Bahia",
+      "rank": "R1",
+      "power_m": 45.9,
+      "base_level": 25,
+      "last_seen": "35m",
+      "last_seen_minutes": 35,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Geni Bahia",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 45.9,
+          "last_seen": "35 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p066",
+      "name": "ColonelStuffy",
+      "rank": "R1",
+      "power_m": 33.1,
+      "base_level": 25,
+      "last_seen": "36m",
+      "last_seen_minutes": 36,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "ColonelStuffy",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 33.1,
+          "last_seen": "36 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p101",
+      "name": "AllurbaseRbelong2us",
+      "rank": "R1",
+      "power_m": 32.8,
+      "base_level": 27,
+      "last_seen": "37m",
+      "last_seen_minutes": 37,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "AllurbaseRbelong2us",
+          "rank": "R1",
+          "level": 27,
+          "power_million": 32.8,
+          "last_seen": "37 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p060",
+      "name": "LennartBoy",
+      "rank": "R1",
+      "power_m": 55.9,
+      "base_level": 26,
+      "last_seen": "40m",
+      "last_seen_minutes": 40,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "LennartBoy",
+          "rank": "R1",
+          "level": 26,
+          "power_million": 55.9,
+          "last_seen": "40 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p095",
+      "name": "MISHU0101",
+      "rank": "R1",
+      "power_m": 53.8,
+      "base_level": 29,
+      "last_seen": "44m",
+      "last_seen_minutes": 44,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "MISHU0101",
+          "rank": "R1",
+          "level": 29,
+          "power_million": 53.8,
+          "last_seen": "44 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p051",
+      "name": "Tbbbbbbbb",
+      "rank": "R1",
+      "power_m": 69.3,
+      "base_level": 26,
+      "last_seen": "47m",
+      "last_seen_minutes": 47,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Tbbbbbbbb",
+          "rank": "R1",
+          "level": 26,
+          "power_million": 69.3,
+          "last_seen": "47 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p056",
+      "name": "AndretTiba",
+      "rank": "R1",
+      "power_m": 39.9,
+      "base_level": 23,
+      "last_seen": "57m",
+      "last_seen_minutes": 57,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "AndretTiba",
+          "rank": "R1",
+          "level": 23,
+          "power_million": 39.9,
+          "last_seen": "57 minutos",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p069",
+      "name": "Rick Grimeess",
+      "rank": "R1",
+      "power_m": 68.1,
+      "base_level": 25,
+      "last_seen": "1h",
+      "last_seen_minutes": 60,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Rick Grimeess",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 68.1,
+          "last_seen": "1 hora",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p064",
+      "name": "burey",
+      "rank": "R1",
+      "power_m": 66.0,
+      "base_level": 28,
+      "last_seen": "1h",
+      "last_seen_minutes": 60,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "burey",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 66.0,
+          "last_seen": "1 hora",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p075",
+      "name": "Catatau o Homem mal",
+      "rank": "R1",
+      "power_m": 34.8,
+      "base_level": 22,
+      "last_seen": "1h",
+      "last_seen_minutes": 60,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Catatau o Homem mal",
+          "rank": "R1",
+          "level": 22,
+          "power_million": 34.8,
+          "last_seen": "1 hora",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p054",
+      "name": "Commander 33b092052",
+      "rank": "R1",
+      "power_m": 67.1,
+      "base_level": 26,
+      "last_seen": "1h",
+      "last_seen_minutes": 60,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Commander 33b092052",
+          "rank": "R1",
+          "level": 26,
+          "power_million": 67.1,
+          "last_seen": "1 hora",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p087",
+      "name": "dourado martins",
+      "rank": "R1",
+      "power_m": 44.4,
+      "base_level": 28,
+      "last_seen": "2h",
+      "last_seen_minutes": 120,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "dourado martins",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 44.4,
+          "last_seen": "2 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p049",
+      "name": "Aitana Lu",
+      "rank": "R1",
+      "power_m": 58.0,
+      "base_level": 28,
+      "last_seen": "2h",
+      "last_seen_minutes": 120,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Aitana Lu",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 58.0,
+          "last_seen": "2 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p043",
+      "name": "Lair74",
+      "rank": "R1",
+      "power_m": 40.6,
+      "base_level": 23,
+      "last_seen": "3h",
+      "last_seen_minutes": 180,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Lair74",
+          "rank": "R1",
+          "level": 23,
+          "power_million": 40.6,
+          "last_seen": "3 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p057",
+      "name": "Hernan David 34",
+      "rank": "R1",
+      "power_m": 65.4,
+      "base_level": 28,
+      "last_seen": "3h",
+      "last_seen_minutes": 180,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Hernan David 34",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 65.4,
+          "last_seen": "3 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p097",
+      "name": "Apolo Berlim",
+      "rank": "R1",
+      "power_m": 73.5,
+      "base_level": 30,
+      "last_seen": "4h",
+      "last_seen_minutes": 240,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Apolo Berlim",
+          "rank": "R1",
+          "level": 30,
+          "power_million": 73.5,
+          "last_seen": "4 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p070",
+      "name": "Snoopy lover",
+      "rank": "R1",
+      "power_m": 56.4,
+      "base_level": 29,
+      "last_seen": "5h",
+      "last_seen_minutes": 300,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Snoopy lover",
+          "rank": "R1",
+          "level": 29,
+          "power_million": 56.4,
+          "last_seen": "5 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p045",
+      "name": "Comandante203292052",
+      "rank": "R1",
+      "power_m": 22.6,
+      "base_level": 19,
+      "last_seen": "8h",
+      "last_seen_minutes": 480,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Comandante203292052",
+          "rank": "R1",
+          "level": 19,
+          "power_million": 22.6,
+          "last_seen": "8 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p082",
+      "name": "Comandante 255aa2028",
+      "rank": "R1",
+      "power_m": 10.1,
+      "base_level": 21,
+      "last_seen": "10h",
+      "last_seen_minutes": 600,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Comandante 255aa2028",
+          "rank": "R1",
+          "level": 21,
+          "power_million": 10.1,
+          "last_seen": "10 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p106",
+      "name": "Pauloaugustoferreira",
+      "rank": "R1",
+      "power_m": 28.3,
+      "base_level": 25,
+      "last_seen": "11h",
+      "last_seen_minutes": 660,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Pauloaugustoferreira",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 28.3,
+          "last_seen": "11 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p050",
+      "name": "Pedrinho Taru",
+      "rank": "R1",
+      "power_m": 28.6,
+      "base_level": 24,
+      "last_seen": "13h",
+      "last_seen_minutes": 780,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Pedrinho Taru",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 28.6,
+          "last_seen": "13 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p062",
+      "name": "Augusto gois",
+      "rank": "R1",
+      "power_m": 51.1,
+      "base_level": 28,
+      "last_seen": "15h",
+      "last_seen_minutes": 900,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Augusto gois",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 51.1,
+          "last_seen": "15 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p047",
+      "name": "ClaudioJuniorMed",
+      "rank": "R1",
+      "power_m": 57.0,
+      "base_level": 28,
+      "last_seen": "15h",
+      "last_seen_minutes": 900,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "ClaudioJuniorMed",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 57.0,
+          "last_seen": "15 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p055",
+      "name": "General Birão",
+      "rank": "R1",
+      "power_m": 58.3,
+      "base_level": 27,
+      "last_seen": "15h",
+      "last_seen_minutes": 900,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "General Birão",
+          "rank": "R1",
+          "level": 27,
+          "power_million": 58.3,
+          "last_seen": "15 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p105",
+      "name": "Irving XeroTemor",
+      "rank": "R1",
+      "power_m": 63.7,
+      "base_level": 29,
+      "last_seen": "18h",
+      "last_seen_minutes": 1080,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Irving XeroTemor",
+          "rank": "R1",
+          "level": 29,
+          "power_million": 63.7,
+          "last_seen": "18 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p068",
+      "name": "Commander 26d4b2052",
+      "rank": "R1",
+      "power_m": 19.7,
+      "base_level": 24,
+      "last_seen": "20h",
+      "last_seen_minutes": 1200,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Commander 26d4b2052",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 19.7,
+          "last_seen": "20 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p053",
+      "name": "Henriquec Dias",
+      "rank": "R1",
+      "power_m": 72.8,
+      "base_level": 28,
+      "last_seen": "20h",
+      "last_seen_minutes": 1200,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Henriquec Dias",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 72.8,
+          "last_seen": "20 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p061",
+      "name": "Tagnos",
+      "rank": "R1",
+      "power_m": 50.2,
+      "base_level": 25,
+      "last_seen": "21h",
+      "last_seen_minutes": 1260,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Tagnos",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 50.2,
+          "last_seen": "21 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p077",
+      "name": "Adrianinhow",
+      "rank": "R1",
+      "power_m": 46.7,
+      "base_level": 27,
+      "last_seen": "21h",
+      "last_seen_minutes": 1260,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Adrianinhow",
+          "rank": "R1",
+          "level": 27,
+          "power_million": 46.7,
+          "last_seen": "21 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p107",
+      "name": "Xandao vr",
+      "rank": "R1",
+      "power_m": 22.5,
+      "base_level": 24,
+      "last_seen": "21h",
+      "last_seen_minutes": 1260,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Xandao vr",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 22.5,
+          "last_seen": "21 horas",
+          "status": "offline",
+          "inactivity_flag": false
+        },
+        "identity_match_note": "First observed under this name; no historical match found. New membership versus rename remains unconfirmed; no inferred join date."
+      },
+      "identity_uncertain": true
+    },
+    {
+      "player_id": "p088",
+      "name": "Hewhoshallnotbenamed",
+      "rank": "R1",
+      "power_m": 33.7,
+      "base_level": 24,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Hewhoshallnotbenamed",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 33.7,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p078",
+      "name": "BECK",
+      "rank": "R1",
+      "power_m": 38.9,
+      "base_level": 26,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "BECK",
+          "rank": "R1",
+          "level": 26,
+          "power_million": 38.9,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p067",
+      "name": "Rena2222",
+      "rank": "R1",
+      "power_m": 20.3,
+      "base_level": 24,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Rena2222",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 20.3,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p085",
+      "name": "MDOliveira",
+      "rank": "R1",
+      "power_m": 41.2,
+      "base_level": 25,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "MDOliveira",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 41.2,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p076",
+      "name": "Marquiqui5",
+      "rank": "R1",
+      "power_m": 56.5,
+      "base_level": 24,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Marquiqui5",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 56.5,
+          "last_seen": "1 dia",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p081",
+      "name": "Pat linda",
+      "rank": "R1",
+      "power_m": 11.1,
+      "base_level": 22,
+      "last_seen": "2d",
+      "last_seen_minutes": 2880,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Pat linda",
+          "rank": "R1",
+          "level": 22,
+          "power_million": 11.1,
+          "last_seen": "2 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p100",
+      "name": "Commander 21c462052",
+      "rank": "R1",
+      "power_m": 15.4,
+      "base_level": 25,
+      "last_seen": "3d",
+      "last_seen_minutes": 4320,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Commander 21c462052",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 15.4,
+          "last_seen": "3 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p102",
+      "name": "baldo83",
+      "rank": "R1",
+      "power_m": 10.0,
+      "base_level": 20,
+      "last_seen": "3d",
+      "last_seen_minutes": 4320,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "baldo83",
+          "rank": "R1",
+          "level": 20,
+          "power_million": 10.0,
+          "last_seen": "3 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p103",
+      "name": "Zorrzi",
+      "rank": "R1",
+      "power_m": 59.5,
+      "base_level": 24,
+      "last_seen": "3d",
+      "last_seen_minutes": 4320,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Zorrzi",
+          "rank": "R1",
+          "level": 24,
+          "power_million": 59.5,
+          "last_seen": "3 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p059",
+      "name": "edivar",
+      "rank": "R1",
+      "power_m": 24.3,
+      "base_level": 23,
+      "last_seen": "3d",
+      "last_seen_minutes": 4320,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "edivar",
+          "rank": "R1",
+          "level": 23,
+          "power_million": 24.3,
+          "last_seen": "3 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p096",
+      "name": "Bull Money",
+      "rank": "R1",
+      "power_m": 14.9,
+      "base_level": 25,
+      "last_seen": "4d",
+      "last_seen_minutes": 5760,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "Bull Money",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 14.9,
+          "last_seen": "4 dias",
+          "status": "offline",
+          "inactivity_flag": false
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p098",
+      "name": "CampJude",
+      "rank": "R1",
+      "power_m": 9.9,
+      "base_level": 25,
+      "last_seen": "5d",
+      "last_seen_minutes": 7200,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "CampJude",
+          "rank": "R1",
+          "level": 25,
+          "power_million": 9.9,
+          "last_seen": "5 dias",
+          "status": "offline",
+          "inactivity_flag": true
+        }
+      },
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p079",
+      "name": "VINGADOR Brito",
+      "rank": "R1",
+      "power_m": 54.6,
+      "base_level": 28,
+      "last_seen": "10d",
+      "last_seen_minutes": 14400,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "Administrator-supplied daily JSON dated 2026-10-23. Referenced screenshots were not independently reviewed during import; original row retained in profile.imported_record.",
+      "profile": {
+        "imported_record": {
+          "nickname": "VINGADOR Brito",
+          "rank": "R1",
+          "level": 28,
+          "power_million": 54.6,
+          "last_seen": "10 dias",
+          "status": "offline",
+          "inactivity_flag": true
+        }
+      },
+      "identity_uncertain": false
+    }
+  ],
+  "membership_events": [],
+  "import_source": {
+    "type": "screenshots",
+    "files": [
+      "IMG_6963.jpeg",
+      "IMG_6964.jpeg",
+      "IMG_6965.jpeg",
+      "IMG_6966.jpeg",
+      "IMG_6967.jpeg",
+      "IMG_6968.jpeg",
+      "IMG_6969.jpeg",
+      "IMG_6970.jpeg",
+      "IMG_6971.jpeg",
+      "IMG_6972.jpeg",
+      "IMG_6973.jpeg",
+      "IMG_6974.jpeg",
+      "IMG_6975.jpeg",
+      "IMG_6976.jpeg",
+      "IMG_6977.jpeg",
+      "IMG_6978.jpeg",
+      "IMG_6979.jpeg",
+      "IMG_6980.jpeg",
+      "IMG_6981.jpeg"
+    ],
+    "power_unit": "millions",
+    "last_seen_note": "Tempo relativo exibido no momento da captura; não representa horário absoluto.",
+    "data_policy": "Somente dados visíveis nas imagens; duplicatas removidas."
+  },
+  "data_policy": {
+    "normalization": "Original source archived unchanged. nickname→name, level→base_level, power_million→power_m. Portuguese elapsed activity normalized to m/h/d and nominal minutes; exact source text retained in imported_record. Online status stored separately.",
+    "identity": "Existing stable IDs retained. Adrianinhow matches adrianinhow/p077 by case-insensitive exact name. Xandao vr assigned provisional p107 with identity_uncertain=true; new membership or rename not asserted.",
+    "membership": "Missing observations do not establish departure. Prior confirmed departures remain in historical snapshots.",
+    "official_power": "No official alliance total supplied; no earlier total reused."
+  }
+}
