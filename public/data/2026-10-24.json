@@ -26,7 +26,10 @@
       "flagged_inactive_5plus_days": 4
     },
     "source_archive": "source-data/deso_2026-10-24.json",
-    "coverage_note": "100 supplied observations. Commander 2cdb82030 has a provisional identity pending new-member/rename confirmation. All 99 players observed on 2026-10-23 are observed again. No independent official alliance power or member count supplied."
+    "coverage_note": "100 supplied observations. Administrator confirmed Commander 2cdb82030 as a new member; exact join date unknown. All 99 players observed on 2026-10-23 are observed again. No independent official alliance power or member count supplied.",
+    "confirmed_new_member_ids": [
+      "p108"
+    ]
   },
   "observations": [
     {
@@ -2426,9 +2429,12 @@
           "status": "offline",
           "inactivity_flag": false
         },
-        "identity_match_note": "First observed under this name; no historical match found. New membership versus rename remains unconfirmed; no inferred join date."
+        "identity_match_note": "Administrator confirmed Commander 2cdb82030 is a new member, not a renamed existing member. Exact join date not supplied.",
+        "identity_confirmed_on": "2026-10-24",
+        "membership_classification": "new member confirmed by administrator",
+        "exact_join_date": null
       },
-      "identity_uncertain": true
+      "identity_uncertain": false
     }
   ],
   "membership_events": [],
@@ -2460,8 +2466,8 @@
   },
   "data_policy": {
     "normalization": "Original source archived unchanged. nickname→name, level→base_level, power_million→power_m. Portuguese elapsed activity normalized to m/h/d and nominal minutes; exact source text retained in imported_record. Online status stored separately.",
-    "identity": "Existing stable IDs retained. Commander 2cdb82030 assigned provisional p108 with identity_uncertain=true; new membership or rename not asserted.",
-    "membership": "Missing observations do not establish departure. Prior confirmed departures remain in historical snapshots.",
+    "identity": "Existing stable IDs retained. Administrator confirmed Commander 2cdb82030/p108 is a new member, not a renamed existing player.",
+    "membership": "Commander 2cdb82030 is administrator-confirmed new; exact join date unknown. Missing observations do not establish departure. Prior confirmed departures remain in historical snapshots.",
     "official_power": "No official alliance total supplied; no earlier total reused."
   }
 }
