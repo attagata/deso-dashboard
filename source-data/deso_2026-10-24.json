@@ -1,0 +1,944 @@
+{
+  "alliance": "DESO",
+  "date": "2026-10-24",
+  "timezone": "America/Sao_Paulo",
+  "source": {
+    "type": "screenshots",
+    "files": [
+      "IMG_7005.jpeg",
+      "IMG_7006.jpeg",
+      "IMG_7007.jpeg",
+      "IMG_7008.jpeg",
+      "IMG_7009.jpeg",
+      "IMG_7010.jpeg",
+      "IMG_7011.jpeg",
+      "IMG_7012.jpeg",
+      "IMG_7013.jpeg",
+      "IMG_7014(1).jpeg",
+      "IMG_7015.jpeg",
+      "IMG_7016.jpeg",
+      "IMG_7017.jpeg",
+      "IMG_7018.jpeg",
+      "IMG_7019.jpeg",
+      "IMG_7020.jpeg",
+      "IMG_7021.jpeg",
+      "IMG_7022.jpeg"
+    ],
+    "power_unit": "millions",
+    "last_seen_note": "Tempo relativo no momento da captura; não representa horário absoluto.",
+    "data_policy": "Somente dados visíveis nos screenshots de 24/10; duplicatas removidas."
+  },
+  "summary": {
+    "total_records": 100,
+    "ranks": {
+      "R5": 1,
+      "R4": 8,
+      "R3": 35,
+      "R2": 7,
+      "R1": 49
+    },
+    "flagged_inactive_5plus_days": 4
+  },
+  "members": [
+    {
+      "nickname": "Dogs R Big x2",
+      "rank": "R5",
+      "level": 29,
+      "power_million": 121.3,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "ATT75",
+      "rank": "R4",
+      "level": 30,
+      "power_million": 99.6,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "MaquinaMortiferaX",
+      "rank": "R4",
+      "level": 30,
+      "power_million": 100.1,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Amilton123",
+      "rank": "R4",
+      "level": 30,
+      "power_million": 102.9,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "baiano moraes",
+      "rank": "R4",
+      "level": 28,
+      "power_million": 83.1,
+      "last_seen": "39 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Monte Verde1",
+      "rank": "R4",
+      "level": 30,
+      "power_million": 93.2,
+      "last_seen": "10 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "LDX trop",
+      "rank": "R4",
+      "level": 30,
+      "power_million": 123.0,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "garouone",
+      "rank": "R4",
+      "level": 30,
+      "power_million": 91.1,
+      "last_seen": "14 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Miotelo",
+      "rank": "R4",
+      "level": 27,
+      "power_million": 29.3,
+      "last_seen": "3 dias",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "DanTagata",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 84.6,
+      "last_seen": "42 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "brunoxp01",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 87.6,
+      "last_seen": "25 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Meliodas Evil",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 84.6,
+      "last_seen": "14 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Rafael kisseco",
+      "rank": "R3",
+      "level": 25,
+      "power_million": 70.3,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "JessicaBR",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 91.5,
+      "last_seen": "1 minuto",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Zaca base",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 85.3,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "MarechalRondon",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 102.3,
+      "last_seen": "1 minuto",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "LOGAN25",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 86.4,
+      "last_seen": "5 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "mandaloriano",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 69.7,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Padilha Boladona",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 98.4,
+      "last_seen": "24 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Sub ZeRo 007",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 117.4,
+      "last_seen": "20 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Jim Robert",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 101.7,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Renatobrittes",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 87.5,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Portela Aldo",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 101.9,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Matiassilva",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 44.5,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "tixca",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 53.6,
+      "last_seen": "57 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "qpato",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 80.5,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Natalina94",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 96.8,
+      "last_seen": "33 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Cardalu",
+      "rank": "R3",
+      "level": 27,
+      "power_million": 65.7,
+      "last_seen": "16 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "rancharias",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 84.0,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "mr llama08",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 93.3,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Naelton vejeve",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 82.4,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "TnTzinhoO",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 91.2,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Nathi0987",
+      "rank": "R3",
+      "level": 28,
+      "power_million": 73.5,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Pecansandies02560",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 71.8,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Rf 1",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 103.6,
+      "last_seen": "17 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Dourado 666",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 124.6,
+      "last_seen": "22 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Albert Phish",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 88.9,
+      "last_seen": "13 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "3학년반장",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 92.6,
+      "last_seen": "1 minuto",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "LoreninhaLost",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 63.0,
+      "last_seen": "8 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Lituânia",
+      "rank": "R3",
+      "level": 30,
+      "power_million": 71.7,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Hooks Mustang",
+      "rank": "R3",
+      "level": 28,
+      "power_million": 63.2,
+      "last_seen": "26 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Deeeez73",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 55.8,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "patito84",
+      "rank": "R3",
+      "level": 23,
+      "power_million": 21.9,
+      "last_seen": "13 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "LDR Queen Royalty",
+      "rank": "R3",
+      "level": 29,
+      "power_million": 56.0,
+      "last_seen": "10 dias",
+      "status": "offline",
+      "inactivity_flag": true
+    },
+    {
+      "nickname": "comando estermar",
+      "rank": "R2",
+      "level": 28,
+      "power_million": 42.0,
+      "last_seen": "25 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Ralph75",
+      "rank": "R2",
+      "level": 29,
+      "power_million": 74.0,
+      "last_seen": "8 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "EASYE0831",
+      "rank": "R2",
+      "level": 26,
+      "power_million": 44.6,
+      "last_seen": "6 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Bate pesadão",
+      "rank": "R2",
+      "level": 23,
+      "power_million": 24.8,
+      "last_seen": "30 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "WP konn joj",
+      "rank": "R2",
+      "level": 24,
+      "power_million": 26.3,
+      "last_seen": "2 dias",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Carlota26",
+      "rank": "R2",
+      "level": 20,
+      "power_million": 34.3,
+      "last_seen": "15 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Comandante Alex586",
+      "rank": "R2",
+      "level": 28,
+      "power_million": 71.3,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "zicors",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 50.1,
+      "last_seen": "3 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "JJ110QT",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 69.7,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "I am a MaryJane",
+      "rank": "R1",
+      "level": 23,
+      "power_million": 18.8,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Agus R",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 67.6,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "HP Tex",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 39.8,
+      "last_seen": "9 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Geni Bahia",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 48.2,
+      "last_seen": "7 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "ColonelStuffy",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 46.4,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "AllurbaseRbelong2us",
+      "rank": "R1",
+      "level": 27,
+      "power_million": 32.8,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "LennartBoy",
+      "rank": "R1",
+      "level": 26,
+      "power_million": 58.9,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "MISHU0101",
+      "rank": "R1",
+      "level": 29,
+      "power_million": 53.8,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Tbbbbbbbb",
+      "rank": "R1",
+      "level": 26,
+      "power_million": 69.3,
+      "last_seen": "5 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "AndretTiba",
+      "rank": "R1",
+      "level": 23,
+      "power_million": 42.1,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Rick Grimeess",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 68.5,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "burey",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 66.6,
+      "last_seen": "3 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Catatau o Homem mal",
+      "rank": "R1",
+      "level": 22,
+      "power_million": 36.5,
+      "last_seen": "4 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Commander 33b092052",
+      "rank": "R1",
+      "level": 26,
+      "power_million": 66.7,
+      "last_seen": "19 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "dourado martins",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 44.4,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Aitana Lu",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 59.6,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Lair74",
+      "rank": "R1",
+      "level": 23,
+      "power_million": 40.1,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Hernan David 34",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 70.2,
+      "last_seen": "3 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Apolo Berlim",
+      "rank": "R1",
+      "level": 30,
+      "power_million": 73.3,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Snoopy lover",
+      "rank": "R1",
+      "level": 29,
+      "power_million": 63.2,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Comandante203292052",
+      "rank": "R1",
+      "level": 19,
+      "power_million": 22.6,
+      "last_seen": "6 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Comandante 255aa2028",
+      "rank": "R1",
+      "level": 21,
+      "power_million": 10.1,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Pauloaugustoferreira",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 28.3,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Pedrinho Taru",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 28.6,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Augusto gois",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 53.2,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "ClaudioJuniorMed",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 59.1,
+      "last_seen": "44 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "General Birão",
+      "rank": "R1",
+      "level": 27,
+      "power_million": 58.3,
+      "last_seen": "11 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Irving XeroTemor",
+      "rank": "R1",
+      "level": 29,
+      "power_million": 69.3,
+      "last_seen": "1 hora",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Commander 26d4b2052",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 19.9,
+      "last_seen": "22 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Henriquec Dias",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 71.5,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Tagnos",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 50.4,
+      "last_seen": "21 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Adrianinhow",
+      "rank": "R1",
+      "level": 27,
+      "power_million": 48.2,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Xandao vr",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 22.5,
+      "last_seen": "1 dia",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Hewhoshallnotbenamed",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 33.8,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "BECK",
+      "rank": "R1",
+      "level": 26,
+      "power_million": 38.9,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Rena2222",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 20.7,
+      "last_seen": "8 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "MDOliveira",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 41.8,
+      "last_seen": "10 minutos",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Marquiqui5",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 56.5,
+      "last_seen": "online",
+      "status": "online",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Pat linda",
+      "rank": "R1",
+      "level": 22,
+      "power_million": 11.1,
+      "last_seen": "3 dias",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Commander 21c462052",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 15.4,
+      "last_seen": "4 dias",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "baldo83",
+      "rank": "R1",
+      "level": 20,
+      "power_million": 10.0,
+      "last_seen": "4 dias",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Zorrzi",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 59.5,
+      "last_seen": "4 dias",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "edivar",
+      "rank": "R1",
+      "level": 23,
+      "power_million": 28.1,
+      "last_seen": "2 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    },
+    {
+      "nickname": "Bull Money",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 14.9,
+      "last_seen": "5 dias",
+      "status": "offline",
+      "inactivity_flag": true
+    },
+    {
+      "nickname": "CampJude",
+      "rank": "R1",
+      "level": 25,
+      "power_million": 9.9,
+      "last_seen": "6 dias",
+      "status": "offline",
+      "inactivity_flag": true
+    },
+    {
+      "nickname": "VINGADOR Brito",
+      "rank": "R1",
+      "level": 28,
+      "power_million": 54.6,
+      "last_seen": "11 dias",
+      "status": "offline",
+      "inactivity_flag": true
+    },
+    {
+      "nickname": "Commander 2cdb82030",
+      "rank": "R1",
+      "level": 24,
+      "power_million": 10.7,
+      "last_seen": "21 horas",
+      "status": "offline",
+      "inactivity_flag": false
+    }
+  ]
+}
