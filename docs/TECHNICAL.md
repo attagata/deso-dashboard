@@ -4,7 +4,7 @@
 
 Versão do projeto: 1.0.0 · Schema diário: 2 · Referência: implementação publicada em outubro de 2026.
 
-Idioma: Português (PT) · [English (EN)](TECHNICAL.en.md) · Revisão documental: 2026-10-22.
+Idioma: Português (PT) · [English (EN)](TECHNICAL.en.md) · Revisão documental: 2026-10-28.
 
 As versões PT e EN são mantidas em conjunto para melhorias e correções, conforme a [política de manutenção](#15-manutenção-da-documentação-bilíngue).
 
@@ -435,6 +435,7 @@ A mesma instrução está registrada em [AGENTS.md](../AGENTS.md) para trabalhos
 | 2026-10-20 | Adicionada a referência paralela completa em inglês, a navegação recíproca de idiomas e a política persistente de manutenção bilíngue; esclarecida a contagem de testes originais e de desempenho | Duas versões atualizadas |
 | 2026-10-22 | Adicionado o contador FreeCounterStat no fim da página, com script único por carregamento, fallback sem JavaScript e documentação da exceção externa, cookies e limites de contagem | Duas versões atualizadas |
 
+| 2026-10-28 | Adicionado teste manual e isolado do acesso compartilhado LastWar Tools, com secret protegido e relatório agregado, sem importação automática | Duas versões atualizadas |
 
 ## 16. Contador simples de visitas
 
@@ -463,3 +464,13 @@ O script do fornecedor consultado na integração usa cookies e pode enviar a UR
 A contagem é aproximada: recarregamentos podem ser contabilizados ou deduplicados pelo serviço; cookies, cache, bloqueadores e robôs podem afetá-la. O fallback de imagem pode gerar uma requisição adicional ao fornecedor. Não há promessa de precisão ou recuperação de acessos anteriores à instalação. O carregamento assíncrono não bloqueia a renderização do dashboard; se o fornecedor estiver indisponível ou bloqueado, o contador pode ficar vazio enquanto as funções da aliança continuam disponíveis.
 
 Para remover a integração, retirar o bloco `visit-counter` de `index.html` e as regras correspondentes do CSS. Não é necessário alterar os dados ou os cálculos. Para mudar a aparência ou o identificador, obter um novo embed no serviço e revisar as duas versões desta documentação.
+
+## 17. Diagnóstico isolado da API comunitária
+
+O workflow `.github/workflows/probe-lastwar.yml` é executado somente por `workflow_dispatch`. Usa Node.js 24 sem instalar dependências, roda quatro testes offline e executa `scripts/probe-lastwar.mjs`. O secret de repositório `LASTWAR_DESO_TOOLS` contém a chave da API; não é enviado ao navegador nem gravado em arquivos. A chave só é enviada no header `X-API-Key` a `https://api.lastwar.tools`, com redirecionamentos desabilitados.
+
+O diagnóstico faz no máximo duas consultas GET, sem retries: rankings do servidor 2052 (`limit=200`) e membros da única aliança cujo tag seja DeSo, nome Death Soldiers e servidor 2052. Não usa `session_key`, credenciais do jogo, captura de login, scans ou operações de escrita. Pode consumir os tokens gratuitos do fornecedor; não compra créditos. Cada requisição tem timeout de 120 segundos e o job de seis minutos.
+
+O relatório verifica IDs únicos, pelo menos cinco nomes conhecidos, quantidade de membros e cobertura de nome, poder, HQ, rank, online, `offline_time` e `join_time`. Registra apenas agregados; não publica a resposta bruta, credenciais ou coordenadas. Erros externos são reduzidos a códigos e motivos conhecidos. `lastwar-probe-report.json` vai para o resumo do job e um artifact com retenção de sete dias. Falha de leitura deixa o job vermelho e preserva o diagnóstico.
+
+Um resultado `read_success` confirma somente a leitura naquele momento. Unidade/epoch de `offline_time`, codificação de rank, completude e atualização ainda precisam de confirmação antes de qualquer importação. O teste não grava em `public/data`, não altera o histórico nem dispara coleta agendada. Trata-se de uma exceção experimental fora do navegador às requisições locais; o dashboard continua lendo apenas JSONs estáticos para os dados da aliança. Para executar: Actions → Test LastWar shared API access → Run workflow, branch `master`.

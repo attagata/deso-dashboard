@@ -4,7 +4,7 @@
 
 Project version: 1.0.0 · Daily schema: 2 · Reference: implementation published in October 2026.
 
-Language: English (EN) · [Português (PT)](TECHNICAL.md) · Documentation revision: 2026-10-22.
+Language: English (EN) · [Português (PT)](TECHNICAL.md) · Documentation revision: 2026-10-28.
 
 The PT and EN versions are maintained together for improvements and fixes, following the [maintenance policy](#15-bilingual-documentation-maintenance).
 
@@ -435,6 +435,7 @@ The same instruction is persisted in [AGENTS.md](../AGENTS.md) for future reposi
 | 2026-10-20 | Added the complete parallel English reference, reciprocal language navigation and the persistent bilingual maintenance policy; clarified original versus performance test counts | Both versions updated |
 | 2026-10-22 | Added the FreeCounterStat counter at the bottom of the page, with one script load per document, a no-JavaScript fallback and documentation of the external exception, cookies and counting limitations | Both versions updated |
 
+| 2026-10-28 | Added a manual, isolated LastWar Tools shared-access probe, with protected secret and aggregate report, without automatic imports | Both versions updated |
 
 ## 16. Simple visit counter
 
@@ -463,3 +464,13 @@ The vendor script inspected during integration uses cookies and may send the cur
 The count is approximate: reloads may be counted or deduplicated by the service; cookies, caching, blockers and bots may affect it. The image fallback may generate an additional provider request. There is no accuracy guarantee or promise to recover visits before installation. Asynchronous loading does not block dashboard rendering; if the provider is unavailable or blocked, the counter may remain blank while alliance features continue to work.
 
 To remove the integration, remove the `visit-counter` block from `index.html` and its CSS rules. No data or calculation changes are required. To change appearance or identifier, obtain a new embed from the provider and review both documentation versions.
+
+## 17. Isolated community API diagnostic
+
+The `.github/workflows/probe-lastwar.yml` workflow runs only through `workflow_dispatch`. It uses Node.js 24 without installing dependencies, runs four offline tests and executes `scripts/probe-lastwar.mjs`. Repository secret `LASTWAR_DESO_TOOLS` holds the API key; it is never sent to the browser or written to files. The key is sent only in the `X-API-Key` header to `https://api.lastwar.tools`, with redirects disabled.
+
+The diagnostic makes at most two GET requests, without retries: server 2052 rankings (`limit=200`) and members of the single alliance matching tag DeSo, name Death Soldiers and server 2052. It uses no `session_key`, game credentials, login capture, scans or write operations. It may consume the provider's free tokens; it does not purchase credits. Each request has a 120-second timeout and the job a six-minute timeout.
+
+The report checks unique IDs, at least five known names, member counts and coverage of name, power, HQ, rank, online, `offline_time` and `join_time`. It records only aggregates; raw responses, credentials and coordinates are not published. External errors are reduced to codes and known reasons. `lastwar-probe-report.json` is included in the job summary and an artifact retained for seven days. Read failures make the job fail while retaining the diagnostic.
+
+A `read_success` result confirms only access at that time. The unit/epoch of `offline_time`, rank encoding, completeness and freshness still require confirmation before any import. The test never writes to `public/data`, changes history or enables scheduled collection. This is an experimental exception outside the browser to local-only requests; the dashboard continues to read static JSON files for alliance data. To run: Actions → Test LastWar shared API access → Run workflow, branch `master`.

@@ -1,0 +1,31 @@
+name: Test LastWar shared API access
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lastwar-api-probe
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Test diagnostic safeguards offline
+        run: node --test scripts/probe-lastwar.test.mjs
+      - name: Probe shared API without game credentials
+        run: node scripts/probe-lastwar.mjs
+        env:
+          LASTWAR_DESO_TOOLS: ${{ secrets.LASTWAR_DESO_TOOLS }}
+      - name: Save aggregate diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lastwar-probe-report
+          path: lastwar-probe-report.json
+          if-no-files-found: ignore
+          retention-days: 7
