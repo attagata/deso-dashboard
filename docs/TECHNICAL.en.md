@@ -435,6 +435,7 @@ The same instruction is persisted in [AGENTS.md](../AGENTS.md) for future reposi
 | 2026-10-20 | Added the complete parallel English reference, reciprocal language navigation and the persistent bilingual maintenance policy; clarified original versus performance test counts | Both versions updated |
 | 2026-10-22 | Added the FreeCounterStat counter at the bottom of the page, with one script load per document, a no-JavaScript fallback and documentation of the external exception, cookies and counting limitations | Both versions updated |
 | 2026-10-28 | Added a manual, isolated LastWar Tools shared-access probe, with protected secret and aggregate report, without automatic imports | Both versions updated |
+| 2026-10-28 | Added a separate documentary administrative event archive, with deduplication, declared evidence and unknown timezone; snapshots preserved | Both versions updated |
 
 ## 16. Simple visit counter
 
@@ -473,3 +474,11 @@ The diagnostic makes at most two GET requests, without retries: server 2052 rank
 The report checks unique IDs, at least five known names, member counts and coverage of name, power, HQ, rank, online, `offline_time` and `join_time`. It records only aggregates; raw responses, credentials and coordinates are not published. External errors are reduced to codes and known reasons. `lastwar-probe-report.json` is included in the job summary and an artifact retained for seven days. Read failures make the job fail while retaining the diagnostic.
 
 A `read_success` result confirms only access at that time. The unit/epoch of `offline_time`, rank encoding, completeness and freshness still require confirmation before any import. The test never writes to `public/data`, changes history or enables scheduled collection. This is an experimental exception outside the browser to local-only requests; the dashboard continues to read static JSON files for alliance data. To run: Actions → Test LastWar shared API access → Run workflow, branch `master`.
+
+## 18. Documentary event archive
+
+`public/events.json` stores 14 administrator-reported events from October 27–28, 2026: joins, removals, voluntary departure and a rank change. Major Landes appears only once. Each event has a stable ID, player, actor when known, literal date/time, null timezone, recording date and provenance. Existing internal IDs are retained; players not yet mapped have `player_id: null`.
+
+Evidence consists of administrator-supplied transcriptions, not independently verified screenshots. The timezone is unconfirmed: do not convert times to UTC or calculate absolute duration. Removal motives are not inferred. Additional events should be appended without duplicating prior records, retaining provenance; later corrections require traceability.
+
+This file is a separate documentary record, available at `/events.json` under the site's base path. Screens, status calculations and profiles do not consume it yet. It does not change the October 27 snapshots or data manifest, publish an October 28 snapshot, or determine the current member count. Visual integration and automated validation of this schema are future work; this version was manually checked for fields, unique IDs, dates and counts.

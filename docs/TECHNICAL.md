@@ -435,6 +435,7 @@ A mesma instrução está registrada em [AGENTS.md](../AGENTS.md) para trabalhos
 | 2026-10-20 | Adicionada a referência paralela completa em inglês, a navegação recíproca de idiomas e a política persistente de manutenção bilíngue; esclarecida a contagem de testes originais e de desempenho | Duas versões atualizadas |
 | 2026-10-22 | Adicionado o contador FreeCounterStat no fim da página, com script único por carregamento, fallback sem JavaScript e documentação da exceção externa, cookies e limites de contagem | Duas versões atualizadas |
 | 2026-10-28 | Adicionado teste manual e isolado do acesso compartilhado LastWar Tools, com secret protegido e relatório agregado, sem importação automática | Duas versões atualizadas |
+| 2026-10-28 | Acrescentado arquivo documental separado de eventos administrativos, com deduplicação, fonte declarada e fuso desconhecido; snapshots preservados | Duas versões atualizadas |
 
 ## 16. Contador simples de visitas
 
@@ -473,3 +474,11 @@ O diagnóstico faz no máximo duas consultas GET, sem retries: rankings do servi
 O relatório verifica IDs únicos, pelo menos cinco nomes conhecidos, quantidade de membros e cobertura de nome, poder, HQ, rank, online, `offline_time` e `join_time`. Registra apenas agregados; não publica a resposta bruta, credenciais ou coordenadas. Erros externos são reduzidos a códigos e motivos conhecidos. `lastwar-probe-report.json` vai para o resumo do job e um artifact com retenção de sete dias. Falha de leitura deixa o job vermelho e preserva o diagnóstico.
 
 Um resultado `read_success` confirma somente a leitura naquele momento. Unidade/epoch de `offline_time`, codificação de rank, completude e atualização ainda precisam de confirmação antes de qualquer importação. O teste não grava em `public/data`, não altera o histórico nem dispara coleta agendada. Trata-se de uma exceção experimental fora do navegador às requisições locais; o dashboard continua lendo apenas JSONs estáticos para os dados da aliança. Para executar: Actions → Test LastWar shared API access → Run workflow, branch `master`.
+
+## 18. Arquivo documental de eventos
+
+`public/events.json` armazena 14 eventos de 27–28/10/2026 informados pelo administrador: entradas, remoções, saída voluntária e mudança de rank. Major Landes aparece uma única vez. Cada evento tem ID estável, jogador, responsável quando conhecido, data/hora literal, fuso nulo, data de registro e origem. Os IDs internos existentes são preservados; jogadores ainda sem correspondência têm `player_id: null`.
+
+A evidência é transcrição fornecida pelo administrador, não screenshot conferido independentemente. O fuso não foi confirmado: não converter os horários para UTC nem calcular duração absoluta. O motivo de remoção não é inferido. Eventos adicionais devem ser acrescentados sem duplicar registros anteriores, preservando a origem; correções posteriores precisam de rastreabilidade.
+
+Este arquivo é um registro documental separado, disponível em `/events.json` sob o base path do site. Ainda não é consumido pelas telas, cálculos de status ou perfis. Não altera os snapshots de 27/10 nem o manifesto de dados, não publica um snapshot de 28/10 e não determina a quantidade atual de membros. A integração visual e a validação automática deste schema são trabalho futuro; esta versão foi conferida manualmente quanto a campos, IDs únicos, datas e contagens.

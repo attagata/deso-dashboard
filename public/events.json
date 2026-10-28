@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "alliance": {
+    "tag": "DeSo",
+    "name": "Death Soldiers",
+    "server": "2052",
+    "game_alliance_id": "4bc2a8c04f864427a58f3fc1239d3d0a"
+  },
+  "last_updated": "2026-10-28",
+  "data_policy": {
+    "time": "Literal date/time supplied by administrator. Timezone unknown; no UTC offset inferred.",
+    "identity": "Existing player IDs retained. New players without snapshot IDs retain null; Jessica Rabbit Br is distinct from JessicaBR. No IDs assigned speculatively.",
+    "evidence": "Administrator-reported events; not independently verified against original screenshots. Coverage may be incomplete. No removal motive inferred.",
+    "deduplication": "Repeated Major Landes join at 15:03:46 recorded once.",
+    "integration": "Separate documentary archive, not yet consumed by dashboard calculations or player profiles. Does not modify daily snapshots or their manifest. Current member count is not inferred from these events."
+  },
+  "events": [
+    {
+      "event_id": "deso-2026-10-27-130146-removal",
+      "event_type": "removal",
+      "player": {
+        "player_id": "p074",
+        "name": "LDR Queen Royalty"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-27",
+      "event_time": "13:01:46",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-27-130249-removal",
+      "event_type": "removal",
+      "player": {
+        "player_id": "p079",
+        "name": "VINGADOR Brito"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-27",
+      "event_time": "13:02:49",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-27-160824-join",
+      "event_type": "join",
+      "player": {
+        "player_id": "p110",
+        "name": "douglascabral"
+      },
+      "actor": {
+        "player_id": null,
+        "name": null
+      },
+      "event_date": "2026-10-27",
+      "event_time": "16:08:24",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-27-233330-join",
+      "event_type": "join",
+      "player": {
+        "player_id": "p109",
+        "name": "Pao27lb"
+      },
+      "actor": {
+        "player_id": null,
+        "name": null
+      },
+      "event_date": "2026-10-27",
+      "event_time": "23:33:30",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-131349-removal",
+      "event_type": "removal",
+      "player": {
+        "player_id": "p098",
+        "name": "CampJude"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-28",
+      "event_time": "13:13:49",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-131504-removal",
+      "event_type": "removal",
+      "player": {
+        "player_id": "p102",
+        "name": "baldo83"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-28",
+      "event_time": "13:15:04",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-131537-removal",
+      "event_type": "removal",
+      "player": {
+        "player_id": "p100",
+        "name": "Commander 21c462052"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-28",
+      "event_time": "13:15:37",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-131640-removal",
+      "event_type": "removal",
+      "player": {
+        "player_id": "p106",
+        "name": "Pauloaugustoferreira"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-28",
+      "event_time": "13:16:40",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-131721-removal",
+      "event_type": "removal",
+      "player": {
+        "player_id": "p082",
+        "name": "Comandante 255aa2028"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-28",
+      "event_time": "13:17:21",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-131812-rank_change",
+      "event_type": "rank_change",
+      "player": {
+        "player_id": "p026",
+        "name": "LoreninhaLost"
+      },
+      "actor": {
+        "player_id": "p091",
+        "name": "Dogs R Big x2"
+      },
+      "event_date": "2026-10-28",
+      "event_time": "13:18:12",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": "R3",
+      "new_rank": "R1",
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-142802-join",
+      "event_type": "join",
+      "player": {
+        "player_id": null,
+        "name": "Nilson BNF"
+      },
+      "actor": {
+        "player_id": null,
+        "name": null
+      },
+      "event_date": "2026-10-28",
+      "event_time": "14:28:02",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-150346-join",
+      "event_type": "join",
+      "player": {
+        "player_id": null,
+        "name": "Major Landes"
+      },
+      "actor": {
+        "player_id": null,
+        "name": null
+      },
+      "event_date": "2026-10-28",
+      "event_time": "15:03:46",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-190714-voluntary_departure",
+      "event_type": "voluntary_departure",
+      "player": {
+        "player_id": "p109",
+        "name": "Pao27lb"
+      },
+      "actor": {
+        "player_id": null,
+        "name": null
+      },
+      "event_date": "2026-10-28",
+      "event_time": "19:07:14",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    },
+    {
+      "event_id": "deso-2026-10-28-192915-join_approved",
+      "event_type": "join_approved",
+      "player": {
+        "player_id": null,
+        "name": "Jessica Rabbit Br"
+      },
+      "actor": {
+        "player_id": "p001",
+        "name": "ATT75"
+      },
+      "event_date": "2026-10-28",
+      "event_time": "19:29:15",
+      "timezone": null,
+      "recorded_on": "2026-10-28",
+      "previous_rank": null,
+      "new_rank": null,
+      "evidence": {
+        "type": "administrator_transcription",
+        "verification": "administrator_reported_not_independently_image_verified",
+        "source": "Administrator transcriptions supplied in this conversation on 2026-10-28. Original screenshots not attached to these messages."
+      }
+    }
+  ]
+}
