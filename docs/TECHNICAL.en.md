@@ -434,7 +434,6 @@ The same instruction is persisted in [AGENTS.md](../AGENTS.md) for future reposi
 | --- | --- | --- |
 | 2026-10-20 | Added the complete parallel English reference, reciprocal language navigation and the persistent bilingual maintenance policy; clarified original versus performance test counts | Both versions updated |
 | 2026-10-22 | Added the FreeCounterStat counter at the bottom of the page, with one script load per document, a no-JavaScript fallback and documentation of the external exception, cookies and counting limitations | Both versions updated |
-
 | 2026-10-28 | Added a manual, isolated LastWar Tools shared-access probe, with protected secret and aggregate report, without automatic imports | Both versions updated |
 
 ## 16. Simple visit counter

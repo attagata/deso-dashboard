@@ -434,7 +434,6 @@ A mesma instrução está registrada em [AGENTS.md](../AGENTS.md) para trabalhos
 | --- | --- | --- |
 | 2026-10-20 | Adicionada a referência paralela completa em inglês, a navegação recíproca de idiomas e a política persistente de manutenção bilíngue; esclarecida a contagem de testes originais e de desempenho | Duas versões atualizadas |
 | 2026-10-22 | Adicionado o contador FreeCounterStat no fim da página, com script único por carregamento, fallback sem JavaScript e documentação da exceção externa, cookies e limites de contagem | Duas versões atualizadas |
-
 | 2026-10-28 | Adicionado teste manual e isolado do acesso compartilhado LastWar Tools, com secret protegido e relatório agregado, sem importação automática | Duas versões atualizadas |
 
 ## 16. Contador simples de visitas
