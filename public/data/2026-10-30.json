@@ -12,16 +12,16 @@
   "summary": {
     "reported_members": 99,
     "alliance_power": 6288847690,
-    "observed_named_players": 95,
-    "power_records": 95,
+    "observed_named_players": 99,
+    "power_records": 99,
     "imported_summary": {
-      "total_records": 95,
+      "total_records": 99,
       "ranks": {
         "R5": 1,
-        "R4": 6,
+        "R4": 8,
         "R3": 33,
         "R2": 7,
-        "R1": 48
+        "R1": 50
       },
       "flagged_inactive_5plus_days": 2,
       "alliance_power": 6288847690,
@@ -32,7 +32,7 @@
       "reported_members": 99
     },
     "source_archive": "source-data/deso_2026-10-30_validado.json",
-    "coverage_note": "Validated 30/10 source with complete visible member records. Marquiqui5 was confirmed expelled after comparison with administrator screenshots; the other four names absent from the detailed JSON were confirmed present. Official alliance count was 99 while visible rank detail summed to 97.",
+    "coverage_note": "Validated 30/10 source consolidated with four additional players confirmed in administrator-supplied screenshots: baiano moraes, Monte Verde1, Tbbbbbbbb and LoreninhaLost. Marquiqui5 remains recorded as an expelled player. Official alliance count is 99.",
     "confirmed_new_member_ids": [
       "p115",
       "p116"
@@ -1272,6 +1272,58 @@
       "online_at_capture": false,
       "visible": true,
       "source": "validated daily import",
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p004",
+      "name": "baiano moraes",
+      "rank": "R4",
+      "power_m": 58.8,
+      "base_level": 28,
+      "last_seen": "3h",
+      "last_seen_minutes": 180,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "administrator-supplied screenshot",
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p005",
+      "name": "Monte Verde1",
+      "rank": "R4",
+      "power_m": 95.6,
+      "base_level": 30,
+      "last_seen": "10h",
+      "last_seen_minutes": 600,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "administrator-supplied screenshot",
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p051",
+      "name": "Tbbbbbbbb",
+      "rank": "R1",
+      "power_m": 68.3,
+      "base_level": 27,
+      "last_seen": "1h",
+      "last_seen_minutes": 60,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "administrator-supplied screenshot",
+      "identity_uncertain": false
+    },
+    {
+      "player_id": "p026",
+      "name": "LoreninhaLost",
+      "rank": "R1",
+      "power_m": 57.2,
+      "base_level": 30,
+      "last_seen": "1d",
+      "last_seen_minutes": 1440,
+      "online_at_capture": false,
+      "visible": true,
+      "source": "administrator-supplied screenshot",
       "identity_uncertain": false
     }
   ],
