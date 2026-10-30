@@ -26,10 +26,12 @@
       "flagged_inactive_5plus_days": 2,
       "alliance_power": null,
       "members_joined": [],
-      "members_left": []
+      "members_left": [
+        "Marquiqui5"
+      ]
     },
     "source_archive": "source-data/deso_2026-10-30_validado.json",
-    "coverage_note": "Validated 30/10 source with complete visible member records. Missing entries do not prove departure; official alliance count was 99 while visible rank detail summed to 97.",
+    "coverage_note": "Validated 30/10 source with complete visible member records. Marquiqui5 was confirmed expelled after comparison with administrator screenshots; the other four names absent from the detailed JSON were confirmed present. Official alliance count was 99 while visible rank detail summed to 97.",
     "confirmed_new_member_ids": [
       "p115",
       "p116"
@@ -1272,5 +1274,15 @@
       "identity_uncertain": false
     }
   ],
-  "membership_events": []
+  "membership_events": [
+    {
+      "event_type": "departure",
+      "player_id": "p076",
+      "name": "Marquiqui5",
+      "recorded_on": "2026-10-30",
+      "effective_date": null,
+      "previous_rank": "R1",
+      "source": "Expulsion confirmed in administrator-supplied screenshots after comparison with the 2026-10-29 snapshot; exact event time was not provided."
+    }
+  ]
 }
