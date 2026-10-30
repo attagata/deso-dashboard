@@ -11,7 +11,7 @@
   },
   "summary": {
     "reported_members": 99,
-    "alliance_power": null,
+    "alliance_power": 6288847690,
     "observed_named_players": 95,
     "power_records": 95,
     "imported_summary": {
@@ -24,11 +24,12 @@
         "R1": 48
       },
       "flagged_inactive_5plus_days": 2,
-      "alliance_power": null,
+      "alliance_power": 6288847690,
       "members_joined": [],
       "members_left": [
         "Marquiqui5"
-      ]
+      ],
+      "reported_members": 99
     },
     "source_archive": "source-data/deso_2026-10-30_validado.json",
     "coverage_note": "Validated 30/10 source with complete visible member records. Marquiqui5 was confirmed expelled after comparison with administrator screenshots; the other four names absent from the detailed JSON were confirmed present. Official alliance count was 99 while visible rank detail summed to 97.",
