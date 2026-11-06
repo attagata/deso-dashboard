@@ -1,0 +1,700 @@
+{
+  "data_referencia": "2026-11-06",
+  "alianca": "[DeSo] Death Soldiers",
+  "servidor": 2052,
+  "lider": "Dogs R Big x2",
+  "membros_informados": 95,
+  "poder_alianca_informado": 6724026308,
+  "poder_lider_milhoes": 125.6,
+  "contagem_por_cargo": {
+    "R5": 1,
+    "R4": 7,
+    "R3": 34,
+    "R2": 6,
+    "R1": 47
+  },
+  "movimentacoes_confirmadas": [
+    {
+      "jogador": "Miotelo",
+      "evento": "saida_voluntaria",
+      "data_hora": "2026-11-05T03:22:22"
+    },
+    {
+      "jogador": "White Cat",
+      "evento": "promocao_R1_para_R3",
+      "data_hora": "2026-11-04T23:17:23"
+    }
+  ],
+  "jogadores": [
+    {
+      "nome": "Dogs R Big x2",
+      "cargo": "R5",
+      "poder_milhoes": 125.6,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "ATT75",
+      "cargo": "R4",
+      "poder_milhoes": 101.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "baiano moraes",
+      "cargo": "R4",
+      "poder_milhoes": 68.0,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Amilton123",
+      "cargo": "R4",
+      "poder_milhoes": 109.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "MaquinaMortiferaX",
+      "cargo": "R4",
+      "poder_milhoes": 117.6,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "LDX trop",
+      "cargo": "R4",
+      "poder_milhoes": 125.2,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Monte Verde1",
+      "cargo": "R4",
+      "poder_milhoes": 96.9,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "garouone",
+      "cargo": "R4",
+      "poder_milhoes": 71.1,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Padilha Boladona",
+      "cargo": "R3",
+      "poder_milhoes": 88.2,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Naelton vejeve",
+      "cargo": "R3",
+      "poder_milhoes": 85.1,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Jim Robert",
+      "cargo": "R3",
+      "poder_milhoes": 108.7,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Renatobrittes",
+      "cargo": "R3",
+      "poder_milhoes": 85.1,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Rafael kisseco",
+      "cargo": "R3",
+      "poder_milhoes": 78.3,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "JessicaBR",
+      "cargo": "R3",
+      "poder_milhoes": 101.9,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Matiassilva",
+      "cargo": "R3",
+      "poder_milhoes": 44.8,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "qpato",
+      "cargo": "R3",
+      "poder_milhoes": 91.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Meliodas Evil",
+      "cargo": "R3",
+      "poder_milhoes": 96.6,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "LOGAN25",
+      "cargo": "R3",
+      "poder_milhoes": 87.7,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "White Cat",
+      "cargo": "R3",
+      "poder_milhoes": 79.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Dourado 666",
+      "cargo": "R3",
+      "poder_milhoes": 129.2,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "MarechalRondon",
+      "cargo": "R3",
+      "poder_milhoes": 117.2,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "DanTagata",
+      "cargo": "R3",
+      "poder_milhoes": 87.5,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Zaca base",
+      "cargo": "R3",
+      "poder_milhoes": 92.9,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "mr llama08",
+      "cargo": "R3",
+      "poder_milhoes": 102.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "tixca",
+      "cargo": "R3",
+      "poder_milhoes": 53.2,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Sub ZeRo 007",
+      "cargo": "R3",
+      "poder_milhoes": 120.8,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "mandaloriano",
+      "cargo": "R3",
+      "poder_milhoes": 56.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "brunoxp01",
+      "cargo": "R3",
+      "poder_milhoes": 97.6,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Albert Phish",
+      "cargo": "R3",
+      "poder_milhoes": 85.3,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Natalina94",
+      "cargo": "R3",
+      "poder_milhoes": 101.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Lituânia",
+      "cargo": "R3",
+      "poder_milhoes": 73.1,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Portela Aldo",
+      "cargo": "R3",
+      "poder_milhoes": 108.3,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Cardalu",
+      "cargo": "R3",
+      "poder_milhoes": 82.9,
+      "nivel": 27,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "TnTzinhoO",
+      "cargo": "R3",
+      "poder_milhoes": 110.2,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "rancharias",
+      "cargo": "R3",
+      "poder_milhoes": 92.1,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Rf 1",
+      "cargo": "R3",
+      "poder_milhoes": 106.6,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Pecansandies02560",
+      "cargo": "R3",
+      "poder_milhoes": 70.9,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "3학년반장",
+      "cargo": "R3",
+      "poder_milhoes": 96.7,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "patito84",
+      "cargo": "R3",
+      "poder_milhoes": 27.0,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Hooks Mustang",
+      "cargo": "R3",
+      "poder_milhoes": 74.3,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Deeeez73",
+      "cargo": "R3",
+      "poder_milhoes": 64.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Nathi0987",
+      "cargo": "R3",
+      "poder_milhoes": 69.2,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Ralph75",
+      "cargo": "R2",
+      "poder_milhoes": 75.4,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Carlota26",
+      "cargo": "R2",
+      "poder_milhoes": 38.1,
+      "nivel": 20,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "EASYE0831",
+      "cargo": "R2",
+      "poder_milhoes": 46.3,
+      "nivel": 27,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "comando estermar",
+      "cargo": "R2",
+      "poder_milhoes": 58.8,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Bate pesadão",
+      "cargo": "R2",
+      "poder_milhoes": 27.0,
+      "nivel": 23,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "WP konn joj",
+      "cargo": "R2",
+      "poder_milhoes": 29.5,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Jessica Rabbit Br",
+      "cargo": "R1",
+      "poder_milhoes": 43.5,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Tbbbbbbbb",
+      "cargo": "R1",
+      "poder_milhoes": 72.9,
+      "nivel": 27,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "I am a MaryJane",
+      "cargo": "R1",
+      "poder_milhoes": 20.4,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "douglascabral",
+      "cargo": "R1",
+      "poder_milhoes": 113.4,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "LOOCHE",
+      "cargo": "R1",
+      "poder_milhoes": 67.2,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Commander 33b092052",
+      "cargo": "R1",
+      "poder_milhoes": 68.0,
+      "nivel": 27,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Major Landes",
+      "cargo": "R1",
+      "poder_milhoes": 99.7,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "LennartBoy",
+      "cargo": "R1",
+      "poder_milhoes": 60.2,
+      "nivel": 26,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Lair74",
+      "cargo": "R1",
+      "poder_milhoes": 41.3,
+      "nivel": 23,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "ColonelStuffy",
+      "cargo": "R1",
+      "poder_milhoes": 49.8,
+      "nivel": 26,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Pedrinho Taru",
+      "cargo": "R1",
+      "poder_milhoes": 36.8,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "FARAH",
+      "cargo": "R1",
+      "poder_milhoes": 82.7,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "zicors",
+      "cargo": "R1",
+      "poder_milhoes": 53.7,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Apolo Berlim",
+      "cargo": "R1",
+      "poder_milhoes": 74.9,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Catatau o Homem mal",
+      "cargo": "R1",
+      "poder_milhoes": 39.0,
+      "nivel": 22,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Nilson BNF",
+      "cargo": "R1",
+      "poder_milhoes": 93.3,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "AndretTiba",
+      "cargo": "R1",
+      "poder_milhoes": 43.6,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Aitana Lu",
+      "cargo": "R1",
+      "poder_milhoes": 72.2,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Adrianinhow",
+      "cargo": "R1",
+      "poder_milhoes": 48.4,
+      "nivel": 27,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Comandante203292052",
+      "cargo": "R1",
+      "poder_milhoes": 23.7,
+      "nivel": 19,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "JJ110QT",
+      "cargo": "R1",
+      "poder_milhoes": 68.7,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Snoopy lover",
+      "cargo": "R1",
+      "poder_milhoes": 66.2,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Commander 26d4b2052",
+      "cargo": "R1",
+      "poder_milhoes": 18.5,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Hewhoshallnotbenamed",
+      "cargo": "R1",
+      "poder_milhoes": 36.5,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Comandante Alex586",
+      "cargo": "R1",
+      "poder_milhoes": 65.2,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "HP Tex",
+      "cargo": "R1",
+      "poder_milhoes": 42.3,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "General Birão",
+      "cargo": "R1",
+      "poder_milhoes": 60.9,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Geni Bahia",
+      "cargo": "R1",
+      "poder_milhoes": 53.2,
+      "nivel": 26,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "ClaudioJuniorMed",
+      "cargo": "R1",
+      "poder_milhoes": 40.5,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Henriquec Dias",
+      "cargo": "R1",
+      "poder_milhoes": 91.5,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "edivar",
+      "cargo": "R1",
+      "poder_milhoes": 34.0,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "burey",
+      "cargo": "R1",
+      "poder_milhoes": 65.2,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Augusto gois",
+      "cargo": "R1",
+      "poder_milhoes": 63.4,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "LoreninhaLost",
+      "cargo": "R1",
+      "poder_milhoes": 66.5,
+      "nivel": 30,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Irving XeroTemor",
+      "cargo": "R1",
+      "poder_milhoes": 79.5,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Rena2222",
+      "cargo": "R1",
+      "poder_milhoes": 21.9,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Agus R",
+      "cargo": "R1",
+      "poder_milhoes": 69.7,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "MISHU0101",
+      "cargo": "R1",
+      "poder_milhoes": 52.6,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Marquiqui5",
+      "cargo": "R1",
+      "poder_milhoes": 64.5,
+      "nivel": 24,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "AllurbaseRbelong2us",
+      "cargo": "R1",
+      "poder_milhoes": 36.1,
+      "nivel": 27,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Hernan David 34",
+      "cargo": "R1",
+      "poder_milhoes": 55.9,
+      "nivel": 29,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Rick Grimeess",
+      "cargo": "R1",
+      "poder_milhoes": 70.6,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Tagnos",
+      "cargo": "R1",
+      "poder_milhoes": 48.6,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "Zorrzi",
+      "cargo": "R1",
+      "poder_milhoes": 62.2,
+      "nivel": 25,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "dourado martins",
+      "cargo": "R1",
+      "poder_milhoes": 41.1,
+      "nivel": 28,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "MDOliveira",
+      "cargo": "R1",
+      "poder_milhoes": 42.3,
+      "nivel": 26,
+      "origem": "screenshot_2026-11-06"
+    },
+    {
+      "nome": "BECK",
+      "cargo": "R1",
+      "poder_milhoes": 40.5,
+      "nivel": 27,
+      "origem": "screenshot_2026-11-06"
+    }
+  ],
+  "observacoes": [
+    "Poder de cada jogador é exibido pelo jogo em milhões e foi transcrito com uma casa decimal.",
+    "Dados individuais extraídos dos screenshots apresentados como referentes a 06/11; os indicadores gerais de 95 membros e 6.724.026.308 de poder foram extraídos da tela da aliança.",
+    "A lista de jogadores foi consolidada sem duplicatas e contém 95 entradas."
+  ]
+}
