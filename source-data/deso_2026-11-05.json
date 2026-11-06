@@ -1,0 +1,598 @@
+{
+  "data": "2026-11-05",
+  "alianca": "[DeSo] Death Soldiers",
+  "servidor": "2052",
+  "total_membros": 96,
+  "contagem_por_patente": {
+    "R5": 1,
+    "R4": 7,
+    "R3": 35,
+    "R2": 6,
+    "R1": 47
+  },
+  "fonte": "Dois lotes de screenshots de 05/11/2026",
+  "observacoes": [
+    "Poder expresso em milhões (M), conforme a interface do jogo.",
+    "Valores arredondados a 0,1M, conforme exibidos.",
+    "Patentes, poder e níveis extraídos exclusivamente dos screenshots de 05/11.",
+    "Indicadores de último acesso/localização não incluídos nesta versão."
+  ],
+  "membros": [
+    {
+      "nome": "Dogs R Big x2",
+      "patente": "R5",
+      "poder_milhoes": 123.7,
+      "nivel": 30
+    },
+    {
+      "nome": "ATT75",
+      "patente": "R4",
+      "poder_milhoes": 94.0,
+      "nivel": 30
+    },
+    {
+      "nome": "Amilton123",
+      "patente": "R4",
+      "poder_milhoes": 103.0,
+      "nivel": 30
+    },
+    {
+      "nome": "MaquinaMortiferaX",
+      "patente": "R4",
+      "poder_milhoes": 113.5,
+      "nivel": 30
+    },
+    {
+      "nome": "baiano moraes",
+      "patente": "R4",
+      "poder_milhoes": 65.4,
+      "nivel": 28
+    },
+    {
+      "nome": "LDX trop",
+      "patente": "R4",
+      "poder_milhoes": 123.0,
+      "nivel": 30
+    },
+    {
+      "nome": "Monte Verde1",
+      "patente": "R4",
+      "poder_milhoes": 96.4,
+      "nivel": 30
+    },
+    {
+      "nome": "garouone",
+      "patente": "R4",
+      "poder_milhoes": 71.1,
+      "nivel": 30
+    },
+    {
+      "nome": "Padilha Boladona",
+      "patente": "R3",
+      "poder_milhoes": 82.7,
+      "nivel": 30
+    },
+    {
+      "nome": "Sub ZeRo 007",
+      "patente": "R3",
+      "poder_milhoes": 114.2,
+      "nivel": 30
+    },
+    {
+      "nome": "Rf 1",
+      "patente": "R3",
+      "poder_milhoes": 102.9,
+      "nivel": 30
+    },
+    {
+      "nome": "qpato",
+      "patente": "R3",
+      "poder_milhoes": 88.4,
+      "nivel": 30
+    },
+    {
+      "nome": "Rafael kisseco",
+      "patente": "R3",
+      "poder_milhoes": 77.7,
+      "nivel": 25
+    },
+    {
+      "nome": "Lituânia",
+      "patente": "R3",
+      "poder_milhoes": 70.4,
+      "nivel": 30
+    },
+    {
+      "nome": "Meliodas Evil",
+      "patente": "R3",
+      "poder_milhoes": 94.5,
+      "nivel": 30
+    },
+    {
+      "nome": "Dourado 666",
+      "patente": "R3",
+      "poder_milhoes": 128.4,
+      "nivel": 30
+    },
+    {
+      "nome": "White Cat",
+      "patente": "R3",
+      "poder_milhoes": 75.4,
+      "nivel": 30
+    },
+    {
+      "nome": "Portela Aldo",
+      "patente": "R3",
+      "poder_milhoes": 106.6,
+      "nivel": 30
+    },
+    {
+      "nome": "JessicaBR",
+      "patente": "R3",
+      "poder_milhoes": 98.7,
+      "nivel": 30
+    },
+    {
+      "nome": "patito84",
+      "patente": "R3",
+      "poder_milhoes": 27.0,
+      "nivel": 24
+    },
+    {
+      "nome": "Natalina94",
+      "patente": "R3",
+      "poder_milhoes": 101.1,
+      "nivel": 30
+    },
+    {
+      "nome": "TnTzinhoO",
+      "patente": "R3",
+      "poder_milhoes": 107.4,
+      "nivel": 30
+    },
+    {
+      "nome": "Matiassilva",
+      "patente": "R3",
+      "poder_milhoes": 43.2,
+      "nivel": 29
+    },
+    {
+      "nome": "Renatobrittes",
+      "patente": "R3",
+      "poder_milhoes": 84.5,
+      "nivel": 30
+    },
+    {
+      "nome": "mandaloriano",
+      "patente": "R3",
+      "poder_milhoes": 52.8,
+      "nivel": 30
+    },
+    {
+      "nome": "DanTagata",
+      "patente": "R3",
+      "poder_milhoes": 80.4,
+      "nivel": 29
+    },
+    {
+      "nome": "MarechalRondon",
+      "patente": "R3",
+      "poder_milhoes": 112.9,
+      "nivel": 30
+    },
+    {
+      "nome": "Jim Robert",
+      "patente": "R3",
+      "poder_milhoes": 108.9,
+      "nivel": 30
+    },
+    {
+      "nome": "LOGAN25",
+      "patente": "R3",
+      "poder_milhoes": 87.4,
+      "nivel": 30
+    },
+    {
+      "nome": "mr llama08",
+      "patente": "R3",
+      "poder_milhoes": 94.7,
+      "nivel": 30
+    },
+    {
+      "nome": "rancharias",
+      "patente": "R3",
+      "poder_milhoes": 92.0,
+      "nivel": 30
+    },
+    {
+      "nome": "Naelton vejeve",
+      "patente": "R3",
+      "poder_milhoes": 82.4,
+      "nivel": 30
+    },
+    {
+      "nome": "Hooks Mustang",
+      "patente": "R3",
+      "poder_milhoes": 74.3,
+      "nivel": 28
+    },
+    {
+      "nome": "brunoxp01",
+      "patente": "R3",
+      "poder_milhoes": 96.9,
+      "nivel": 29
+    },
+    {
+      "nome": "Zaca base",
+      "patente": "R3",
+      "poder_milhoes": 92.2,
+      "nivel": 30
+    },
+    {
+      "nome": "Miotelo",
+      "patente": "R3",
+      "poder_milhoes": 36.5,
+      "nivel": 28
+    },
+    {
+      "nome": "Albert Phish",
+      "patente": "R3",
+      "poder_milhoes": 84.6,
+      "nivel": 30
+    },
+    {
+      "nome": "Cardalu",
+      "patente": "R3",
+      "poder_milhoes": 81.3,
+      "nivel": 27
+    },
+    {
+      "nome": "Pecansandies02560",
+      "patente": "R3",
+      "poder_milhoes": 70.8,
+      "nivel": 30
+    },
+    {
+      "nome": "3학년반장",
+      "patente": "R3",
+      "poder_milhoes": 96.3,
+      "nivel": 30
+    },
+    {
+      "nome": "Deeeez73",
+      "patente": "R3",
+      "poder_milhoes": 64.5,
+      "nivel": 30
+    },
+    {
+      "nome": "tixca",
+      "patente": "R3",
+      "poder_milhoes": 50.2,
+      "nivel": 29
+    },
+    {
+      "nome": "Nathi0987",
+      "patente": "R3",
+      "poder_milhoes": 69.2,
+      "nivel": 28
+    },
+    {
+      "nome": "WP konn joj",
+      "patente": "R2",
+      "poder_milhoes": 25.7,
+      "nivel": 25
+    },
+    {
+      "nome": "comando estermar",
+      "patente": "R2",
+      "poder_milhoes": 57.0,
+      "nivel": 28
+    },
+    {
+      "nome": "Ralph75",
+      "patente": "R2",
+      "poder_milhoes": 73.8,
+      "nivel": 29
+    },
+    {
+      "nome": "Bate pesadão",
+      "patente": "R2",
+      "poder_milhoes": 26.3,
+      "nivel": 23
+    },
+    {
+      "nome": "EASYE0831",
+      "patente": "R2",
+      "poder_milhoes": 45.2,
+      "nivel": 27
+    },
+    {
+      "nome": "Carlota26",
+      "patente": "R2",
+      "poder_milhoes": 36.6,
+      "nivel": 20
+    },
+    {
+      "nome": "Comandante203292052",
+      "patente": "R1",
+      "poder_milhoes": 23.7,
+      "nivel": 19
+    },
+    {
+      "nome": "Nilson BNF",
+      "patente": "R1",
+      "poder_milhoes": 88.3,
+      "nivel": 30
+    },
+    {
+      "nome": "LOOCHE",
+      "patente": "R1",
+      "poder_milhoes": 64.3,
+      "nivel": 29
+    },
+    {
+      "nome": "ColonelStuffy",
+      "patente": "R1",
+      "poder_milhoes": 49.0,
+      "nivel": 26
+    },
+    {
+      "nome": "I am a MaryJane",
+      "patente": "R1",
+      "poder_milhoes": 20.2,
+      "nivel": 24
+    },
+    {
+      "nome": "Lair74",
+      "patente": "R1",
+      "poder_milhoes": 42.6,
+      "nivel": 23
+    },
+    {
+      "nome": "Commander 26d4b2052",
+      "patente": "R1",
+      "poder_milhoes": 18.4,
+      "nivel": 25
+    },
+    {
+      "nome": "douglascabral",
+      "patente": "R1",
+      "poder_milhoes": 110.2,
+      "nivel": 30
+    },
+    {
+      "nome": "Henriquec Dias",
+      "patente": "R1",
+      "poder_milhoes": 90.0,
+      "nivel": 28
+    },
+    {
+      "nome": "Commander 33b092052",
+      "patente": "R1",
+      "poder_milhoes": 66.7,
+      "nivel": 27
+    },
+    {
+      "nome": "Major Landes",
+      "patente": "R1",
+      "poder_milhoes": 99.1,
+      "nivel": 30
+    },
+    {
+      "nome": "AndretTiba",
+      "patente": "R1",
+      "poder_milhoes": 41.3,
+      "nivel": 24
+    },
+    {
+      "nome": "Aitana Lu",
+      "patente": "R1",
+      "poder_milhoes": 69.8,
+      "nivel": 28
+    },
+    {
+      "nome": "Apolo Berlim",
+      "patente": "R1",
+      "poder_milhoes": 74.9,
+      "nivel": 30
+    },
+    {
+      "nome": "Jessica Rabbit Br",
+      "patente": "R1",
+      "poder_milhoes": 39.1,
+      "nivel": 28
+    },
+    {
+      "nome": "Irving XeroTemor",
+      "patente": "R1",
+      "poder_milhoes": 79.5,
+      "nivel": 29
+    },
+    {
+      "nome": "JJ110QT",
+      "patente": "R1",
+      "poder_milhoes": 66.2,
+      "nivel": 29
+    },
+    {
+      "nome": "Pedrinho Taru",
+      "patente": "R1",
+      "poder_milhoes": 35.4,
+      "nivel": 25
+    },
+    {
+      "nome": "zicors",
+      "patente": "R1",
+      "poder_milhoes": 53.7,
+      "nivel": 25
+    },
+    {
+      "nome": "Comandante Alex586",
+      "patente": "R1",
+      "poder_milhoes": 66.7,
+      "nivel": 29
+    },
+    {
+      "nome": "Hewhoshallnotbenamed",
+      "patente": "R1",
+      "poder_milhoes": 36.5,
+      "nivel": 24
+    },
+    {
+      "nome": "Tbbbbbbbb",
+      "patente": "R1",
+      "poder_milhoes": 72.7,
+      "nivel": 27
+    },
+    {
+      "nome": "LoreninhaLost",
+      "patente": "R1",
+      "poder_milhoes": 69.2,
+      "nivel": 30
+    },
+    {
+      "nome": "General Birão",
+      "patente": "R1",
+      "poder_milhoes": 60.9,
+      "nivel": 28
+    },
+    {
+      "nome": "HP Tex",
+      "patente": "R1",
+      "poder_milhoes": 40.5,
+      "nivel": 25
+    },
+    {
+      "nome": "FARAH",
+      "patente": "R1",
+      "poder_milhoes": 80.8,
+      "nivel": 28
+    },
+    {
+      "nome": "Catatau o Homem mal",
+      "patente": "R1",
+      "poder_milhoes": 37.1,
+      "nivel": 22
+    },
+    {
+      "nome": "Snoopy lover",
+      "patente": "R1",
+      "poder_milhoes": 66.3,
+      "nivel": 29
+    },
+    {
+      "nome": "Rena2222",
+      "patente": "R1",
+      "poder_milhoes": 21.9,
+      "nivel": 24
+    },
+    {
+      "nome": "LennartBoy",
+      "patente": "R1",
+      "poder_milhoes": 56.7,
+      "nivel": 26
+    },
+    {
+      "nome": "Agus R",
+      "patente": "R1",
+      "poder_milhoes": 69.7,
+      "nivel": 24
+    },
+    {
+      "nome": "ClaudioJuniorMed",
+      "patente": "R1",
+      "poder_milhoes": 31.1,
+      "nivel": 28
+    },
+    {
+      "nome": "MISHU0101",
+      "patente": "R1",
+      "poder_milhoes": 52.6,
+      "nivel": 29
+    },
+    {
+      "nome": "Augusto gois",
+      "patente": "R1",
+      "poder_milhoes": 64.1,
+      "nivel": 28
+    },
+    {
+      "nome": "edivar",
+      "patente": "R1",
+      "poder_milhoes": 33.1,
+      "nivel": 23
+    },
+    {
+      "nome": "Marquiqui5",
+      "patente": "R1",
+      "poder_milhoes": 64.5,
+      "nivel": 24
+    },
+    {
+      "nome": "burey",
+      "patente": "R1",
+      "poder_milhoes": 64.4,
+      "nivel": 28
+    },
+    {
+      "nome": "AllurbaseRbelong2us",
+      "patente": "R1",
+      "poder_milhoes": 36.1,
+      "nivel": 27
+    },
+    {
+      "nome": "Adrianinhow",
+      "patente": "R1",
+      "poder_milhoes": 46.4,
+      "nivel": 27
+    },
+    {
+      "nome": "Hernan David 34",
+      "patente": "R1",
+      "poder_milhoes": 55.9,
+      "nivel": 29
+    },
+    {
+      "nome": "Rick Grimeess",
+      "patente": "R1",
+      "poder_milhoes": 70.6,
+      "nivel": 25
+    },
+    {
+      "nome": "Geni Bahia",
+      "patente": "R1",
+      "poder_milhoes": 52.8,
+      "nivel": 26
+    },
+    {
+      "nome": "Tagnos",
+      "patente": "R1",
+      "poder_milhoes": 48.6,
+      "nivel": 25
+    },
+    {
+      "nome": "Zorrzi",
+      "patente": "R1",
+      "poder_milhoes": 62.2,
+      "nivel": 25
+    },
+    {
+      "nome": "dourado martins",
+      "patente": "R1",
+      "poder_milhoes": 41.1,
+      "nivel": 28
+    },
+    {
+      "nome": "MDOliveira",
+      "patente": "R1",
+      "poder_milhoes": 42.3,
+      "nivel": 26
+    },
+    {
+      "nome": "BECK",
+      "patente": "R1",
+      "poder_milhoes": 40.5,
+      "nivel": 27
+    }
+  ]
+}
