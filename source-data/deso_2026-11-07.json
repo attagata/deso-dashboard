@@ -1,0 +1,774 @@
+{
+  "data_referencia": "2026-11-07",
+  "jogo": "Last War",
+  "servidor": 2052,
+  "alianca": {
+    "tag": "DeSo",
+    "nome": "Death Soldiers",
+    "lider": "Dogs R Big x2",
+    "membros_total": 93,
+    "capacidade": 100,
+    "poder_total": 6425172690,
+    "avaliacao_estrelas": 4.8
+  },
+  "contagem_por_cargo": {
+    "R5": 1,
+    "R4": 7,
+    "R3": 33,
+    "R2": 5,
+    "R1": 47
+  },
+  "observacoes": [
+    "Dados extraídos exclusivamente dos screenshots identificados como 07/11/2026.",
+    "O campo ultima_atividade reproduz o tempo relativo exibido nas imagens; não representa um horário absoluto.",
+    "marcador_mapa é a cor do ícone visível, não uma classificação de atividade.",
+    "Para R5, a última atividade e o marcador de mapa não eram apresentados na lista; status online visto no cabeçalho.",
+    "Nomes preservados conforme leitura visual, sujeitos a pequenas diferenças de capitalização e caracteres especiais."
+  ],
+  "jogadores": [
+    {
+      "nome": "Dogs R Big x2",
+      "cargo": "R5",
+      "poder_milhoes": 129.0,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "não exibido"
+    },
+    {
+      "nome": "ATT75",
+      "cargo": "R4",
+      "poder_milhoes": 89.5,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Amilton123",
+      "cargo": "R4",
+      "poder_milhoes": 88.6,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Monte Verde1",
+      "cargo": "R4",
+      "poder_milhoes": 97.1,
+      "nivel": 30,
+      "ultima_atividade": "5 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "MaquinaMortiferaX",
+      "cargo": "R4",
+      "poder_milhoes": 124.2,
+      "nivel": 30,
+      "ultima_atividade": "30 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "LDX trop",
+      "cargo": "R4",
+      "poder_milhoes": 132.7,
+      "nivel": 30,
+      "ultima_atividade": "32 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "baiano moraes",
+      "cargo": "R4",
+      "poder_milhoes": 71.2,
+      "nivel": 28,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "garouone",
+      "cargo": "R4",
+      "poder_milhoes": 75.0,
+      "nivel": 30,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Deeeez73",
+      "cargo": "R3",
+      "poder_milhoes": 39.0,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Zaca base",
+      "cargo": "R3",
+      "poder_milhoes": 93.1,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Rf 1",
+      "cargo": "R3",
+      "poder_milhoes": 110.0,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "qpato",
+      "cargo": "R3",
+      "poder_milhoes": 93.4,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Jim Robert",
+      "cargo": "R3",
+      "poder_milhoes": 109.3,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Lituânia",
+      "cargo": "R3",
+      "poder_milhoes": 72.9,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "MarechalRondon",
+      "cargo": "R3",
+      "poder_milhoes": 115.5,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Meliodas Evil",
+      "cargo": "R3",
+      "poder_milhoes": 100.3,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "mr llama08",
+      "cargo": "R3",
+      "poder_milhoes": 71.5,
+      "nivel": 30,
+      "ultima_atividade": "1 minuto",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Cardalu",
+      "cargo": "R3",
+      "poder_milhoes": 84.8,
+      "nivel": 27,
+      "ultima_atividade": "5 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "JessicaBR",
+      "cargo": "R3",
+      "poder_milhoes": 101.0,
+      "nivel": 30,
+      "ultima_atividade": "8 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Dourado 666",
+      "cargo": "R3",
+      "poder_milhoes": 130.1,
+      "nivel": 30,
+      "ultima_atividade": "10 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "mandaloriano",
+      "cargo": "R3",
+      "poder_milhoes": 44.4,
+      "nivel": 30,
+      "ultima_atividade": "22 minutos",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Padilha Boladona",
+      "cargo": "R3",
+      "poder_milhoes": 91.3,
+      "nivel": 30,
+      "ultima_atividade": "32 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Albert Phish",
+      "cargo": "R3",
+      "poder_milhoes": 91.6,
+      "nivel": 30,
+      "ultima_atividade": "37 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Portela Aldo",
+      "cargo": "R3",
+      "poder_milhoes": 74.4,
+      "nivel": 30,
+      "ultima_atividade": "39 minutos",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "DanTagata",
+      "cargo": "R3",
+      "poder_milhoes": 89.7,
+      "nivel": 29,
+      "ultima_atividade": "39 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Hooks Mustang",
+      "cargo": "R3",
+      "poder_milhoes": 75.8,
+      "nivel": 28,
+      "ultima_atividade": "41 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Naelton vejeve",
+      "cargo": "R3",
+      "poder_milhoes": 86.5,
+      "nivel": 30,
+      "ultima_atividade": "44 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "LOGAN25",
+      "cargo": "R3",
+      "poder_milhoes": 87.4,
+      "nivel": 30,
+      "ultima_atividade": "45 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "3학년반장",
+      "cargo": "R3",
+      "poder_milhoes": 96.9,
+      "nivel": 30,
+      "ultima_atividade": "49 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "White Cat",
+      "cargo": "R3",
+      "poder_milhoes": 93.0,
+      "nivel": 30,
+      "ultima_atividade": "49 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Rafael kisseco",
+      "cargo": "R3",
+      "poder_milhoes": 82.0,
+      "nivel": 25,
+      "ultima_atividade": "59 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Natalina94",
+      "cargo": "R3",
+      "poder_milhoes": 101.7,
+      "nivel": 30,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Sub ZeRo 007",
+      "cargo": "R3",
+      "poder_milhoes": 117.6,
+      "nivel": 30,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "TnTzinhoO",
+      "cargo": "R3",
+      "poder_milhoes": 115.0,
+      "nivel": 30,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "tixca",
+      "cargo": "R3",
+      "poder_milhoes": 54.4,
+      "nivel": 29,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "brunoxp01",
+      "cargo": "R3",
+      "poder_milhoes": 98.2,
+      "nivel": 29,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "rancharias",
+      "cargo": "R3",
+      "poder_milhoes": 92.6,
+      "nivel": 30,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Renatobrittes",
+      "cargo": "R3",
+      "poder_milhoes": 91.5,
+      "nivel": 30,
+      "ultima_atividade": "2 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Pecansandies02560",
+      "cargo": "R3",
+      "poder_milhoes": 72.1,
+      "nivel": 30,
+      "ultima_atividade": "7 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Matiassilva",
+      "cargo": "R3",
+      "poder_milhoes": 45.3,
+      "nivel": 30,
+      "ultima_atividade": "12 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Nathi0987",
+      "cargo": "R3",
+      "poder_milhoes": 69.2,
+      "nivel": 28,
+      "ultima_atividade": "5 dias",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Ralph75",
+      "cargo": "R2",
+      "poder_milhoes": 74.4,
+      "nivel": 29,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "comando estermar",
+      "cargo": "R2",
+      "poder_milhoes": 56.7,
+      "nivel": 28,
+      "ultima_atividade": "2 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Bate pesadão",
+      "cargo": "R2",
+      "poder_milhoes": 27.6,
+      "nivel": 23,
+      "ultima_atividade": "9 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Carlota26",
+      "cargo": "R2",
+      "poder_milhoes": 38.1,
+      "nivel": 20,
+      "ultima_atividade": "48 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "EASYE0831",
+      "cargo": "R2",
+      "poder_milhoes": 46.9,
+      "nivel": 27,
+      "ultima_atividade": "51 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "HP Tex",
+      "cargo": "R1",
+      "poder_milhoes": 43.3,
+      "nivel": 25,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "zicors",
+      "cargo": "R1",
+      "poder_milhoes": 35.0,
+      "nivel": 25,
+      "ultima_atividade": "online",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "LOOCHE",
+      "cargo": "R1",
+      "poder_milhoes": 68.2,
+      "nivel": 29,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Major Landes",
+      "cargo": "R1",
+      "poder_milhoes": 95.1,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "ColonelStuffy",
+      "cargo": "R1",
+      "poder_milhoes": 55.3,
+      "nivel": 26,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "I am a MaryJane",
+      "cargo": "R1",
+      "poder_milhoes": 20.7,
+      "nivel": 24,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Irving XeroTemor",
+      "cargo": "R1",
+      "poder_milhoes": 62.8,
+      "nivel": 29,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Snoopy lover",
+      "cargo": "R1",
+      "poder_milhoes": 40.8,
+      "nivel": 29,
+      "ultima_atividade": "online",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Agus R",
+      "cargo": "R1",
+      "poder_milhoes": 50.4,
+      "nivel": 24,
+      "ultima_atividade": "1 minuto",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "ClaudioJuniorMed",
+      "cargo": "R1",
+      "poder_milhoes": 28.2,
+      "nivel": 28,
+      "ultima_atividade": "3 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Henriquec Dias",
+      "cargo": "R1",
+      "poder_milhoes": 91.1,
+      "nivel": 28,
+      "ultima_atividade": "6 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Catatau o Homem mal",
+      "cargo": "R1",
+      "poder_milhoes": 24.1,
+      "nivel": 22,
+      "ultima_atividade": "17 minutos",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "LoreninhaLost",
+      "cargo": "R1",
+      "poder_milhoes": 46.4,
+      "nivel": 30,
+      "ultima_atividade": "26 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "douglascabral",
+      "cargo": "R1",
+      "poder_milhoes": 69.4,
+      "nivel": 30,
+      "ultima_atividade": "38 minutos",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "FARAH KARIM",
+      "cargo": "R1",
+      "poder_milhoes": 83.2,
+      "nivel": 28,
+      "ultima_atividade": "45 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "JJ110QT",
+      "cargo": "R1",
+      "poder_milhoes": 72.4,
+      "nivel": 29,
+      "ultima_atividade": "49 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Nilson BNF",
+      "cargo": "R1",
+      "poder_milhoes": 79.6,
+      "nivel": 30,
+      "ultima_atividade": "54 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Jessica Rabbit Br",
+      "cargo": "R1",
+      "poder_milhoes": 50.0,
+      "nivel": 28,
+      "ultima_atividade": "59 minutos",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "KNGKLA2",
+      "cargo": "R1",
+      "poder_milhoes": 60.3,
+      "nivel": 28,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "General Birão",
+      "cargo": "R1",
+      "poder_milhoes": 61.3,
+      "nivel": 28,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Aitana Lu",
+      "cargo": "R1",
+      "poder_milhoes": 72.1,
+      "nivel": 28,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Adrianinhow",
+      "cargo": "R1",
+      "poder_milhoes": 52.1,
+      "nivel": 27,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "david4073",
+      "cargo": "R1",
+      "poder_milhoes": 23.7,
+      "nivel": 19,
+      "ultima_atividade": "1 hora",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Hernan David 34",
+      "cargo": "R1",
+      "poder_milhoes": 55.4,
+      "nivel": 29,
+      "ultima_atividade": "2 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Lair74",
+      "cargo": "R1",
+      "poder_milhoes": 42.1,
+      "nivel": 23,
+      "ultima_atividade": "2 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "AndretTiba",
+      "cargo": "R1",
+      "poder_milhoes": 45.6,
+      "nivel": 24,
+      "ultima_atividade": "2 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "BECK",
+      "cargo": "R1",
+      "poder_milhoes": 40.6,
+      "nivel": 27,
+      "ultima_atividade": "2 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Augusto gois",
+      "cargo": "R1",
+      "poder_milhoes": 63.6,
+      "nivel": 28,
+      "ultima_atividade": "2 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "LennartBoy",
+      "cargo": "R1",
+      "poder_milhoes": 64.3,
+      "nivel": 26,
+      "ultima_atividade": "3 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Geni Bahia",
+      "cargo": "R1",
+      "poder_milhoes": 53.3,
+      "nivel": 26,
+      "ultima_atividade": "3 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Comandante Alex586",
+      "cargo": "R1",
+      "poder_milhoes": 70.9,
+      "nivel": 29,
+      "ultima_atividade": "3 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Rick Grimeess",
+      "cargo": "R1",
+      "poder_milhoes": 70.6,
+      "nivel": 25,
+      "ultima_atividade": "4 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "MISHU0101",
+      "cargo": "R1",
+      "poder_milhoes": 54.7,
+      "nivel": 29,
+      "ultima_atividade": "4 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Apolo Berlim",
+      "cargo": "R1",
+      "poder_milhoes": 74.9,
+      "nivel": 30,
+      "ultima_atividade": "4 horas",
+      "marcador_mapa": "verde"
+    },
+    {
+      "nome": "Rena2222",
+      "cargo": "R1",
+      "poder_milhoes": 22.5,
+      "nivel": 24,
+      "ultima_atividade": "7 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Commander 26d4b2052",
+      "cargo": "R1",
+      "poder_milhoes": 18.7,
+      "nivel": 25,
+      "ultima_atividade": "8 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "edivar",
+      "cargo": "R1",
+      "poder_milhoes": 35.4,
+      "nivel": 24,
+      "ultima_atividade": "9 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "burey",
+      "cargo": "R1",
+      "poder_milhoes": 66.2,
+      "nivel": 28,
+      "ultima_atividade": "11 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Tbbbbbbbb",
+      "cargo": "R1",
+      "poder_milhoes": 72.9,
+      "nivel": 27,
+      "ultima_atividade": "15 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Marquiqui5",
+      "cargo": "R1",
+      "poder_milhoes": 66.5,
+      "nivel": 24,
+      "ultima_atividade": "21 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "WP konn joj",
+      "cargo": "R1",
+      "poder_milhoes": 29.8,
+      "nivel": 25,
+      "ultima_atividade": "22 horas",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Pedrinho Taru",
+      "cargo": "R1",
+      "poder_milhoes": 36.8,
+      "nivel": 25,
+      "ultima_atividade": "1 dia",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "patito84",
+      "cargo": "R1",
+      "poder_milhoes": 27.0,
+      "nivel": 24,
+      "ultima_atividade": "2 dias",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "AllurbaseRbelong2us",
+      "cargo": "R1",
+      "poder_milhoes": 36.1,
+      "nivel": 27,
+      "ultima_atividade": "2 dias",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Tagnos",
+      "cargo": "R1",
+      "poder_milhoes": 48.6,
+      "nivel": 25,
+      "ultima_atividade": "3 dias",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "Zorrzi",
+      "cargo": "R1",
+      "poder_milhoes": 62.2,
+      "nivel": 25,
+      "ultima_atividade": "4 dias",
+      "marcador_mapa": "vermelho"
+    },
+    {
+      "nome": "dourado martins",
+      "cargo": "R1",
+      "poder_milhoes": 41.1,
+      "nivel": 28,
+      "ultima_atividade": "4 dias",
+      "marcador_mapa": "vermelho"
+    }
+  ]
+}
