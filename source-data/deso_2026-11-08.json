@@ -1,0 +1,776 @@
+{
+  "data": "2026-11-07",
+  "jogo": "Last War",
+  "alianca": {
+    "tag": "DeSo",
+    "nome": "Death Soldiers",
+    "servidor": 2052,
+    "lider": "Dogs R Big x2",
+    "membros": 92,
+    "capacidade": 100,
+    "poder_total": 6295457241,
+    "classificacao_geral": 4.8
+  },
+  "captura": {
+    "criterio": "último valor legível de cada jogador nos screenshots de 07/11",
+    "observacoes": [
+      "Poder individual em milhões, arredondado a uma casa decimal conforme a interface.",
+      "Última atividade é relativa ao instante da respectiva captura e não representa timestamp absoluto.",
+      "Não foram imputados dados de dias anteriores.",
+      "O perfil R5 foi capturado em horário diferente da tela de poder total da aliança."
+    ]
+  },
+  "contagem_por_posto": {
+    "R5": 1,
+    "R4": 7,
+    "R3": 33,
+    "R2": 5,
+    "R1": 46
+  },
+  "jogadores": [
+    {
+      "nome": "Dogs R Big x2",
+      "posto": "R5",
+      "poder_milhoes": 120.7,
+      "nivel": 30,
+      "ultima_atividade": "3 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "ATT75",
+      "posto": "R4",
+      "poder_milhoes": 98.6,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Amilton123",
+      "posto": "R4",
+      "poder_milhoes": 91.8,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "baiano moraes",
+      "posto": "R4",
+      "poder_milhoes": 69.6,
+      "nivel": 29,
+      "ultima_atividade": "59 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "garouone",
+      "posto": "R4",
+      "poder_milhoes": 77.9,
+      "nivel": 30,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "MaquinaMortiferaX",
+      "posto": "R4",
+      "poder_milhoes": 113.6,
+      "nivel": 30,
+      "ultima_atividade": "4 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Monte Verde1",
+      "posto": "R4",
+      "poder_milhoes": 97.1,
+      "nivel": 30,
+      "ultima_atividade": "10 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "LDX trop",
+      "posto": "R4",
+      "poder_milhoes": 111.3,
+      "nivel": 30,
+      "ultima_atividade": "10 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "DanTagata",
+      "posto": "R3",
+      "poder_milhoes": 90.2,
+      "nivel": 29,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "brunoxp01",
+      "posto": "R3",
+      "poder_milhoes": 97.3,
+      "nivel": 29,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "qpato",
+      "posto": "R3",
+      "poder_milhoes": 94.4,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Rafael kisseco",
+      "posto": "R3",
+      "poder_milhoes": 81.9,
+      "nivel": 25,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "White Cat",
+      "posto": "R3",
+      "poder_milhoes": 93.5,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Jim Robert",
+      "posto": "R3",
+      "poder_milhoes": 109.3,
+      "nivel": 30,
+      "ultima_atividade": "36 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Hooks Mustang",
+      "posto": "R3",
+      "poder_milhoes": 49.3,
+      "nivel": 28,
+      "ultima_atividade": "52 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "MarechalRondon",
+      "posto": "R3",
+      "poder_milhoes": 115.8,
+      "nivel": 30,
+      "ultima_atividade": "53 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "TnTzinhoO",
+      "posto": "R3",
+      "poder_milhoes": 115.2,
+      "nivel": 30,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "JessicaBR",
+      "posto": "R3",
+      "poder_milhoes": 101.8,
+      "nivel": 30,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Padilha Boladona",
+      "posto": "R3",
+      "poder_milhoes": 90.1,
+      "nivel": 30,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "tixca",
+      "posto": "R3",
+      "poder_milhoes": 46.6,
+      "nivel": 29,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Zaca base",
+      "posto": "R3",
+      "poder_milhoes": 93.1,
+      "nivel": 30,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "mr llama08",
+      "posto": "R3",
+      "poder_milhoes": 75.2,
+      "nivel": 30,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "3학년반장",
+      "posto": "R3",
+      "poder_milhoes": 97.1,
+      "nivel": 30,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Naelton vejeve",
+      "posto": "R3",
+      "poder_milhoes": 86.7,
+      "nivel": 30,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "rancharias",
+      "posto": "R3",
+      "poder_milhoes": 89.6,
+      "nivel": 30,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Dourado 666",
+      "posto": "R3",
+      "poder_milhoes": 130.2,
+      "nivel": 30,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Sub ZeRo 007",
+      "posto": "R3",
+      "poder_milhoes": 121.4,
+      "nivel": 30,
+      "ultima_atividade": "4 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Pecansandies02560",
+      "posto": "R3",
+      "poder_milhoes": 50.5,
+      "nivel": 30,
+      "ultima_atividade": "4 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Cardalu",
+      "posto": "R3",
+      "poder_milhoes": 53.1,
+      "nivel": 27,
+      "ultima_atividade": "4 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Meliodas Evil",
+      "posto": "R3",
+      "poder_milhoes": 102.2,
+      "nivel": 30,
+      "ultima_atividade": "5 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Lituânia",
+      "posto": "R3",
+      "poder_milhoes": 78.6,
+      "nivel": 30,
+      "ultima_atividade": "5 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "mandaloriano",
+      "posto": "R3",
+      "poder_milhoes": 46.5,
+      "nivel": 30,
+      "ultima_atividade": "5 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Natalina94",
+      "posto": "R3",
+      "poder_milhoes": 101.9,
+      "nivel": 30,
+      "ultima_atividade": "5 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Matiassilva",
+      "posto": "R3",
+      "poder_milhoes": 41.1,
+      "nivel": 30,
+      "ultima_atividade": "5 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Renatobrittes",
+      "posto": "R3",
+      "poder_milhoes": 94.0,
+      "nivel": 30,
+      "ultima_atividade": "6 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Albert Phish",
+      "posto": "R3",
+      "poder_milhoes": 94.1,
+      "nivel": 30,
+      "ultima_atividade": "11 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Portela Aldo",
+      "posto": "R3",
+      "poder_milhoes": 89.9,
+      "nivel": 30,
+      "ultima_atividade": "15 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Rf 1",
+      "posto": "R3",
+      "poder_milhoes": 112.3,
+      "nivel": 30,
+      "ultima_atividade": "16 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "LOGAN25",
+      "posto": "R3",
+      "poder_milhoes": 87.4,
+      "nivel": 30,
+      "ultima_atividade": "17 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Deeeez73",
+      "posto": "R3",
+      "poder_milhoes": 50.3,
+      "nivel": 30,
+      "ultima_atividade": "18 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Nathi0987",
+      "posto": "R3",
+      "poder_milhoes": 69.2,
+      "nivel": 28,
+      "ultima_atividade": "5 dias atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Ralph75",
+      "posto": "R2",
+      "poder_milhoes": 73.2,
+      "nivel": 29,
+      "ultima_atividade": "34 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Carlota26",
+      "posto": "R2",
+      "poder_milhoes": 38.2,
+      "nivel": 20,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "comando estermar",
+      "posto": "R2",
+      "poder_milhoes": 58.1,
+      "nivel": 28,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Bate pesadão",
+      "posto": "R2",
+      "poder_milhoes": 18.9,
+      "nivel": 24,
+      "ultima_atividade": "6 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "EASYE0831",
+      "posto": "R2",
+      "poder_milhoes": 46.7,
+      "nivel": 27,
+      "ultima_atividade": "13 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Nilson BNF",
+      "posto": "R1",
+      "poder_milhoes": 92.3,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Jessica Rabbit Br",
+      "posto": "R1",
+      "poder_milhoes": 51.6,
+      "nivel": 28,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Rick Grimeess",
+      "posto": "R1",
+      "poder_milhoes": 70.8,
+      "nivel": 25,
+      "ultima_atividade": "online",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "LOOCHE",
+      "posto": "R1",
+      "poder_milhoes": 68.0,
+      "nivel": 29,
+      "ultima_atividade": "4 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Catatau o Homem mal",
+      "posto": "R1",
+      "poder_milhoes": 25.7,
+      "nivel": 22,
+      "ultima_atividade": "5 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Hernan David 34",
+      "posto": "R1",
+      "poder_milhoes": 58.4,
+      "nivel": 29,
+      "ultima_atividade": "12 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Major Landes",
+      "posto": "R1",
+      "poder_milhoes": 92.7,
+      "nivel": 30,
+      "ultima_atividade": "13 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Comandante Alex586",
+      "posto": "R1",
+      "poder_milhoes": 47.1,
+      "nivel": 29,
+      "ultima_atividade": "18 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "General Birão",
+      "posto": "R1",
+      "poder_milhoes": 61.7,
+      "nivel": 28,
+      "ultima_atividade": "22 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "LoreninhaLost",
+      "posto": "R1",
+      "poder_milhoes": 59.4,
+      "nivel": 30,
+      "ultima_atividade": "30 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "WP konn joj",
+      "posto": "R1",
+      "poder_milhoes": 21.9,
+      "nivel": 25,
+      "ultima_atividade": "30 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "FARAH KARIM",
+      "posto": "R1",
+      "poder_milhoes": 83.4,
+      "nivel": 28,
+      "ultima_atividade": "34 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Adrianinhow",
+      "posto": "R1",
+      "poder_milhoes": 54.0,
+      "nivel": 27,
+      "ultima_atividade": "38 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "KNGKLA2",
+      "posto": "R1",
+      "poder_milhoes": 63.1,
+      "nivel": 28,
+      "ultima_atividade": "42 minutos atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Pedrinho Taru",
+      "posto": "R1",
+      "poder_milhoes": 23.3,
+      "nivel": 25,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "douglascabral",
+      "posto": "R1",
+      "poder_milhoes": 81.6,
+      "nivel": 30,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "AndretTiba",
+      "posto": "R1",
+      "poder_milhoes": 30.0,
+      "nivel": 24,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Snoopy lover",
+      "posto": "R1",
+      "poder_milhoes": 43.7,
+      "nivel": 29,
+      "ultima_atividade": "1 hora atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "JJ110QT",
+      "posto": "R1",
+      "poder_milhoes": 56.1,
+      "nivel": 29,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "LennartBoy",
+      "posto": "R1",
+      "poder_milhoes": 67.0,
+      "nivel": 26,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Henriquec Dias",
+      "posto": "R1",
+      "poder_milhoes": 97.6,
+      "nivel": 28,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Geni Bahia",
+      "posto": "R1",
+      "poder_milhoes": 53.5,
+      "nivel": 26,
+      "ultima_atividade": "2 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "patito84",
+      "posto": "R1",
+      "poder_milhoes": 26.2,
+      "nivel": 24,
+      "ultima_atividade": "3 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Augusto gois",
+      "posto": "R1",
+      "poder_milhoes": 63.7,
+      "nivel": 28,
+      "ultima_atividade": "3 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "david4073",
+      "posto": "R1",
+      "poder_milhoes": 22.0,
+      "nivel": 19,
+      "ultima_atividade": "3 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Lair74",
+      "posto": "R1",
+      "poder_milhoes": 42.4,
+      "nivel": 23,
+      "ultima_atividade": "4 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Aitana Lu",
+      "posto": "R1",
+      "poder_milhoes": 73.1,
+      "nivel": 28,
+      "ultima_atividade": "5 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "HP Tex",
+      "posto": "R1",
+      "poder_milhoes": 29.6,
+      "nivel": 25,
+      "ultima_atividade": "5 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Agus R",
+      "posto": "R1",
+      "poder_milhoes": 58.1,
+      "nivel": 24,
+      "ultima_atividade": "6 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "zicors",
+      "posto": "R1",
+      "poder_milhoes": 42.8,
+      "nivel": 25,
+      "ultima_atividade": "6 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "ColonelStuffy",
+      "posto": "R1",
+      "poder_milhoes": 39.3,
+      "nivel": 26,
+      "ultima_atividade": "7 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Apolo Berlim",
+      "posto": "R1",
+      "poder_milhoes": 75.1,
+      "nivel": 30,
+      "ultima_atividade": "7 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "burey",
+      "posto": "R1",
+      "poder_milhoes": 65.4,
+      "nivel": 28,
+      "ultima_atividade": "11 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "ClaudioJuniorMed",
+      "posto": "R1",
+      "poder_milhoes": 28.2,
+      "nivel": 28,
+      "ultima_atividade": "14 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Tagnos",
+      "posto": "R1",
+      "poder_milhoes": 38.3,
+      "nivel": 25,
+      "ultima_atividade": "22 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Irving XeroTemor",
+      "posto": "R1",
+      "poder_milhoes": 65.3,
+      "nivel": 29,
+      "ultima_atividade": "22 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "I am a MaryJane",
+      "posto": "R1",
+      "poder_milhoes": 20.7,
+      "nivel": 24,
+      "ultima_atividade": "22 horas atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "BECK",
+      "posto": "R1",
+      "poder_milhoes": 40.6,
+      "nivel": 27,
+      "ultima_atividade": "1 dia atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "MISHU0101",
+      "posto": "R1",
+      "poder_milhoes": 54.7,
+      "nivel": 29,
+      "ultima_atividade": "1 dia atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Rena2222",
+      "posto": "R1",
+      "poder_milhoes": 22.5,
+      "nivel": 24,
+      "ultima_atividade": "1 dia atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "edivar",
+      "posto": "R1",
+      "poder_milhoes": 35.4,
+      "nivel": 24,
+      "ultima_atividade": "1 dia atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Tbbbbbbbb",
+      "posto": "R1",
+      "poder_milhoes": 72.9,
+      "nivel": 27,
+      "ultima_atividade": "1 dia atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Marquiqui5",
+      "posto": "R1",
+      "poder_milhoes": 66.5,
+      "nivel": 24,
+      "ultima_atividade": "1 dia atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "AllurbaseRbelong2us",
+      "posto": "R1",
+      "poder_milhoes": 36.1,
+      "nivel": 27,
+      "ultima_atividade": "3 dias atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "Zorrzi",
+      "posto": "R1",
+      "poder_milhoes": 62.2,
+      "nivel": 25,
+      "ultima_atividade": "5 dias atrás",
+      "origem": "screenshot_07_11"
+    },
+    {
+      "nome": "dourado martins",
+      "posto": "R1",
+      "poder_milhoes": 41.1,
+      "nivel": 28,
+      "ultima_atividade": "5 dias atrás",
+      "origem": "screenshot_07_11"
+    }
+  ],
+  "eventos": [
+    {
+      "data_hora_local": "2026-11-07T18:24:03",
+      "tipo": "remocao",
+      "jogador": "Commander 26d4b2052",
+      "responsavel": "baiano moraes"
+    }
+  ]
+}
