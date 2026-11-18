@@ -1,0 +1,865 @@
+{
+  "data": "2026-11-09",
+  "alianca": "[DeSo] Death Soldiers",
+  "servidor": "2052",
+  "fonte": "20 screenshots enviados em dois lotes (IMG_7958 a IMG_7977)",
+  "resumo": {
+    "membros_total_exibido": 91,
+    "poder_alianca": 6215192280,
+    "classificacao_geral": 4.8,
+    "lider": "Dogs R Big x2",
+    "poder_lider_milhoes": 125.2,
+    "membros_extraidos": 91,
+    "por_posto_extraidos": {
+      "R5": 1,
+      "R4": 7,
+      "R3": 32,
+      "R2": 5,
+      "R1": 46
+    }
+  },
+  "observacoes": [
+    "A data 09/11 foi indicada pelo usuário; as capturas não exibem timestamp absoluto da coleta.",
+    "Última atividade é relativa ao momento de captura; online indica que estava conectado naquele instante.",
+    "Marcador_base corresponde à cor do pino exibido, sem inferir localização geográfica.",
+    "Os nomes e valores foram transcritos das imagens; casas de poder são milhões (M).",
+    "O registro de 08/11/2026 22:22:09 comprova o rebaixamento de Nathi0987 de R3 para R1, preservado em 09/11.",
+    "Os screenshots cobrem a relação de membros em sequência, podendo haver linhas parcialmente cortadas; ausência deve ser indicada como não confirmada."
+  ],
+  "eventos": [
+    {
+      "data_hora": "2026-11-08T22:22:09",
+      "jogador": "Nathi0987",
+      "tipo": "rebaixamento",
+      "de": "R3",
+      "para": "R1",
+      "justificativa": "inatividade prolongada (informada pelo usuário)"
+    },
+    {
+      "data_hora": "2026-11-08T19:16:10",
+      "jogador": "Zorrzi",
+      "tipo": "remocao_da_alianca"
+    }
+  ],
+  "jogadores": [
+    {
+      "nome": "Dogs R Big x2",
+      "posto": "R5",
+      "poder_milhoes": 125.2,
+      "nivel": 30,
+      "ultima_atividade": "6m",
+      "marcador_base": "unknown",
+      "fonte": "IMG_7959.jpeg"
+    },
+    {
+      "nome": "ATT75",
+      "posto": "R4",
+      "poder_milhoes": 92.4,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7960.jpeg"
+    },
+    {
+      "nome": "MaquinaMortiferaX",
+      "posto": "R4",
+      "poder_milhoes": 113.4,
+      "nivel": 30,
+      "ultima_atividade": "18m",
+      "marcador_base": "green",
+      "fonte": "IMG_7960.jpeg"
+    },
+    {
+      "nome": "Amilton123",
+      "posto": "R4",
+      "poder_milhoes": 105.5,
+      "nivel": 30,
+      "ultima_atividade": "30m",
+      "marcador_base": "green",
+      "fonte": "IMG_7960.jpeg"
+    },
+    {
+      "nome": "baiano moraes",
+      "posto": "R4",
+      "poder_milhoes": 75.5,
+      "nivel": 29,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7960.jpeg"
+    },
+    {
+      "nome": "garouone",
+      "posto": "R4",
+      "poder_milhoes": 78.8,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7960.jpeg"
+    },
+    {
+      "nome": "LDX trop",
+      "posto": "R4",
+      "poder_milhoes": 86.6,
+      "nivel": 30,
+      "ultima_atividade": "2h",
+      "marcador_base": "green",
+      "fonte": "IMG_7960.jpeg"
+    },
+    {
+      "nome": "Monte Verde1",
+      "posto": "R4",
+      "poder_milhoes": 97.1,
+      "nivel": 30,
+      "ultima_atividade": "3h",
+      "marcador_base": "green",
+      "fonte": "IMG_7961.jpeg"
+    },
+    {
+      "nome": "LOGAN25",
+      "posto": "R3",
+      "poder_milhoes": 88.2,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7961.jpeg"
+    },
+    {
+      "nome": "Jim Robert",
+      "posto": "R3",
+      "poder_milhoes": 109.4,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7961.jpeg"
+    },
+    {
+      "nome": "Lituânia",
+      "posto": "R3",
+      "poder_milhoes": 79.3,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7961.jpeg"
+    },
+    {
+      "nome": "Cardalu",
+      "posto": "R3",
+      "poder_milhoes": 58.2,
+      "nivel": 27,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7961.jpeg"
+    },
+    {
+      "nome": "White Cat",
+      "posto": "R3",
+      "poder_milhoes": 92.9,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7961.jpeg"
+    },
+    {
+      "nome": "Dourado 666",
+      "posto": "R3",
+      "poder_milhoes": 129.4,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7962.jpeg"
+    },
+    {
+      "nome": "Matiassilva",
+      "posto": "R3",
+      "poder_milhoes": 41.5,
+      "nivel": 30,
+      "ultima_atividade": "2m",
+      "marcador_base": "green",
+      "fonte": "IMG_7962.jpeg"
+    },
+    {
+      "nome": "JessicaBR",
+      "posto": "R3",
+      "poder_milhoes": 102.0,
+      "nivel": 30,
+      "ultima_atividade": "5m",
+      "marcador_base": "green",
+      "fonte": "IMG_7962.jpeg"
+    },
+    {
+      "nome": "Rafael kisseco",
+      "posto": "R3",
+      "poder_milhoes": 82.7,
+      "nivel": 25,
+      "ultima_atividade": "12m",
+      "marcador_base": "green",
+      "fonte": "IMG_7962.jpeg"
+    },
+    {
+      "nome": "Pecansandies02560",
+      "posto": "R3",
+      "poder_milhoes": 54.1,
+      "nivel": 30,
+      "ultima_atividade": "16m",
+      "marcador_base": "green",
+      "fonte": "IMG_7962.jpeg"
+    },
+    {
+      "nome": "Albert Phish",
+      "posto": "R3",
+      "poder_milhoes": 94.6,
+      "nivel": 30,
+      "ultima_atividade": "21m",
+      "marcador_base": "green",
+      "fonte": "IMG_7962.jpeg"
+    },
+    {
+      "nome": "Padilha Boladona",
+      "posto": "R3",
+      "poder_milhoes": 86.4,
+      "nivel": 30,
+      "ultima_atividade": "42m",
+      "marcador_base": "green",
+      "fonte": "IMG_7963.jpeg"
+    },
+    {
+      "nome": "Natalina94",
+      "posto": "R3",
+      "poder_milhoes": 101.9,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7963.jpeg"
+    },
+    {
+      "nome": "Sub ZeRo 007",
+      "posto": "R3",
+      "poder_milhoes": 121.5,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7963.jpeg"
+    },
+    {
+      "nome": "TnTzinhoO",
+      "posto": "R3",
+      "poder_milhoes": 116.2,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7963.jpeg"
+    },
+    {
+      "nome": "Portela Aldo",
+      "posto": "R3",
+      "poder_milhoes": 90.9,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7963.jpeg"
+    },
+    {
+      "nome": "Rf 1",
+      "posto": "R3",
+      "poder_milhoes": 117.2,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7963.jpeg"
+    },
+    {
+      "nome": "DanTagata",
+      "posto": "R3",
+      "poder_milhoes": 83.3,
+      "nivel": 29,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7964.jpeg"
+    },
+    {
+      "nome": "mr llama08",
+      "posto": "R3",
+      "poder_milhoes": 76.6,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7964.jpeg"
+    },
+    {
+      "nome": "MarechalRondon",
+      "posto": "R3",
+      "poder_milhoes": 114.3,
+      "nivel": 30,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7964.jpeg"
+    },
+    {
+      "nome": "Naelton vejeve",
+      "posto": "R3",
+      "poder_milhoes": 86.2,
+      "nivel": 30,
+      "ultima_atividade": "2h",
+      "marcador_base": "green",
+      "fonte": "IMG_7964.jpeg"
+    },
+    {
+      "nome": "mandaloriano",
+      "posto": "R3",
+      "poder_milhoes": 48.7,
+      "nivel": 30,
+      "ultima_atividade": "3h",
+      "marcador_base": "green",
+      "fonte": "IMG_7964.jpeg"
+    },
+    {
+      "nome": "Zaca base",
+      "posto": "R3",
+      "poder_milhoes": 93.3,
+      "nivel": 30,
+      "ultima_atividade": "3h",
+      "marcador_base": "green",
+      "fonte": "IMG_7964.jpeg"
+    },
+    {
+      "nome": "Meliodas Evil",
+      "posto": "R3",
+      "poder_milhoes": 104.4,
+      "nivel": 30,
+      "ultima_atividade": "4h",
+      "marcador_base": "green",
+      "fonte": "IMG_7965.jpeg"
+    },
+    {
+      "nome": "qpato",
+      "posto": "R3",
+      "poder_milhoes": 96.3,
+      "nivel": 30,
+      "ultima_atividade": "5h",
+      "marcador_base": "green",
+      "fonte": "IMG_7965.jpeg"
+    },
+    {
+      "nome": "brunoxp01",
+      "posto": "R3",
+      "poder_milhoes": 97.7,
+      "nivel": 29,
+      "ultima_atividade": "6h",
+      "marcador_base": "green",
+      "fonte": "IMG_7965.jpeg"
+    },
+    {
+      "nome": "Renatobrittes",
+      "posto": "R3",
+      "poder_milhoes": 93.6,
+      "nivel": 30,
+      "ultima_atividade": "6h",
+      "marcador_base": "green",
+      "fonte": "IMG_7965.jpeg"
+    },
+    {
+      "nome": "tixca",
+      "posto": "R3",
+      "poder_milhoes": 48.0,
+      "nivel": 29,
+      "ultima_atividade": "12h",
+      "marcador_base": "green",
+      "fonte": "IMG_7965.jpeg"
+    },
+    {
+      "nome": "3학년반장",
+      "posto": "R3",
+      "poder_milhoes": 97.3,
+      "nivel": 30,
+      "ultima_atividade": "13h",
+      "marcador_base": "green",
+      "fonte": "IMG_7965.jpeg"
+    },
+    {
+      "nome": "rancharias",
+      "posto": "R3",
+      "poder_milhoes": 90.6,
+      "nivel": 30,
+      "ultima_atividade": "16h",
+      "marcador_base": "green",
+      "fonte": "IMG_7966.jpeg"
+    },
+    {
+      "nome": "Deeeez73",
+      "posto": "R3",
+      "poder_milhoes": 48.7,
+      "nivel": 30,
+      "ultima_atividade": "21h",
+      "marcador_base": "red",
+      "fonte": "IMG_7966.jpeg"
+    },
+    {
+      "nome": "Hooks Mustang",
+      "posto": "R3",
+      "poder_milhoes": 49.3,
+      "nivel": 28,
+      "ultima_atividade": "1d",
+      "marcador_base": "green",
+      "fonte": "IMG_7966.jpeg"
+    },
+    {
+      "nome": "comando estermar",
+      "posto": "R2",
+      "poder_milhoes": 54.9,
+      "nivel": 28,
+      "ultima_atividade": "15m",
+      "marcador_base": "green",
+      "fonte": "IMG_7966.jpeg"
+    },
+    {
+      "nome": "Ralph75",
+      "posto": "R2",
+      "poder_milhoes": 74.5,
+      "nivel": 29,
+      "ultima_atividade": "26m",
+      "marcador_base": "green",
+      "fonte": "IMG_7966.jpeg"
+    },
+    {
+      "nome": "Bate pesadão",
+      "posto": "R2",
+      "poder_milhoes": 20.6,
+      "nivel": 24,
+      "ultima_atividade": "13h",
+      "marcador_base": "green",
+      "fonte": "IMG_7966.jpeg"
+    },
+    {
+      "nome": "EASYE0831",
+      "posto": "R2",
+      "poder_milhoes": 39.2,
+      "nivel": 27,
+      "ultima_atividade": "13h",
+      "marcador_base": "green",
+      "fonte": "IMG_7967.jpeg"
+    },
+    {
+      "nome": "Carlota26",
+      "posto": "R2",
+      "poder_milhoes": 38.2,
+      "nivel": 20,
+      "ultima_atividade": "1d",
+      "marcador_base": "green",
+      "fonte": "IMG_7967.jpeg"
+    },
+    {
+      "nome": "Nilson BNF",
+      "posto": "R1",
+      "poder_milhoes": 90.1,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7967.jpeg"
+    },
+    {
+      "nome": "Augusto gois",
+      "posto": "R1",
+      "poder_milhoes": 60.6,
+      "nivel": 28,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7967.jpeg"
+    },
+    {
+      "nome": "Major Landes",
+      "posto": "R1",
+      "poder_milhoes": 98.1,
+      "nivel": 30,
+      "ultima_atividade": "online",
+      "marcador_base": "green",
+      "fonte": "IMG_7967.jpeg"
+    },
+    {
+      "nome": "WP konn joj",
+      "posto": "R1",
+      "poder_milhoes": 21.9,
+      "nivel": 25,
+      "ultima_atividade": "online",
+      "marcador_base": "red",
+      "fonte": "IMG_7967.jpeg"
+    },
+    {
+      "nome": "douglascabral",
+      "posto": "R1",
+      "poder_milhoes": 82.5,
+      "nivel": 30,
+      "ultima_atividade": "5m",
+      "marcador_base": "green",
+      "fonte": "IMG_7968.jpeg"
+    },
+    {
+      "nome": "Jessica Rabbit Br",
+      "posto": "R1",
+      "poder_milhoes": 52.6,
+      "nivel": 28,
+      "ultima_atividade": "6m",
+      "marcador_base": "green",
+      "fonte": "IMG_7968.jpeg"
+    },
+    {
+      "nome": "General Birão",
+      "posto": "R1",
+      "poder_milhoes": 61.6,
+      "nivel": 28,
+      "ultima_atividade": "15m",
+      "marcador_base": "green",
+      "fonte": "IMG_7968.jpeg"
+    },
+    {
+      "nome": "LOOCHE",
+      "posto": "R1",
+      "poder_milhoes": 68.2,
+      "nivel": 29,
+      "ultima_atividade": "17m",
+      "marcador_base": "green",
+      "fonte": "IMG_7968.jpeg"
+    },
+    {
+      "nome": "zicors",
+      "posto": "R1",
+      "poder_milhoes": 44.8,
+      "nivel": 25,
+      "ultima_atividade": "23m",
+      "marcador_base": "green",
+      "fonte": "IMG_7968.jpeg"
+    },
+    {
+      "nome": "KNGKLA2",
+      "posto": "R1",
+      "poder_milhoes": 66.3,
+      "nivel": 28,
+      "ultima_atividade": "24m",
+      "marcador_base": "green",
+      "fonte": "IMG_7968.jpeg"
+    },
+    {
+      "nome": "Adrianinhow",
+      "posto": "R1",
+      "poder_milhoes": 54.0,
+      "nivel": 27,
+      "ultima_atividade": "56m",
+      "marcador_base": "green",
+      "fonte": "IMG_7969.jpeg"
+    },
+    {
+      "nome": "JJ110QT",
+      "posto": "R1",
+      "poder_milhoes": 60.3,
+      "nivel": 29,
+      "ultima_atividade": "59m",
+      "marcador_base": "green",
+      "fonte": "IMG_7969.jpeg"
+    },
+    {
+      "nome": "david4073",
+      "posto": "R1",
+      "poder_milhoes": 23.2,
+      "nivel": 19,
+      "ultima_atividade": "1h",
+      "marcador_base": "red",
+      "fonte": "IMG_7969.jpeg"
+    },
+    {
+      "nome": "HP Tex",
+      "posto": "R1",
+      "poder_milhoes": 31.0,
+      "nivel": 25,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7969.jpeg"
+    },
+    {
+      "nome": "Snoopy lover",
+      "posto": "R1",
+      "poder_milhoes": 43.0,
+      "nivel": 29,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7969.jpeg"
+    },
+    {
+      "nome": "ColonelStuffy",
+      "posto": "R1",
+      "poder_milhoes": 39.3,
+      "nivel": 26,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7969.jpeg"
+    },
+    {
+      "nome": "Lair74",
+      "posto": "R1",
+      "poder_milhoes": 42.8,
+      "nivel": 23,
+      "ultima_atividade": "1h",
+      "marcador_base": "green",
+      "fonte": "IMG_7970.jpeg"
+    },
+    {
+      "nome": "Marquiqui5",
+      "posto": "R1",
+      "poder_milhoes": 47.2,
+      "nivel": 24,
+      "ultima_atividade": "2h",
+      "marcador_base": "green",
+      "fonte": "IMG_7970.jpeg"
+    },
+    {
+      "nome": "Aitana Lu",
+      "posto": "R1",
+      "poder_milhoes": 46.8,
+      "nivel": 28,
+      "ultima_atividade": "2h",
+      "marcador_base": "green",
+      "fonte": "IMG_7970.jpeg"
+    },
+    {
+      "nome": "Agus R",
+      "posto": "R1",
+      "poder_milhoes": 60.3,
+      "nivel": 24,
+      "ultima_atividade": "3h",
+      "marcador_base": "green",
+      "fonte": "IMG_7970.jpeg"
+    },
+    {
+      "nome": "LennartBoy",
+      "posto": "R1",
+      "poder_milhoes": 67.5,
+      "nivel": 26,
+      "ultima_atividade": "3h",
+      "marcador_base": "green",
+      "fonte": "IMG_7970.jpeg"
+    },
+    {
+      "nome": "Comandante Alex586",
+      "posto": "R1",
+      "poder_milhoes": 51.9,
+      "nivel": 29,
+      "ultima_atividade": "4h",
+      "marcador_base": "green",
+      "fonte": "IMG_7970.jpeg"
+    },
+    {
+      "nome": "Rick Grimeess",
+      "posto": "R1",
+      "poder_milhoes": 71.2,
+      "nivel": 26,
+      "ultima_atividade": "4h",
+      "marcador_base": "green",
+      "fonte": "IMG_7971.jpeg"
+    },
+    {
+      "nome": "Pedrinho Taru",
+      "posto": "R1",
+      "poder_milhoes": 29.9,
+      "nivel": 25,
+      "ultima_atividade": "4h",
+      "marcador_base": "green",
+      "fonte": "IMG_7971.jpeg"
+    },
+    {
+      "nome": "AndretTiba",
+      "posto": "R1",
+      "poder_milhoes": 31.5,
+      "nivel": 24,
+      "ultima_atividade": "4h",
+      "marcador_base": "green",
+      "fonte": "IMG_7971.jpeg"
+    },
+    {
+      "nome": "Henriquec Dias",
+      "posto": "R1",
+      "poder_milhoes": 97.6,
+      "nivel": 28,
+      "ultima_atividade": "6h",
+      "marcador_base": "green",
+      "fonte": "IMG_7971.jpeg"
+    },
+    {
+      "nome": "Catatau o Homem mal",
+      "posto": "R1",
+      "poder_milhoes": 32.1,
+      "nivel": 22,
+      "ultima_atividade": "6h",
+      "marcador_base": "red",
+      "fonte": "IMG_7971.jpeg"
+    },
+    {
+      "nome": "FARAH KARIM",
+      "posto": "R1",
+      "poder_milhoes": 83.4,
+      "nivel": 28,
+      "ultima_atividade": "9h",
+      "marcador_base": "green",
+      "fonte": "IMG_7971.jpeg"
+    },
+    {
+      "nome": "Apolo Berlim",
+      "posto": "R1",
+      "poder_milhoes": 75.1,
+      "nivel": 30,
+      "ultima_atividade": "9h",
+      "marcador_base": "green",
+      "fonte": "IMG_7972.jpeg"
+    },
+    {
+      "nome": "Tagnos",
+      "posto": "R1",
+      "poder_milhoes": 41.3,
+      "nivel": 26,
+      "ultima_atividade": "10h",
+      "marcador_base": "green",
+      "fonte": "IMG_7972.jpeg"
+    },
+    {
+      "nome": "BECK",
+      "posto": "R1",
+      "poder_milhoes": 34.0,
+      "nivel": 27,
+      "ultima_atividade": "12h",
+      "marcador_base": "green",
+      "fonte": "IMG_7972.jpeg"
+    },
+    {
+      "nome": "burey",
+      "posto": "R1",
+      "poder_milhoes": 62.4,
+      "nivel": 28,
+      "ultima_atividade": "13h",
+      "marcador_base": "red",
+      "fonte": "IMG_7972.jpeg"
+    },
+    {
+      "nome": "ClaudioJuniorMed",
+      "posto": "R1",
+      "poder_milhoes": 31.2,
+      "nivel": 28,
+      "ultima_atividade": "14h",
+      "marcador_base": "green",
+      "fonte": "IMG_7972.jpeg"
+    },
+    {
+      "nome": "edivar",
+      "posto": "R1",
+      "poder_milhoes": 26.9,
+      "nivel": 24,
+      "ultima_atividade": "17h",
+      "marcador_base": "green",
+      "fonte": "IMG_7972.jpeg"
+    },
+    {
+      "nome": "LoreninhaLost",
+      "posto": "R1",
+      "poder_milhoes": 59.4,
+      "nivel": 30,
+      "ultima_atividade": "23h",
+      "marcador_base": "green",
+      "fonte": "IMG_7974.jpeg"
+    },
+    {
+      "nome": "Hernan David 34",
+      "posto": "R1",
+      "poder_milhoes": 58.4,
+      "nivel": 29,
+      "ultima_atividade": "1d",
+      "marcador_base": "green",
+      "fonte": "IMG_7974.jpeg"
+    },
+    {
+      "nome": "Geni Bahia",
+      "posto": "R1",
+      "poder_milhoes": 53.5,
+      "nivel": 26,
+      "ultima_atividade": "1d",
+      "marcador_base": "green",
+      "fonte": "IMG_7974.jpeg"
+    },
+    {
+      "nome": "patito84",
+      "posto": "R1",
+      "poder_milhoes": 26.2,
+      "nivel": 24,
+      "ultima_atividade": "1d",
+      "marcador_base": "red",
+      "fonte": "IMG_7974.jpeg"
+    },
+    {
+      "nome": "Irving XeroTemor",
+      "posto": "R1",
+      "poder_milhoes": 65.3,
+      "nivel": 29,
+      "ultima_atividade": "1d",
+      "marcador_base": "green",
+      "fonte": "IMG_7974.jpeg"
+    },
+    {
+      "nome": "I am a MaryJane",
+      "posto": "R1",
+      "poder_milhoes": 20.7,
+      "nivel": 24,
+      "ultima_atividade": "1d",
+      "marcador_base": "green",
+      "fonte": "IMG_7974.jpeg"
+    },
+    {
+      "nome": "MISHU0101",
+      "posto": "R1",
+      "poder_milhoes": 54.7,
+      "nivel": 29,
+      "ultima_atividade": "2d",
+      "marcador_base": "red",
+      "fonte": "IMG_7975.jpeg"
+    },
+    {
+      "nome": "Rena2222",
+      "posto": "R1",
+      "poder_milhoes": 22.5,
+      "nivel": 24,
+      "ultima_atividade": "2d",
+      "marcador_base": "red",
+      "fonte": "IMG_7975.jpeg"
+    },
+    {
+      "nome": "Tbbbbbbbb",
+      "posto": "R1",
+      "poder_milhoes": 72.9,
+      "nivel": 27,
+      "ultima_atividade": "2d",
+      "marcador_base": "red",
+      "fonte": "IMG_7975.jpeg"
+    },
+    {
+      "nome": "AllurbaseRbelong2us",
+      "posto": "R1",
+      "poder_milhoes": 36.1,
+      "nivel": 27,
+      "ultima_atividade": "4d",
+      "marcador_base": "red",
+      "fonte": "IMG_7975.jpeg"
+    },
+    {
+      "nome": "dourado martins",
+      "posto": "R1",
+      "poder_milhoes": 41.1,
+      "nivel": 28,
+      "ultima_atividade": "6d",
+      "marcador_base": "red",
+      "fonte": "IMG_7975.jpeg"
+    },
+    {
+      "nome": "Nathi0987",
+      "posto": "R1",
+      "poder_milhoes": 69.2,
+      "nivel": 28,
+      "ultima_atividade": "6d",
+      "marcador_base": "red",
+      "fonte": "IMG_7975.jpeg"
+    }
+  ]
+}

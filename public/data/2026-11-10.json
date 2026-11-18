@@ -10,7 +10,7 @@
     "language": "Português"
   },
   "summary": {
-    "reported_members": null,
+    "reported_members": 91,
     "alliance_power": null,
     "observed_named_players": 91,
     "power_records": 91,
@@ -29,7 +29,7 @@
       "members_left": []
     },
     "source_archive": "source-data/deso_2026-11-10.json",
-    "coverage_note": "Consolidated member snapshot from screenshots received on 10/11. Zorrzi was absent but no departure was inferred; Nathi0987 was observed at R1. No overall alliance total was supplied.",
+    "coverage_note": "Consolidated snapshot supplied for 2026-11-10; values replaced from the user-provided file. Relative activity was preserved when present.",
     "confirmed_new_member_ids": []
   },
   "observations": [
@@ -242,8 +242,8 @@
       "identity_uncertain": false
     },
     {
-      "player_id": "p116",
-      "name": "White Cat",
+      "player_id": "p117",
+      "name": "Wh1te Cat",
       "rank": "R3",
       "power_m": 93.4,
       "base_level": 30,
